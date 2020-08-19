@@ -1,0 +1,42 @@
+
+#Wand durability
+[durability]
+	#Range: > 1
+	DiamondWand = 1561
+	#Range: > 1
+	IronWand = 250
+	#Range: > 1
+	StoneWand = 131
+
+#Wand block limit
+[block_limit]
+	#Range: > 1
+	DiamondWand = 128
+	#Range: > 1
+	IronWand = 27
+	#Infinity Wand used in creative mode
+	#Range: > 1
+	InfinityWandCreative = 2048
+	#Range: > 1
+	StoneWand = 9
+	#Range: > 1
+	InfinityWand = 1024
+
+#Max placement distance with angel mode (0 to disable angel mode)
+[angel_distance]
+	#Range: > 0
+	DiamondWand = 4
+	#Range: > 0
+	IronWand = 1
+	#Range: > 0
+	StoneWand = 0
+	#Range: > 0
+	InfinityWand = 8
+
+[misc]
+	#Number of operations that can be undone
+	#Range: > 0
+	UndoHistory = 3
+	#Place blocks below you while falling > 10 blocks with angel mode (Can be used to save you from drops/the void)
+	AngelFalling = false
+
