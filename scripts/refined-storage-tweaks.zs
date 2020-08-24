@@ -1,9 +1,44 @@
+// -----------------------------------
+// BASE CRAFTING MATERIALS
+// -----------------------------------
+
 craftingTable.removeByName("refinedstorage:quartz_enriched_iron");
 
 craftingTable.addShaped("quartz_enriched_iron", <item:refinedstorage:quartz_enriched_iron>, [
     [<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:minecraft:air>],
     [<item:mekanism:ingot_steel>, <item:minecraft:quartz>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:processor_binding");
+
+craftingTable.addShaped("processor_binding", <item:refinedstorage:processor_binding> * 8,[
+    [<tag:forge:string>, <tag:forge:slimeballs>, <tag:forge:string>],
+    [<tag:forge:string>, <item:minecraft:ghast_tear>, <tag:forge:string>],
+    [<tag:forge:string>, <tag:forge:slimeballs>, <tag:forge:string>]
+]);
+
+
+// -----------------------------------
+// GRIDS, CONTROLLER, CRAFTER, DRIVE
+// -----------------------------------
+
+craftingTable.removeByName("refinedstorage:controller");
+
+craftingTable.addShaped("controller", <item:refinedstorage:controller>, [
+    [<item:refinedstorage:quartz_enriched_iron_block>, <item:refinedstorage:advanced_processor>, <item:botania:elementium_block>],
+    [<item:botania:terrasteel_ingot>, <item:refinedstorage:machine_casing>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:block_refined_glowstone>, <item:mekanism:elite_control_circuit>, <item:mysticalagriculture:imperium_ingot_block>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:disk_drive");
+
+craftingTable.addShaped("disk_drive", <item:refinedstorage:disk_drive>,[
+    [<item:ironchest:obsidian_chest>, <item:refinedstorage:advanced_processor>, <item:ironchest:obsidian_chest>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:mekanism:elite_control_circuit>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
 
 
