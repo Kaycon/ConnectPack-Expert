@@ -54,9 +54,9 @@ craftingTable.addShaped("elite_control_circuit", <item:mekanism:elite_control_ci
 craftingTable.removeByName("mekanism:control_circuit/ultimate");
 
 craftingTable.addShaped("ultimate_control_circuit", <item:mekanism:ultimate_control_circuit>, [
-    [<item:minecraft:air>, <item:mysticalagradditions:nether_star_crux>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>],
     [<item:mekanism:alloy_atomic>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_atomic>],
-    [<item:minecraft:air>, <item:waystones:warp_stone>, <item:minecraft:air>]
+    [<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>]
 ]);
 
 
@@ -83,7 +83,7 @@ craftingTable.addShaped("jetpack_armored", <item:mekanism:jetpack_armored>, [
 
 
 // -----------------------------------
-// GAS TANKS
+// INGOTS
 // -----------------------------------
 
 craftingTable.removeByName("mekanism:basic_chemical_tank");
