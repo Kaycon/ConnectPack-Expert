@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "minecraft:netherite_ingot"
+	},
+	{
+	  "tag": "forge:ingots/terrasteel"
+	},
+	{
+	  "tag": "forge:ingots/refined_obsidian"
+	},
+	{
+	  "item": "mysticalagradditions:insanium_ingot"
+	},
+	{
+	  "item": "extendedcrafting:enhanced_ender_ingot"
+	},
+	{
+	  "item": "extendedcrafting:redstone_ingot"
+	}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "extendedcrafting:the_ultimate_ingot",
+	"count": 1
+  }
+}
