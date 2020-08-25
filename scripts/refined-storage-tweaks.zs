@@ -30,7 +30,7 @@ craftingTable.addShaped("machine_casing", <item:refinedstorage:machine_casing>,[
 
 
 // -----------------------------------
-// GRIDS, CONTROLLER, CRAFTER, DRIVE
+// GRIDS, CONTROLLER, CRAFTER, DRIVE, CABLE
 // -----------------------------------
 
 craftingTable.removeByName("refinedstorage:controller");
@@ -84,6 +84,15 @@ craftingTable.addShaped("pattern_grid", <item:refinedstorage:pattern_grid>,[
     [<item:refinedstorage:crafting_grid>, <item:refinedstorage:advanced_processor>, <item:minecraft:air>],
     [<item:refinedstorage:pattern>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:cable");
+
+craftingTable.addShaped("cable", <item:refinedstorage:cable> * 8,[
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>],
+    [<tag:forge:glass>, <item:storagenetwork:kabel>, <tag:forge:glass>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
 
 
