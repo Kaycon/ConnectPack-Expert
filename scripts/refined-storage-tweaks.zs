@@ -60,6 +60,15 @@ craftingTable.addShaped("disk_drive", <item:refinedstorage:disk_drive>,[
 ]);
 
 
+craftingTable.removeByName("refinedstorage:grid");
+
+craftingTable.addShaped("grid", <item:refinedstorage:grid>,[
+    [<item:refinedstorage:improved_processor>, <item:refinedstorage:construction_core>, <tag:forge:glass>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:storagenetwork:inventory>],
+    [<item:refinedstorage:improved_processor>, <item:refinedstorage:destruction_core>, <tag:forge:glass>]
+]);
+
+
 craftingTable.removeByName("refinedstorage:crafting_grid");
 
 craftingTable.addShaped("crafting_grid", <item:refinedstorage:crafting_grid>,[
