@@ -43,3 +43,43 @@ craftingTable.addShaped("netherite_boots_connectpack", <item:minecraft:netherite
     [<item:minecraft:netherite_ingot>, <item:minecraft:diamond_boots>, <item:minecraft:netherite_ingot>],
     [<item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:minecraft:netherite_ingot>]
 ]);
+
+
+// -----------------------------------
+// DIAMOND ARMOR FROM ENRICHED DIAMOND
+// -----------------------------------
+
+craftingTable.removeByName("minecraft:diamond_helmet");
+
+craftingTable.addShaped("diamond_helmet_connectpack", <item:minecraft:diamond_helmet>, [
+    [<item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+
+craftingTable.removeByName("minecraft:diamond_chestplate");
+
+craftingTable.addShaped("diamond_chestplate_connectpack", <item:minecraft:diamond_chestplate>, [
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>]
+]);
+
+
+craftingTable.removeByName("minecraft:diamond_leggings");
+
+craftingTable.addShaped("diamond_leggings_connectpack", <item:minecraft:diamond_leggings>, [
+    [<item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>]
+]);
+
+
+craftingTable.removeByName("minecraft:diamond_boots");
+
+craftingTable.addShaped("diamond_boots_connectpack", <item:minecraft:diamond_boots>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:enriched_diamond>, <item:minecraft:air>, <item:mekanism:enriched_diamond>]
+]);
