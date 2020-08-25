@@ -78,7 +78,7 @@ craftingTable.removeByName("mekanism:digital_miner");
 craftingTable.addShaped("digital_miner", <item:mekanism:digital_miner>, [
     [<item:mekanism:alloy_atomic>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_atomic>],
     [<item:mekanism:logistical_sorter>, <item:mekanism:robit>, <item:mekanism:logistical_sorter>],
-    [<item:mekanism:teleportation_core>, <item:mekanism:steel_casing>, <item:mekanism:teleportation_core>]
+    [<item:mekanism:teleportation_core>, <item:refinedstorage:machine_casing>, <item:mekanism:teleportation_core>]
 ]);
 
 
