@@ -20,6 +20,15 @@ craftingTable.addShaped("processor_binding", <item:refinedstorage:processor_bind
 ]);
 
 
+craftingTable.removeByName("refinedstorage:machine_casing");
+
+craftingTable.addShaped("machine_casing", <item:refinedstorage:machine_casing>,[
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:mekanism:steel_casing>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
+]);
+
+
 // -----------------------------------
 // GRIDS, CONTROLLER, CRAFTER, DRIVE
 // -----------------------------------
@@ -27,9 +36,18 @@ craftingTable.addShaped("processor_binding", <item:refinedstorage:processor_bind
 craftingTable.removeByName("refinedstorage:controller");
 
 craftingTable.addShaped("controller", <item:refinedstorage:controller>, [
-    [<item:refinedstorage:quartz_enriched_iron_block>, <item:refinedstorage:advanced_processor>, <item:botania:elementium_block>],
-    [<item:botania:terrasteel_ingot>, <item:refinedstorage:machine_casing>, <item:mekanism:ingot_refined_obsidian>],
-    [<item:mekanism:block_refined_glowstone>, <item:mekanism:elite_control_circuit>, <item:mysticalagriculture:imperium_ingot_block>]
+    [<item:botania:terrasteel_ingot>, <item:refinedstorage:advanced_processor>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:storagenetwork:master>, <item:mekanism:elite_control_circuit>, <item:refinedstorage:machine_casing>],
+    [<item:botania:elementium_block>, <item:mysticalagriculture:imperium_ingot_block>, <item:mekanism:block_refined_glowstone>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:crafter");
+
+craftingTable.addShaped("crafter", <item:refinedstorage:crafter>,[
+    [<item:refinedstorage:construction_core>, <item:mekanism:robit>, <item:refinedstorage:destruction_core>],
+    [<item:refinedstorage:advanced_processor>, <item:refinedstorage:machine_casing>, <item:refinedstorage:advanced_processor>],
+    [<item:refinedstorage:destruction_core>, <item:mekanism:robit>, <item:refinedstorage:construction_core>]
 ]);
 
 
@@ -39,6 +57,24 @@ craftingTable.addShaped("disk_drive", <item:refinedstorage:disk_drive>,[
     [<item:ironchest:obsidian_chest>, <item:refinedstorage:advanced_processor>, <item:ironchest:obsidian_chest>],
     [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:refinedstorage:quartz_enriched_iron>],
     [<item:refinedstorage:quartz_enriched_iron>, <item:mekanism:elite_control_circuit>, <item:refinedstorage:quartz_enriched_iron>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:crafting_grid");
+
+craftingTable.addShaped("crafting_grid", <item:refinedstorage:crafting_grid>,[
+    [<item:refinedstorage:grid>, <item:refinedstorage:advanced_processor>, <item:minecraft:air>],
+    [<item:refinedstorage:crafter>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+
+craftingTable.removeByName("refinedstorage:pattern_grid");
+
+craftingTable.addShaped("pattern_grid", <item:refinedstorage:pattern_grid>,[
+    [<item:refinedstorage:crafting_grid>, <item:refinedstorage:advanced_processor>, <item:minecraft:air>],
+    [<item:refinedstorage:pattern>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 
