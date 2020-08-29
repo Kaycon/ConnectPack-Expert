@@ -18,27 +18,27 @@ craftingTable.addShaped("teleportation_core", <item:mekanism:teleportation_core>
 craftingTable.removeByName("mekanism:control_circuit/advanced");
 
 craftingTable.addShaped("advanced_control_circuit", <item:mekanism:advanced_control_circuit>, [
-    [<item:minecraft:air>, <item:silentgear:crimson_steel_ingot>, <item:minecraft:air>],
+    [<item:industrialforegoing:plastic>, <item:silentgear:crimson_steel_ingot>, <item:industrialforegoing:plastic>],
     [<item:mekanism:alloy_infused>, <item:mekanism:basic_control_circuit>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:air>, <item:silentgear:crimson_steel_ingot>, <item:minecraft:air>]
+    [<item:industrialforegoing:plastic>, <item:silentgear:crimson_steel_ingot>, <item:industrialforegoing:plastic>]
 ]);
 
 
 craftingTable.removeByName("mekanism:control_circuit/elite");
 
 craftingTable.addShaped("elite_control_circuit", <item:mekanism:elite_control_circuit>, [
-    [<item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:air>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:netherite_ingot>, <item:industrialforegoing:plastic>],
     [<item:mekanism:alloy_reinforced>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_reinforced>],
-    [<item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:air>]
+    [<item:industrialforegoing:plastic>, <item:minecraft:netherite_ingot>, <item:industrialforegoing:plastic>]
 ]);
 
 
 craftingTable.removeByName("mekanism:control_circuit/ultimate");
 
 craftingTable.addShaped("ultimate_control_circuit", <item:mekanism:ultimate_control_circuit>, [
-    [<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>],
+    [<item:industrialforegoing:plastic>, <item:extendedcrafting:the_ultimate_ingot>, <item:industrialforegoing:plastic>],
     [<item:mekanism:alloy_atomic>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_atomic>],
-    [<item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>]
+    [<item:industrialforegoing:plastic>, <item:extendedcrafting:the_ultimate_ingot>, <item:industrialforegoing:plastic>]
 ]);
 
 
