@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "minecraft:netherite_ingot"},
+	{"tag": "forge:gems/emerald"}
+  ],
+  "energy": 2000000,
+  "result": {
+	"item": "powah:crystal_spirited",
+	"count": 2
+  }
+}

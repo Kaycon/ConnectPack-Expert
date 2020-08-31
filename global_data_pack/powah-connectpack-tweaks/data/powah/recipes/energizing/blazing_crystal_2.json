@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"}
+  ],
+  "energy": 540000,
+  "result": {
+	"item": "powah:crystal_blazing",
+	"count": 6
+  }
+}

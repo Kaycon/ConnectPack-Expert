@@ -1,0 +1,11 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "silentgear:crimson_steel_ingot"},
+  ],
+  "energy": 90000,
+  "result": {
+	"item": "powah:crystal_blazing",
+	"count": 1
+  }
+}
