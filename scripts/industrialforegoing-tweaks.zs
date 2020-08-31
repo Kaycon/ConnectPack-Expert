@@ -233,7 +233,7 @@ craftingTable.removeByName("industrialforegoing:mob_crusher");
 
 craftingTable.addShaped("mob_crusher", <item:industrialforegoing:mob_crusher>, [
     [<tag:forge:ingots/tin>, <item:mekanism:elite_control_circuit>, <tag:forge:ingots/tin>],
-    [<item:minecraft:book>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:book>],
+    [<item:darkutils:rune_damage_player>, <item:industrialforegoing:machine_frame_advanced>, <item:darkutils:rune_damage_player>],
     [<tag:forge:ingots/tin>, <item:minecraft:netherite_sword>, <tag:forge:ingots/tin>]
 ]);
 
