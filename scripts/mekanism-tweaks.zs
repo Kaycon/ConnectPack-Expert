@@ -169,3 +169,16 @@ craftingTable.addShaped("refined_obsidian_boots", <item:mekanismtools:refined_ob
     [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:air>, <item:mekanism:ingot_refined_obsidian>],
     [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:netherite_boots>, <item:mekanism:ingot_refined_obsidian>]
 ]);
+
+
+// -----------------------------------
+// FUSION REACTOR
+// -----------------------------------
+
+craftingTable.removeByName("mekanismgenerators:reactor/controller");
+
+craftingTable.addShaped("fusion_reactor_controller", <item:mekanismgenerators:fusion_reactor_controller>, [
+    [<item:mekanismgenerators:fusion_reactor_frame>, <item:mekanismgenerators:fusion_reactor_frame>, <item:mekanismgenerators:fusion_reactor_frame>],
+    [<item:mekanismgenerators:fusion_reactor_frame>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanismgenerators:fusion_reactor_frame>],
+    [<item:mekanismgenerators:fusion_reactor_frame>, <item:mekanismgenerators:fusion_reactor_frame>, <item:mekanismgenerators:fusion_reactor_frame>]
+]);
