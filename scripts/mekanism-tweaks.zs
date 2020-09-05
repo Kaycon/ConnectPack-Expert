@@ -102,3 +102,39 @@ craftingTable.addShaped("jetpack_armored", <item:mekanism:jetpack_armored>, [
     [<tag:forge:ingots/bronze>, <item:minecraft:netherite_chestplate>, <tag:forge:ingots/bronze>],
     [<item:minecraft:air>, <item:mekanism:jetpack>, <item:minecraft:air>]
 ]);
+
+
+craftingTable.removeByName("mekanismtools:refined_obsidian/armor/helmet");
+
+craftingTable.addShaped("refined_obsidian_helmet", <item:mekanismtools:refined_obsidian_helmet>, [
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:netherite_helmet>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+
+craftingTable.removeByName("mekanismtools:refined_obsidian/armor/chestplate");
+
+craftingTable.addShaped("refined_obsidian_chestplate", <item:mekanismtools:refined_obsidian_chestplate>, [
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:netherite_chestplate>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>]
+]);
+
+
+craftingTable.removeByName("mekanismtools:refined_obsidian/armor/leggings");
+
+craftingTable.addShaped("refined_obsidian_leggings", <item:mekanismtools:refined_obsidian_leggings>, [
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:netherite_leggings>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:air>, <item:mekanism:ingot_refined_obsidian>]
+]);
+
+
+craftingTable.removeByName("mekanismtools:refined_obsidian/armor/boots");
+
+craftingTable.addShaped("refined_obsidian_boots", <item:mekanismtools:refined_obsidian_boots>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:air>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:minecraft:netherite_boots>, <item:mekanism:ingot_refined_obsidian>]
+]);
