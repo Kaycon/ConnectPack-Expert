@@ -300,6 +300,11 @@ craftingTable.addShaped("potion_brewer", <item:industrialforegoing:potion_brewer
     [<tag:forge:ingots/tin>, <item:minecraft:brewing_stand>, <tag:forge:ingots/tin>]
 ]);
 
+// -----------------------------------
+// INFOS
+// -----------------------------------
+mods.jei.JEI.addInfo(<item:industrialforegoing:tinydryrubber>, ["Is crafted inside the Latex Processing Unit. The Latex Processing Unit needs liquid latex which is created in the Fluid Extractor by placing a Log in front of it."]);
+
 
 // -----------------------------------
 // GENERATORS
