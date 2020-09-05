@@ -16,13 +16,13 @@
       "item": "minecraft:netherite_ingot"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "industrialforegoing:pink_slime_ingot"
     },
     {
       "tag": "forge:gears/diamond"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "industrialforegoing:pink_slime_ingot"
     }
   ],
   "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:500}",
