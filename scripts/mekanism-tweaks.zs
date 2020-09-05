@@ -43,7 +43,29 @@ craftingTable.addShaped("ultimate_control_circuit", <item:mekanism:ultimate_cont
 
 
 // -----------------------------------
-// PROCESSING MACHIENS
+// UPGRADES
+// -----------------------------------
+
+craftingTable.removeByName("mekanism:upgrade/speed");
+
+craftingTable.addShaped("upgrade_speed", <item:mekanism:upgrade_speed>, [
+    [<item:industrialforegoing:plastic>, <item:lightestlamp:glowing_glass_block>, <item:industrialforegoing:plastic>],
+    [<item:mekanism:alloy_atomic>, <item:minecraft:sugar>, <item:mekanism:alloy_atomic>],
+    [<item:industrialforegoing:plastic>, <item:lightestlamp:glowing_glass_block>, <item:industrialforegoing:plastic>]
+]);
+
+
+craftingTable.removeByName("mekanism:upgrade/energy");
+
+craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
+    [<item:industrialforegoing:plastic>, <item:lightestlamp:glowing_glass_block>, <item:industrialforegoing:plastic>],
+    [<item:mekanism:alloy_atomic>, <item:minecraft:redstone>, <item:mekanism:alloy_atomic>],
+    [<item:industrialforegoing:plastic>, <item:lightestlamp:glowing_glass_block>, <item:industrialforegoing:plastic>]
+]);
+
+
+// -----------------------------------
+// PROCESSING MACHINES
 // -----------------------------------
 
 craftingTable.removeByName("mekanism:metallurgic_infuser");
