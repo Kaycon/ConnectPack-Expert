@@ -171,6 +171,52 @@ craftingTable.addShaped("refined_obsidian_boots", <item:mekanismtools:refined_ob
 ]);
 
 
+craftingTable.removeByName("mekanism:mekasuit_helmet");
+
+craftingTable.addShaped("mekasuit_helmet", <item:mekanism:mekasuit_helmet>, [
+    [<item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:hdpe_sheet>, <item:mekanismtools:refined_obsidian_helmet>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:pellet_polonium>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:pellet_polonium>]
+]);
+
+
+craftingTable.removeByName("mekanism:mekasuit_bodyarmor");
+
+craftingTable.addShaped("mekasuit_bodyarmor", <item:mekanism:mekasuit_bodyarmor>, [
+    [<item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:hdpe_sheet>, <item:mekanismtools:refined_obsidian_chestplate>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:pellet_polonium>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:pellet_polonium>]
+]);
+
+
+craftingTable.removeByName("mekanism:mekasuit_pants");
+
+craftingTable.addShaped("mekasuit_pants", <item:mekanism:mekasuit_pants>, [
+    [<item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:hdpe_sheet>, <item:mekanismtools:refined_obsidian_leggings>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:pellet_polonium>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:pellet_polonium>]
+]);
+
+
+craftingTable.removeByName("mekanism:mekasuit_boots");
+
+craftingTable.addShaped("mekasuit_boots", <item:mekanism:mekasuit_boots>, [
+    [<item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:hdpe_sheet>, <item:mekanismtools:refined_obsidian_boots>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:pellet_polonium>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:pellet_polonium>]
+]);
+
+
+craftingTable.removeByName("mekanism:meka_tool");
+
+craftingTable.addShaped("meka_tool", <item:mekanism:meka_tool>, [
+    [<item:mekanism:ultimate_control_circuit>, <item:mekanism:configurator>, <item:mekanism:ultimate_control_circuit>],
+    [<item:mekanism:hdpe_sheet>, <item:mekanism:atomic_disassembler>, <item:mekanism:hdpe_sheet>],
+    [<item:mekanism:pellet_polonium>, <item:industrialforegoing:machine_frame_supreme>, <item:mekanism:pellet_polonium>]
+]);
+
+
+
 // -----------------------------------
 // FUSION REACTOR
 // -----------------------------------
