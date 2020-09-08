@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:rabbit_foot"
+	},
+	{
+	  "item": "minecraft:rabbit_foot"
+	},
+	{
+	  "item": "minecraft:cooked_rabbit"
+	},
+	{
+	  "item": "minecraft:rabbit_hide"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_block"
+	}
+  ],
+  "energy": 100000,
+  "result": {
+	"item": "mysticalagriculture:rabbit_seeds",
+	"count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:coal_block"
+	},
+	{
+	  "item": "minecraft:coal_block"
+	},
+	{
+	  "item": "minecraft:coal_block"
+	},
+	{
+	  "item": "minecraft:coal_block"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:coal_seeds",
+	"count": 1
+  }
+}

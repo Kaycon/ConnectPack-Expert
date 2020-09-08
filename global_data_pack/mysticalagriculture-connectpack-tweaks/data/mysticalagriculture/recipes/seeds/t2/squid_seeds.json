@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:ink_sac"
+	},
+	{
+	  "item": "minecraft:ink_sac"
+	},
+	{
+	  "item": "minecraft:ink_sac"
+	},
+	{
+	  "item": "minecraft:ink_sac"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:squid_seeds",
+	"count": 1
+  }
+}

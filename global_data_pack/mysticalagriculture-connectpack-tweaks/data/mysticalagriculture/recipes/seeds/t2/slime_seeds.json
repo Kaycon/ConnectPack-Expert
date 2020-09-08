@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:slime_block"
+	},
+	{
+	  "item": "minecraft:slime_block"
+	},
+	{
+	  "item": "minecraft:slime_block"
+	},
+	{
+	  "item": "minecraft:slime_block"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:slime_seeds",
+	"count": 1
+  }
+}

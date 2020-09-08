@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "mysticalagriculture:water_agglomeratio"
+	},
+	{
+	  "item": "mysticalagriculture:water_agglomeratio"
+	},
+	{
+	  "item": "mysticalagriculture:water_agglomeratio"
+	},
+	{
+	  "item": "mysticalagriculture:water_agglomeratio"
+	},
+	{
+	  "item": "mysticalagriculture:inferium_block"
+	}
+  ],
+  "energy": 1000,
+  "result": {
+	"item": "mysticalagriculture:water_seeds",
+	"count": 1
+  }
+}

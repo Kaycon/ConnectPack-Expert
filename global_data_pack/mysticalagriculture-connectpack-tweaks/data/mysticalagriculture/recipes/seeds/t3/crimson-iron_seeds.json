@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "silentgear:crimson_iron_block"
+	},
+	{
+	  "item": "silentgear:crimson_iron_block"
+	},
+	{
+	  "item": "silentgear:crimson_iron_block"
+	},
+	{
+	  "item": "silentgear:crimson_iron_block"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_block"
+	}
+  ],
+  "energy": 100000,
+  "result": {
+	"item": "mysticalagriculture:crimson-iron_seeds",
+	"count": 1
+  }
+}

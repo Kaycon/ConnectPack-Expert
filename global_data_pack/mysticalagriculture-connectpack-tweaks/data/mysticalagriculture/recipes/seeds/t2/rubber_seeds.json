@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "industrialforegoing:dryrubber"
+	},
+	{
+	  "item": "industrialforegoing:dryrubber"
+	},
+	{
+	  "item": "industrialforegoing:dryrubber"
+	},
+	{
+	  "item": "industrialforegoing:dryrubber"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:rubber_seeds",
+	"count": 1
+  }
+}

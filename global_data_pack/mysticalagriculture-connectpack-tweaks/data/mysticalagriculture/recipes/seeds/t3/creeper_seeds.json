@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:creeper_head"
+	},
+	{
+	  "item": "minecraft:gunpowder"
+	},
+	{
+	  "item": "minecraft:gunpowder"
+	},
+	{
+	  "item": "minecraft:gunpowder"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_block"
+	}
+  ],
+  "energy": 100000,
+  "result": {
+	"item": "mysticalagriculture:creeper_seeds",
+	"count": 1
+  }
+}

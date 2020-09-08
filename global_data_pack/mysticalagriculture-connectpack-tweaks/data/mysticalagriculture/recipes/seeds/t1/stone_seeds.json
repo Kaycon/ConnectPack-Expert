@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "tag": "forge:stone"
+	},
+	{
+	  "tag": "forge:stone"
+	},
+	{
+	  "tag": "forge:stone"
+	},
+	{
+	  "tag": "forge:stone"
+	},
+	{
+	  "item": "mysticalagriculture:inferium_block"
+	}
+  ],
+  "energy": 1000,
+  "result": {
+	"item": "mysticalagriculture:stone_seeds",
+	"count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "mekanism:block_lead"
+	},
+	{
+	  "item": "mekanism:block_lead"
+	},
+	{
+	  "item": "mekanism:block_lead"
+	},
+	{
+	  "item": "mekanism:block_lead"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_block"
+	}
+  ],
+  "energy": 100000,
+  "result": {
+	"item": "mysticalagriculture:lead_seeds",
+	"count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:cooked_beaf"
+	},
+	{
+	  "item": "minecraft:cooked_beaf"
+	},
+	{
+	  "item": "minecraft:leather"
+	},
+	{
+	  "item": "minecraft:leather"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:cow_seeds",
+	"count": 1
+  }
+}

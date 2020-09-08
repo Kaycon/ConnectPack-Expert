@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:soulium_seed_base"
+	},
+	{
+	  "item": "mekanism:block_refined_obsidian"
+	},
+	{
+	  "item": "mekanism:block_refined_obsidian"
+	},
+	{
+	  "item": "mekanism:block_refined_obsidian"
+	},
+	{
+	  "item": "mekanism:block_refined_obsidian"
+	},
+	{
+	  "item": "mysticalagriculture:supremium_block"
+	}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "mysticalagriculture:refined_obsidian_seeds",
+	"count": 1
+  }
+}

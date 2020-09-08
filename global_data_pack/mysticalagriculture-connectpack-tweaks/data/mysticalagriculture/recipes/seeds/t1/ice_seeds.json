@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:packed_ice"
+	},
+	{
+	  "item": "minecraft:packed_ice"
+	},
+	{
+	  "item": "minecraft:packed_ice"
+	},
+	{
+	  "item": "minecraft:packed_ice"
+	},
+	{
+	  "item": "mysticalagriculture:inferium_block"
+	}
+  ],
+  "energy": 1000,
+  "result": {
+	"item": "mysticalagriculture:ice_seeds",
+	"count": 1
+  }
+}

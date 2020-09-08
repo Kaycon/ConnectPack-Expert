@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:soulium_seed_base"
+	},
+	{
+	  "item": "minecraft:emerald_block"
+	},
+	{
+	  "item": "minecraft:emerald_block"
+	},
+	{
+	  "item": "minecraft:emerald_block"
+	},
+	{
+	  "item": "minecraft:emerald_block"
+	},
+	{
+	  "item": "mysticalagriculture:supremium_block"
+	}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "mysticalagriculture:emerald_seeds",
+	"count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "tag": "minecraft:logs"
+	},
+	{
+	  "tag": "minecraft:logs"
+	},
+	{
+	  "tag": "minecraft:logs"
+	},
+	{
+	  "tag": "minecraft:logs"
+	},
+	{
+	  "item": "mysticalagriculture:inferium_block"
+	}
+  ],
+  "energy": 1000,
+  "result": {
+	"item": "mysticalagriculture:wood_seeds",
+	"count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:cod"
+	},
+	{
+	  "item": "minecraft:tropical_fish"
+	},
+	{
+	  "item": "minecraft:pufferfish"
+	},
+	{
+	  "item": "minecraft:salmon"
+	},
+	{
+	  "item": "mysticalagriculture:prudentium_block"
+	}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "mysticalagriculture:fish_seeds",
+	"count": 1
+  }
+}
