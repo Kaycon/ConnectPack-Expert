@@ -15,6 +15,10 @@ craftingTable.addShaped("netherite_ingot", <item:minecraft:netherite_ingot>, [
 ]);
 
 
+craftingTable.removeByName("minecraft:flint_and_steel");
+craftingTable.addShapeless("flint_and_steel", <item:minecraft:flint_and_steel>, [<item:mekanism:ingot_steel>, <item:minecraft:flint>]);
+
+
 // -----------------------------------
 // NETHERITE ARMOR CRAFTABLE FROM DIAMOND ARMOR
 // -----------------------------------
