@@ -7,6 +7,17 @@ craftingTable.addShaped("prosperity_ingot", <item:mysticalagriculture:prosperity
 ]);
 
 
+craftingTable.removeByName("mysticalagriculture:prosperity_gemstone");
+
+craftingTable.addShaped("prosperity_gemstone", <item:mysticalagriculture:prosperity_gemstone>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:prosperity_shard>, <item:minecraft:air>],
+    [<item:mysticalagriculture:prosperity_shard>, <item:botania:mana_diamond>, <item:mysticalagriculture:prosperity_shard>],
+    [<item:minecraft:air>, <item:mysticalagriculture:prosperity_shard>, <item:minecraft:air>]
+]);
+
+craftingTable.removeByName("mysticalagriculture:infusion_crystal");
+craftingTable.removeByName("mysticalagriculture:master_infusion_crystal");
+
 craftingTable.removeByName("mysticalagriculture:infusion_altar");
 craftingTable.removeByName("mysticalagriculture:infusion_pedestal");
 mods.jei.JEI.hideItem(<item:mysticalagriculture:infusion_altar>);
