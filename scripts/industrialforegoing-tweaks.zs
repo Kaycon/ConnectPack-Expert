@@ -304,6 +304,7 @@ craftingTable.addShaped("potion_brewer", <item:industrialforegoing:potion_brewer
 // INFOS
 // -----------------------------------
 mods.jei.JEI.addInfo(<item:industrialforegoing:tinydryrubber>, ["Is crafted inside the Latex Processing Unit. The Latex Processing Unit needs liquid latex which is created in the Fluid Extractor by placing a Log in front of it."]);
+mods.jei.JEI.addInfo(<item:industrialforegoing:pink_slime>, ["The Pink Slime fluid can be generated in the mob slaughter factory."]);
 
 
 // -----------------------------------
