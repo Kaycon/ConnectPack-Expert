@@ -22,3 +22,6 @@ craftingTable.addShaped("energy_cell_basic", <item:powah:energy_cell_basic>, [
     [<item:powah:energy_cell_starter>, <item:powah:dielectric_casing>, <item:powah:energy_cell_starter>],
     [<tag:forge:ingots/steel>, <item:powah:capacitor_basic>, <tag:forge:ingots/steel>]
 ]);
+
+
+craftingTable.addShapeless("uraninite_from_uranium", <item:powah:uraninite>, [<item:mekanism:ingot_uranium>]);
