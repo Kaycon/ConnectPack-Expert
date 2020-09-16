@@ -1,7 +1,7 @@
 {
   "type": "powah:energizing",
   "ingredients": [
-	{"item": "silentgear:crimson_steel_ingot"},
+	{"item": "silentgear:crimson_steel_ingot"}
   ],
   "energy": 90000,
   "result": {
