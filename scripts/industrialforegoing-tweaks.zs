@@ -225,6 +225,15 @@ craftingTable.addShaped("marine_fisher", <item:industrialforegoing:marine_fisher
     [<tag:forge:ingots/tin>, <item:minecraft:fishing_rod>, <tag:forge:ingots/tin>]
 ]);
 
+
+craftingTable.removeByName("industrialforegoing:stasis_chamber");
+
+craftingTable.addShaped("stasis_chamber", <item:industrialforegoing:stasis_chamber>, [
+    [<tag:forge:ingots/tin>, <item:mekanism:advanced_control_circuit>, <tag:forge:ingots/tin>],
+    [<item:minecraft:soul_sand>, <item:industrialforegoing:machine_frame_simple>, <item:minecraft:soul_sand>],
+    [<tag:forge:ingots/tin>, <item:minecraft:ghast_tear>, <tag:forge:ingots/tin>]
+]);
+
 // -----------------------------------
 // ADVANCED PROCESSING MACHIENS
 // -----------------------------------
@@ -262,15 +271,6 @@ craftingTable.addShaped("enchantment_applicator", <item:industrialforegoing:ench
     [<tag:forge:ingots/tin>, <item:mekanism:elite_control_circuit>, <tag:forge:ingots/tin>],
     [<item:minecraft:anvil>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:anvil>],
     [<tag:forge:ingots/tin>, <item:minecraft:anvil>, <tag:forge:ingots/tin>]
-]);
-
-
-craftingTable.removeByName("industrialforegoing:stasis_chamber");
-
-craftingTable.addShaped("stasis_chamber", <item:industrialforegoing:stasis_chamber>, [
-    [<tag:forge:ingots/tin>, <item:mekanism:elite_control_circuit>, <tag:forge:ingots/tin>],
-    [<item:minecraft:ghast_tear>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:ghast_tear>],
-    [<tag:forge:ingots/tin>, <item:minecraft:soul_sand>, <tag:forge:ingots/tin>]
 ]);
 
 
