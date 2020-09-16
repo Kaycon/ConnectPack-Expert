@@ -3,7 +3,7 @@
 [General]
 	#The amount of uses the basic Infusion Crystal should have.
 	#Range: > 10
-	infusionCrystalUses = 1000
+	infusionCrystalUses = 256
 	#The amount of time in seconds between each Growth Accelerator growth tick.
 	#Range: > 1
 	growthAcceleratorCooldown = 10
