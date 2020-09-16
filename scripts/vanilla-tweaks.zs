@@ -19,6 +19,9 @@ craftingTable.removeByName("minecraft:flint_and_steel");
 craftingTable.addShapeless("flint_and_steel", <item:minecraft:flint_and_steel>, [<item:mekanism:ingot_steel>, <item:minecraft:flint>]);
 
 
+craftingTable.addShapeless("chest_from_quark", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
+
+
 // -----------------------------------
 // NETHERITE ARMOR CRAFTABLE FROM DIAMOND ARMOR
 // -----------------------------------
