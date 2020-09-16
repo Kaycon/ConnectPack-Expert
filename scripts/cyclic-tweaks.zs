@@ -22,6 +22,15 @@ craftingTable.addShaped("collector", <item:cyclic:collector>, [
 ]);
 
 
+craftingTable.removeByName("cyclic:anvil");
+
+craftingTable.addShaped("cyclic_anvil", <item:cyclic:anvil>, [
+    [<item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>, <item:mekanism:enriched_diamond>],
+    [<item:mekanism:energy_tablet>, <item:mekanism:advanced_control_circuit>, <item:mekanism:energy_tablet>],
+    [<item:powah:energized_steel_block>, <item:powah:energized_steel_block>, <item:powah:energized_steel_block>]
+]);
+
+
 // -----------------------------------
 // REMOVE DUPLICATES FROM OTHER MODS
 // -----------------------------------
