@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "mysticalagriculture:prosperity_seed_base"
+	},
+	{
+	  "item": "minecraft:shulker_box"
+	},
+	{
+	  "item": "minecraft:shulker_box"
+	},
+	{
+	  "item": "minecraft:shulker_box"
+	},
+	{
+	  "item": "minecraft:shulker_box"
+	},
+	{
+	  "item": "mysticalagriculture:tertium_block"
+	}
+  ],
+  "energy": 100000,
+  "result": {
+	"item": "mysticalagriculture:shulker_seeds",
+	"count": 1
+  }
+}

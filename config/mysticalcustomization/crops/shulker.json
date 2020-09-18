@@ -1,0 +1,14 @@
+{
+  "name": "Shulker",
+  "type": "resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "minecraft:shulker_shell"
+  },
+  "color": "986a97",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_face",
+    "essence": "mysticalagriculture:item/essence_gem",
+    "seeds": "mysticalagriculture:item/mystical_seeds"
+  }
+}
