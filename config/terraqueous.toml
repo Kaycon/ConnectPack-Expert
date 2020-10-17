@@ -13,7 +13,7 @@
 		drop_chance = 1
 		#Items listed here can never drop
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
-		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
+		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium", "tag|forge:dusts/diamond", "tag|forge:dusts/netherite", "tag|forge:dusts/refined_obsidian"]
 		#Items listed here have a chance to drop
 		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
 		whitelist = ["tag|forge:dusts#1", "terraqueous:red_sandstone_lump#1"]
@@ -108,7 +108,7 @@
 		drop_chance = 1
 		#Items listed here can never drop
 		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
-		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
+		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium", "tag|forge:dusts/diamond", "tag|forge:dusts/netherite", "tag|forge:dusts/refined_obsidian"]
 		#Items listed here have a chance to drop
 		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
 		whitelist = ["tag|forge:dusts#1", "terraqueous:sandstone_lump#1"]
