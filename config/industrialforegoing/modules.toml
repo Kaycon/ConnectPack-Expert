@@ -91,6 +91,12 @@
 		[modules.core.sewage]
 			enabled = true
 
+		[modules.core.ether]
+			enabled = true
+
+		[modules.core.laser_lens]
+			enabled = true
+
 	#All machines that generate power
 	[modules.generator]
 		enabled = true
@@ -102,6 +108,12 @@
 			enabled = true
 
 		[modules.generator.bioreactor]
+			enabled = true
+
+		[modules.generator.mycelial_generators]
+			enabled = true
+
+		[modules.generator.mycelial_reactor]
 			enabled = true
 
 	#All the Industrial Foregoing tools that allow of transport of things
@@ -134,6 +146,9 @@
 			enabled = true
 
 		[modules.tools.infinity_hammer]
+			enabled = true
+
+		[modules.tools.infinity_trident]
 			enabled = true
 
 	[modules.resource_production]
@@ -178,6 +193,15 @@
 		[modules.resource_production.dye_mixer]
 			enabled = true
 
+		[modules.resource_production.ore_laser_base]
+			enabled = true
+
+		[modules.resource_production.laser_drill]
+			enabled = true
+
+		[modules.resource_production.fluid_laser_base]
+			enabled = true
+
 	#Random things that don't fit
 	[modules.misc]
 		enabled = true
@@ -198,5 +222,8 @@
 			enabled = true
 
 		[modules.misc.mob_detector]
+			enabled = true
+
+		[modules.misc.infinity_charger]
 			enabled = true
 

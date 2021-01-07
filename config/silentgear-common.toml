@@ -25,6 +25,8 @@
 			crude = 0.3499999940395355
 			#Range: 0.0 ~ 10.0
 			azure = 0.5
+			#Range: 0.0 ~ 10.0
+			very_crude = 0.30000001192092896
 
 		#Capacity is the number of materials that can be stored (all types combined)
 		#Setting to zero would make the repair kit unusable.
@@ -37,6 +39,13 @@
 			crude = 16
 			#Range: > 0
 			azure = 64
+			#Range: > 0
+			very_crude = 8
+
+	[item.netherwood_charcoal]
+		#Burn time of netherwood charcoal, in ticks. Vanilla charcoal is 1600.
+		#Range: > 0
+		burn_time = 2400
 
 #Settings for nerfed items.
 #You can give items reduced durability to encourage use of Silent Gear tools.
@@ -65,9 +74,15 @@
 [gear]
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
+	sendBrokenMessage = true
+	#How frequently gear will recalcute stats as damaged
+	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
+	#Range: > 1
+	damageFactorLevels = 10
 
 	[gear.repairs]
-		#DEPRECATED! Effectiveness of quick gear repairs (crafting grid). Set to 0 to disable quick repairs.
+		#DEPRECATED! Use repair kit configs instead.
 		#Range: 0.0 ~ 1.0
 		quickEffectiveness = 0.35
 		#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
@@ -120,7 +135,30 @@
 [debug]
 
 	[debug.logging]
+		#Log stat calculations in the debug.log every time gear stats are recalculated
+		stats = true
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
+
+#World generation options (REQUIRES GAME RESTART)
+[world]
+
+	[world.azureSilver]
+		#Veins of azure silver ore per chunk
+		#Range: 0 ~ 1000
+		count = 8
+
+	[world.crimsonIron]
+		#Veins of crimson iron ore per chunk
+		#Range: 0 ~ 1000
+		count = 14
+
+	[world.wildFlax]
+		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
+		#Block place attempts per wild flax cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
 

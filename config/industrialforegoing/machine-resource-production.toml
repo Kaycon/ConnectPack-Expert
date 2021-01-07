@@ -38,7 +38,7 @@
 		powerPerOperation = 1000
 
 	[MachineResourceProductionConfig.SludgeRefinerConfig]
-		#Amount of Power Consumed per Tick - Default: [400FE]
+		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
@@ -104,4 +104,22 @@
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
+
+	[MachineResourceProductionConfig.OreLaserBaseConfig]
+		#Max progress of the machine
+		maxProgress = 100
+		#How much weight of an item the catalyst will increase
+		catalystModifier = 8
+
+	[MachineResourceProductionConfig.LaserDrillConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
+		maxProgress = 50
+		#Amount of Power Consumed per Tick - Default: [1000FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.FluidLaserBaseConfig]
+		#Max progress of the machine
+		maxProgress = 20
 
