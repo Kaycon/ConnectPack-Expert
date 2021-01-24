@@ -1,7 +1,7 @@
 
 [general]
 	#The module blacklist of this material.
-	moduleBlacklist = []
+	moduleBlacklist = [ DustsModule ]
 	#The alternative names of this material.
 	alternativeNames = []
 	#The byproducts of this material.
