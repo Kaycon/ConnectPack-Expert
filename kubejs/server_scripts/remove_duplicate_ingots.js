@@ -124,7 +124,7 @@ onEvent('recipes', event => {
   event.replaceOutput({}, 'immersiveengineering:dust_nickel', 'thermal:nickel_dust')
 
   //Nickel Nugget
-  event.replaceOutput({}, 'immersiveengineering:nugget_nickel', 'thermal:nugget_nickel')
+  event.replaceOutput({}, 'immersiveengineering:nugget_nickel', 'thermal:nickel_nugget')
 
   //Nickel Block
   event.replaceOutput({}, 'immersiveengineering:storage_nickel', 'thermal:nickel_block')
