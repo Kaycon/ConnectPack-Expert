@@ -1,0 +1,11 @@
+
+#World Generation settings
+[worldgen]
+	#Generation of Monazite Ore in nether
+	monazite_gen = true
+
+#Resources settings
+[resources]
+	#Gas Centrifuge Glowstone fuel multiplier (Bigger multiplier less fuel used) Min: 2, Max: 20, IntValue
+	glowstone_multiplier = 4
+
