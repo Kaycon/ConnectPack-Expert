@@ -12,6 +12,13 @@ onEvent('recipes', event => {
   // BASE CRAFTING MATERIALS
   // -----------------------------------
 
+  event.remove({id: 'mekanism:processing/refined_obsidian/ingot/from_dust'})
+  event.remove({id: 'jaopca:thermal_expansion.dust_to_material.refined_obsidian'})
+  event.recipes.thermal.smelter('mekanism:ingot_refined_obsidian', ['mekanism:ingot_refined_glowstone', 'mekanism:dust_refined_obsidian', 'industrialforegoing:pink_slime_ingot'])
+
+  event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
+  event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused', 'mekanism:ingot_steel', 'mekanism:redstone', 10)
+  
   event.remove({id: 'mekanism:teleportation_core'})
   event.shaped('mekanism:teleportation_core', [
     'EAE',
