@@ -27,6 +27,18 @@ event.shaped('cyclic:collector', [
   B: 'minecraft:barrel'
 }) 
 
+event.remove({id: 'cyclic:collector_fluid'})
+event.shaped('cyclic:collector_fluid', [
+  'LHL',
+  'DAD',
+  'HBH'
+], {
+  L: 'minecraft:lapis_block',
+  H: 'minecraft:hopper',
+  D: 'minecraft:dispenser',
+  A: 'mekanism:advanced_control_circuit',
+  B: 'minecraft:bucket'
+}) 
 
 event.remove({id: 'cyclic:anvil'})
 event.shaped('cyclic:anvil', [
@@ -45,32 +57,32 @@ event.shaped('cyclic:anvil', [
 // REMOVE DUPLICATES FROM OTHER MODS
 // -----------------------------------
 
-event.remove("cyclic:anvil_magma");
-event.remove("cyclic:crystal_chestplate");
-event.remove("cyclic:crystal_boots");
-event.remove("cyclic:crystal_helmet");
-event.remove("cyclic:crystal_leggings");
-event.remove("cyclic:crystal_sword");
-event.remove("cyclic:crystal_pickaxe");
-event.remove("cyclic:crystal_axe");
-event.remove("cyclic:crystal_hoe");
-event.remove("cyclic:crystal_shovel");
-event.remove("cyclic:emerald_boots");
-event.remove("cyclic:emerald_helmet");
-event.remove("cyclic:emerald_chestplate");
-event.remove("cyclic:emerald_leggings");
-event.remove("cyclic:battery");
-event.remove("cyclic:structure");
-event.remove("cyclic:placer");
-event.remove("cyclic:breaker");
-event.remove("cyclic:harvester");
-event.remove("cyclic:charm_home");
-event.remove("cyclic:charm_world");
-event.remove("cyclic:peat_generator");
-event.remove("cyclic:emerald_sword");
-event.remove("cyclic:emerald_pickaxe");
-event.remove("cyclic:emerald_axe");
-event.remove("cyclic:emerald_hoe");
-event.remove("cyclic:emerald_shovel");
+event.remove({id: 'cyclic:anvil_magma'})
+event.remove({id: 'cyclic:crystal_chestplate'})
+event.remove({id: 'cyclic:crystal_boots'})
+event.remove({id: 'cyclic:crystal_helmet'})
+event.remove({id: 'cyclic:crystal_leggings'})
+event.remove({id: 'cyclic:crystal_sword'})
+event.remove({id: 'cyclic:crystal_pickaxe'})
+event.remove({id: 'cyclic:crystal_axe'})
+event.remove({id: 'cyclic:crystal_hoe'})
+event.remove({id: 'cyclic:crystal_shovel'})
+event.remove({id: 'cyclic:emerald_boots'})
+event.remove({id: 'cyclic:emerald_helmet'})
+event.remove({id: 'cyclic:emerald_chestplate'})
+event.remove({id: 'cyclic:emerald_leggings'})
+event.remove({id: 'cyclic:battery'})
+event.remove({id: 'cyclic:structure'})
+event.remove({id: 'cyclic:placer'})
+event.remove({id: 'cyclic:breaker'})
+event.remove({id: 'cyclic:harvester'})
+event.remove({id: 'cyclic:charm_home'})
+event.remove({id: 'cyclic:charm_world'})
+event.remove({id: 'cyclic:peat_generator'})
+event.remove({id: 'cyclic:emerald_sword'})
+event.remove({id: 'cyclic:emerald_pickaxe'})
+event.remove({id: 'cyclic:emerald_axe'})
+event.remove({id: 'cyclic:emerald_hoe'})
+event.remove({id: 'cyclic:emerald_shovel'})
 
 })
