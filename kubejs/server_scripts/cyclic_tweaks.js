@@ -84,5 +84,7 @@ event.remove({id: 'cyclic:emerald_pickaxe'})
 event.remove({id: 'cyclic:emerald_axe'})
 event.remove({id: 'cyclic:emerald_hoe'})
 event.remove({id: 'cyclic:emerald_shovel'})
+event.remove({id: 'cyclic:heart'})
+event.remove({id: 'cyclic:heart_empty'})
 
 })

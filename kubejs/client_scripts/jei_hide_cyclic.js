@@ -26,4 +26,6 @@ onEvent('jei.hide.items', event => {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_hoe')
   event.hide('cyclic:emerald_shovel')
+  event.hide('cyclic:heart')
+  event.hide('cyclic:heart_empty')
 })
