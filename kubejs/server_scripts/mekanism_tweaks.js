@@ -161,13 +161,15 @@ onEvent('recipes', event => {
   event.remove({id: 'mekanism:quantum_entangloporter'})
   event.shaped('mekanism:quantum_entangloporter', [
     'AEA',
-    'TFT',
-    'AEA'
+    'CMT',
+    'AFA'
   ], {
     A: 'mekanism:alloy_atomic',
     E: 'mekanism:elite_control_circuit',
-    T: 'mekanism:teleportation_core',
-    F: 'industrialforegoing:machine_frame_advanced'
+    C: 'enderstorage:ender_chest',
+    T: 'enderstorage:ender_tank',
+    F: 'fluxnetworks:flux_core',
+    M: 'industrialforegoing:machine_frame_advanced'
   })
 
 
