@@ -101,7 +101,7 @@ event.custom({
       "item": "mekanism:ultimate_control_circuit"
     },
     {
-      "tag": "industrialforegoing:machine_frame/advanced"
+      "item": "extradisks:advanced_machine_casing"
     },
     {
       "item": "mekanism:ultimate_control_circuit"
