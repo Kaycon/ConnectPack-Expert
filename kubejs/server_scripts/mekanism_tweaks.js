@@ -240,6 +240,45 @@ onEvent('recipes', event => {
     R: 'mekanism:ingot_refined_obsidian',
     N: 'minecraft:netherite_boots'
   })
+  event.remove({id: 'mekanismtools:steel/armor/helmet'})
+  event.shaped('mekanismtools:steel_helmet', [
+    'SSS',
+    'SIS',
+    '   '
+  ], {
+    S: 'immersiveengineering:plate_steel',
+    I: 'minecraft:iron_helmet'
+  })
+
+  event.remove({id: 'mekanismtools:steel/armor/chestplate'})
+  event.shaped('mekanismtools:steel_chestplate', [
+    'SIS',
+    'SSS',
+    'SSS'
+  ], {
+    S: 'immersiveengineering:plate_steel',
+    I: 'minecraft:iron_chestplate'
+  })
+
+  event.remove({id: 'mekanismtools:steel/armor/leggings'})
+  event.shaped('mekanismtools:steel_leggings', [
+    'SSS',
+    'SIS',
+    'S S'
+  ], {
+    S: 'immersiveengineering:plate_steel',
+    I: 'minecraft:iron_leggings'
+  })
+
+  event.remove({id: 'mekanismtools:steel/armor/boots'})
+  event.shaped('mekanismtools:steel_boots', [
+    'SIS',
+    'S S',
+    '   '
+  ], {
+    S: 'immersiveengineering:plate_steel',
+    I: 'minecraft:iron_boots'
+  })
 
   event.remove({id: 'mekanism:mekasuit_helmet'})
   event.shaped('mekanism:mekasuit_helmet', [
