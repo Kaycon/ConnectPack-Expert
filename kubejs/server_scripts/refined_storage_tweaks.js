@@ -20,6 +20,19 @@ event.shaped('refinedstorage:machine_casing', [
 })
 
 
+event.remove({id: 'extradisks:advanced_machine_casing'})
+event.shaped('extradisks:advanced_machine_casing', [
+  'ACA',
+  'IFI',
+  'ADA'
+], {
+  A: 'refinedstorage:advanced_processor',
+  C: 'refinedstorage:construction_core',
+  I: 'refinedstorage:improved_processor',
+  F: 'industrialforegoing:machine_frame_advanced',
+  D: 'refinedstorage:destruction_core'
+})
+
 // -----------------------------------
 // GRIDS, CONTROLLER, CRAFTER, DRIVE, CABLE
 // -----------------------------------
@@ -34,7 +47,7 @@ event.shaped('refinedstorage:controller', [
   L: 'mekanism:elite_control_circuit',
   R: 'mekanism:ingot_refined_obsidian',
   T: 'mekanism:teleportation_core',
-  M: 'refinedstorage:machine_casing',
+  M: 'extradisks:advanced_machine_casing',
   C: 'extendedcrafting:crystaltine_catalyst',
   A: 'refinedstorage:advanced_processor'
 })

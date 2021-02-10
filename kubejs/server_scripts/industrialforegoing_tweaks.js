@@ -54,7 +54,7 @@ event.shaped('industrialforegoing:machine_frame_pity', [
 ], {
   L: '#minecraft:logs',
   G: '#forge:glass',
-  C: 'mekanism:steel_casing'
+  C: 'thermal:machine_frame'
 })
 
 event.remove({id:'industrialforegoing:dissolution_chamber/advanced_machine_frame'})
@@ -64,7 +64,7 @@ event.custom({
       "tag": "forge:plastic"
     },
     {
-      "tag": "industrialforegoing:machine_frame/simple"
+      "item": "refinedstorage:machine_casing"
     },
     {
       "tag": "forge:plastic"
