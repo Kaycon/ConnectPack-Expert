@@ -253,13 +253,31 @@ event.shaped('extradisks:1048576k_storage_part', [
 })
 
 event.remove({id: 'extradisks:part/infinite_storage_part'})
-event.shaped('extradisks:infinite_storage_part', [
-  'SSS',
-  'SUS',
-  'SSS'
-], {
-  S: 'extradisks:1048576k_storage_part',
-  U: 'extendedcrafting:ultimate_singularity'
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " FFFFF ",
+    "FFSSSFF",
+    "FSSSSSF",
+    "FSSUSSF",
+    "FSSSSSF",
+    "FFSSSFF",
+    " FFFFF "
+  ],
+  "key": {
+    "U": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "S": {
+      "item": "extradisks:1048576k_storage_part"
+    },
+    "F": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "result": {
+    "item": "extradisks:infinite_storage_part"
+  }
 })
 
 })
