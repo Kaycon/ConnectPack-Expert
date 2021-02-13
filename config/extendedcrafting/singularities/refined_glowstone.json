@@ -1,0 +1,10 @@
+{
+  "name": "Refined Glowstone Singularity",
+  "colors": [
+    "ffbc5e",
+    "b47140"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/refined_glowstone"
+  }
+}

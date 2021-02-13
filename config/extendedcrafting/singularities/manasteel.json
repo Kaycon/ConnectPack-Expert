@@ -1,0 +1,10 @@
+{
+  "name": "Manasteel Singularity",
+  "colors": [
+    "5a82e2",
+    "345ec3"
+  ],
+  "ingredient": {
+    "item": "botania:manasteel_ingot"
+  }
+}
