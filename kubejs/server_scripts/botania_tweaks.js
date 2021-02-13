@@ -26,4 +26,50 @@ onEvent('recipes', event => {
     mana: 27000
   })
 
+  //Runic Altar
+  event.remove({id: 'botania:runic_altar'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 1,
+    "duration": 200,
+    "starlight": 600,
+    "pattern": [
+      "B___B",
+      "_LLL_",
+      "_LDL_",
+      "_PSU_",
+      "B___B"
+    ],
+    "key": {
+      "B": {
+        "item": "bloodmagic:blankrune"
+      },
+      "L": {
+        "item": "botania:livingrock"
+      },
+      "D": {
+        "item": "botania:mana_diamond"
+      },
+      "P": {
+        "item": "botania:mana_pearl"
+      },
+      "S": {
+        "item": "botania:manasteel_ingot"
+      },
+      "U": {
+        "item": "botania:mana_powder"
+      }
+    },
+    "recipe_class": "astralsorcery:crystal_count",
+    "output": [
+      {
+        "item": "botania:runic_altar",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
 })

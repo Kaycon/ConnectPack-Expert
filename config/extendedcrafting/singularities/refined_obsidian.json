@@ -1,0 +1,10 @@
+{
+  "name": "Refined Obsidian Singularity",
+  "colors": [
+    "7F67AB",
+    "7F67AB"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/refined_obsidian"
+  }
+}

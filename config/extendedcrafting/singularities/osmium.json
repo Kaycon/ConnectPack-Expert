@@ -1,0 +1,10 @@
+{
+  "name": "Osmium Singularity",
+  "colors": [
+    "CCDCEF",
+    "CCDCEF"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/osmium"
+  }
+}

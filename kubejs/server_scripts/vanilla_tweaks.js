@@ -11,6 +11,7 @@ onEvent('recipes', event => {
     B: 'immersiveengineering:blastbrick'
   })
 
+  event.remove({id: 'mekanism:processing/netherite/scrap_to_dust'})
   event.remove({id: 'minecraft:netherite_ingot'})
   event.recipes.thermal.smelter('minecraft:netherite_ingot', [Item.of('silentgear:crimson_steel_ingot', 4), Item.of('minecraft:netherite_scrap', 4), Item.of('thermal:signalum_ingot', 4)])
 

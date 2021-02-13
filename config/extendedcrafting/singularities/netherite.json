@@ -1,0 +1,10 @@
+{
+  "name": "Netherite Singularity",
+  "colors": [
+    "474447",
+    "474447"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/netherite"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Sapphire Singularity",
+  "colors": [
+    "5a82e2",
+    "345ec3"
+  ],
+  "ingredient": {
+    "item": "iceandfire:sapphire_gem"
+  }
+}

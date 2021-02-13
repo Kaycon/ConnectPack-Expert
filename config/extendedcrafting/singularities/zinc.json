@@ -1,0 +1,10 @@
+{
+  "name": "Zinc Singularity",
+  "colors": [
+    "7690a5",
+    "7690a5"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/zinc"
+  }
+}
