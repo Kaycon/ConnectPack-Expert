@@ -20,7 +20,7 @@ onEvent('recipes', event => {
     C: 'mekanism:ingot_copper',
     H: 'powah:dielectric_rod_horizontal',
     D: 'powah:dielectric_rod',
-    F: 'thermal:machine_frame'
+    F: 'refinedstorage:machine_casing'
   })
 
   event.remove({id: 'powah:crafting/energy_cell_basic'})
