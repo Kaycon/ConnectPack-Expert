@@ -34,9 +34,24 @@ onEvent('recipes', event => {
   event.remove({id: 'extendedcrafting:enhanced_ender_ingot'})
   event.recipes.thermal.smelter('extendedcrafting:enhanced_ender_ingot', [Item.of('thermal:enderium_ingot', 8), 'extendedcrafting:ender_star'])
 
-  //Enhanced Ender Ingot
+  //Crystaltine Ingot
   event.remove({id: 'extendedcrafting:crystaltine_ingot'})
-  event.recipes.thermal.smelter('extendedcrafting:crystaltine_ingot', [Item.of('thermal:lumium_ingot', 8), Item.of('minecraft:diamond', 16), Item.of('minecraft:emerald', 16)])
+  event.custom({
+    "type": "powah:energizing",
+    "ingredients": [
+    {"item": "powah:blazing_crystal_block"},
+    {"item": "powah:niotic_crystal_block"},
+    {"item": "powah:spirited_crystal_block"},
+    {"item": "minecraft:prismarine_bricks"},
+    {"item": "iceandfire:sapphire_block"},
+    {"item": "thermal:lumium_block"}
+    ],
+    "energy": 5000000,
+    "result": {
+    "item": "extendedcrafting:crystaltine_ingot",
+    "count": 1
+    }
+  })
 
   //Ender Star
   event.remove({id: 'extendedcrafting:ender_star'})  
