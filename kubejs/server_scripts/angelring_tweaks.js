@@ -12,16 +12,48 @@ onEvent('recipes', event => {
   })
 
   event.remove({id: 'angelring:itemring'})
-  event.shaped('angelring:itemring', [
-    'JGN',
-    'GDG',
-    'HGU'
-  ], {
-    J: 'mekanism:jetpack',
-    G: 'minecraft:gold_block',
-    N: 'simplyjetpacks:jetpack_vanilla4',
-    D: 'angelring:itemdiamondring',
-    H: 'simplyjetpacks:jetpack_ie3',
-    U: 'simplyjetpacks:jetpack_mek4'
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " GGGGG ",
+      "GSAAASG",
+      "GNDDDUG",
+      "GNDDDUG",
+      "GNDDDUG",
+      "GRHHHEG",
+      " GGGGG "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "N": {
+        "item": "simplyjetpacks:jetpack_vanilla4"
+      },
+      "D": {
+        "item": "angelring:itemdiamondring"
+      },
+      "H": {
+        "item": "simplyjetpacks:jetpack_ie3"
+      },
+      "U": {
+        "item": "simplyjetpacks:jetpack_mek4"
+      },
+      "A": {
+        "item": "mekanism:jetpack_armored"
+      },
+      "S": {
+        "item": "bloodmagic:demonslate"
+      },
+      "R": {
+        "item": "botania:rune_lust"
+      },
+      "E": {
+        "item": "botania:rune_gluttony"
+      }
+    },
+    "result": {
+      "item": "angelring:itemring"
+    }
   })
 })
