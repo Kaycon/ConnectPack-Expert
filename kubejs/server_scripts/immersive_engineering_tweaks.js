@@ -55,21 +55,21 @@ onEvent('recipes', event => {
   event.remove({id: 'immersiveengineering:crafting/windmill'})
   event.shaped('immersiveengineering:windmill', [
     'WWW',
-    'WEW',
+    'WSW',
     'WWW'
   ], {
     W: 'immersiveengineering:windmill_blade',
-    E: 'immersiveengineering:light_engineering'
+    S: 'mekanism:steel_casing'
   }) 
 
   event.remove({id: 'immersiveengineering:crafting/watermill'})
   event.shaped('immersiveengineering:watermill', [
     ' W ',
-    'WEW',
+    'WSW',
     ' W '
   ], {
     W: 'immersiveengineering:waterwheel_segment',
-    E: 'immersiveengineering:light_engineering'
+    S: 'mekanism:steel_casing'
   }) 
 
   event.remove({id: 'immersiveengineering:crafting/dynamo'})
