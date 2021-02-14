@@ -1,5 +1,8 @@
 onEvent('recipes', event => {
   
+  event.recipes.thermal.pulverizer('astralsorcery:stardust', ['astralsorcery:starmetal_ingot'])
+  event.recipes.thermal.pulverizer(Item.of('astralsorcery:stardust', 2), ['astralsorcery:starmetal_ore'])
+
   event.remove({id: 'astralsorcery:altar/well'})
   event.custom({
     "type": "astralsorcery:altar",
