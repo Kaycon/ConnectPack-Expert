@@ -1,0 +1,10 @@
+{
+	id: "3571943DACB62119",
+	group: "",
+	order_index: 12,
+	filename: "blood_magic",
+	title: "Blood Magic",
+	icon: "bloodmagic:altar",
+	default_quest_shape: "",
+	quests: []
+}

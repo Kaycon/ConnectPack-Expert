@@ -1,0 +1,10 @@
+{
+	id: "5C8D7A69BB4A900A",
+	group: "",
+	order_index: 10,
+	filename: "rftools",
+	title: "RFTools",
+	icon: "rftoolsbase:machine_frame",
+	default_quest_shape: "",
+	quests: []
+}

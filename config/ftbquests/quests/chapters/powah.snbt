@@ -1,0 +1,10 @@
+{
+	id: "10C96F8DA8DF82F9",
+	group: "",
+	order_index: 11,
+	filename: "powah",
+	title: "Powah",
+	icon: "powah:dielectric_casing",
+	default_quest_shape: "",
+	quests: []
+}

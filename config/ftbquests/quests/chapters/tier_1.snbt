@@ -1,0 +1,241 @@
+{
+	id: "0000000000000006",
+	group: "",
+	order_index: 0,
+	filename: "tier_1",
+	title: "Milestones",
+	icon: "minecraft:crafting_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Mekanism",
+			x: -3.0d,
+			y: -2.0d,
+			dependencies: ["03119F16559C87AA"],
+			id: "000000000000000C",
+			tasks: [{
+				id: "000000000000000D",
+				type: "item",
+				item: "mekanism:steel_casing"
+			}],
+			rewards: [{
+				id: "0000000000000010",
+				type: "xp_levels",
+				xp_levels: 30
+			}]
+		},
+		{
+			title: "Thermal",
+			x: -1.0d,
+			y: -2.0d,
+			dependencies: ["000000000000000C"],
+			id: "000000000000000E",
+			tasks: [{
+				id: "000000000000000F",
+				type: "item",
+				item: "thermal:machine_frame"
+			}],
+			rewards: [{
+				id: "0000000000000012",
+				type: "xp_levels",
+				xp_levels: 40
+			}]
+		},
+		{
+			title: "Industrial Foregoing",
+			x: 1.0d,
+			y: -2.0d,
+			dependencies: ["000000000000000E"],
+			id: "0000000000000013",
+			tasks: [{
+				id: "0000000000000014",
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: "0000000000000015",
+				type: "xp_levels",
+				xp_levels: 50
+			}]
+		},
+		{
+			title: "Refined Storage",
+			x: 3.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000013"],
+			id: "0000000000000016",
+			tasks: [{
+				id: "0000000000000017",
+				type: "item",
+				item: "refinedstorage:machine_casing"
+			}],
+			rewards: [{
+				id: "000000000000001A",
+				type: "xp_levels",
+				xp_levels: 60
+			}]
+		},
+		{
+			title: "Powah",
+			x: 5.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000016"],
+			id: "0000000000000018",
+			tasks: [{
+				id: "0000000000000019",
+				type: "item",
+				item: "powah:dielectric_casing"
+			}],
+			rewards: [{
+				id: "000000000000001B",
+				type: "xp_levels",
+				xp_levels: 80
+			}]
+		},
+		{
+			title: "RF Tools",
+			x: 3.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000016"],
+			id: "000000000000001C",
+			tasks: [{
+				id: "000000000000001D",
+				type: "item",
+				item: "rftoolsbase:machine_frame"
+			}],
+			rewards: [{
+				id: "0000000000000027",
+				type: "xp_levels",
+				xp_levels: 70
+			}]
+		},
+		{
+			title: "Botania",
+			x: -5.0d,
+			y: 1.0d,
+			dependency_requirement: "one_started",
+			id: "000000000000001E",
+			tasks: [{
+				id: "000000000000001F",
+				type: "item",
+				item: "botania:apothecary_default"
+			}],
+			rewards: [{
+				id: "0000000000000020",
+				type: "xp_levels",
+				xp_levels: 20
+			}]
+		},
+		{
+			title: "Astral Sorcery",
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: ["000000000000001E"],
+			id: "0000000000000021",
+			tasks: [{
+				id: "0000000000000022",
+				type: "item",
+				item: "astralsorcery:altar_discovery"
+			}],
+			rewards: [{
+				id: "000000000000002A",
+				type: "xp_levels",
+				xp_levels: 50
+			}]
+		},
+		{
+			title: "Blood Magic",
+			x: 5.0d,
+			y: 1.0d,
+			dependencies: ["0000000000000021"],
+			id: "0000000000000023",
+			tasks: [{
+				id: "3BB107B8CE7E70CD",
+				type: "item",
+				item: "bloodmagic:altar"
+			}],
+			rewards: [{
+				id: "000000000000002B",
+				type: "xp_levels",
+				xp_levels: 80
+			}]
+		},
+		{
+			title: "Endgame",
+			x: 7.0d,
+			y: -0.5d,
+			dependencies: [
+				"0000000000000018",
+				"0000000000000023"
+			],
+			id: "0000000000000025",
+			tasks: [{
+				id: "0000000000000026",
+				type: "item",
+				item: "extendedcrafting:elite_table"
+			}],
+			rewards: [{
+				id: "0000000000000028",
+				type: "xp_levels",
+				xp_levels: 100
+			}]
+		},
+		{
+			title: "Immersive Engineering",
+			x: -5.0d,
+			y: -2.0d,
+			id: "03119F16559C87AA",
+			tasks: [{
+				id: "2F1D7CA4128712F1",
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Flux Networks",
+			x: 1.0d,
+			y: -3.5d,
+			dependencies: ["0000000000000013"],
+			id: "082B87B63624C167",
+			tasks: [{
+				id: "5394A872EE11C35B",
+				type: "item",
+				item: "fluxnetworks:flux_core"
+			}],
+			rewards: [{
+				id: "12EB9C01C379F81C",
+				type: "xp_levels",
+				xp_levels: 55
+			}]
+		},
+		{
+			title: "Environmental Tech",
+			x: 1.0d,
+			y: -0.5d,
+			dependencies: ["0000000000000013"],
+			id: "3C6D02476A181093",
+			tasks: [{
+				id: "1219536F88492185",
+				type: "item",
+				item: {
+					id: "envirotech:litherite_void_miner_ccu",
+					Count: 1b,
+					tag: {
+						colors: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0B0DF9583285D360",
+				type: "xp_levels",
+				xp_levels: 55
+			}]
+		}
+	]
+}
