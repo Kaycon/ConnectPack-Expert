@@ -95,7 +95,7 @@ onEvent('recipes', event => {
     I: 'thermal:invar_ingot',
     G: '#forge:glass',
     S: 'mekanism:steel_casing',
-    R: 'mekanism:ingot_refined_glowstone'
+    R: 'mekanism:alloy_infused'
   })
 
   event.remove({id: 'thermal:redstone_servo'})
@@ -117,15 +117,197 @@ onEvent('recipes', event => {
   
   event.remove({id: 'thermal:machine_press'})
   event.shaped('thermal:machine_press', [
-    ' P ',
+    'CPC',
     'BFB',
     'RPR'
   ], {
+    C: 'mekanism:basic_control_circuit',
     P: 'minecraft:piston',
     B: 'mekanism:ingot_bronze',
     F: 'thermal:machine_frame',
+    R: 'thermal:rf_coil'
+  })
+  
+  event.remove({id: 'thermal:machine_smelter'})
+  event.shaped('thermal:machine_smelter', [
+    'CPC',
+    'SFS',
+    'GRG'
+  ], {
+    C: 'mekanism:basic_control_circuit',
+    P: 'minecraft:blast_furnace',
+    S: '#forge:sand',
+    F: 'thermal:machine_frame',
     R: 'thermal:rf_coil',
-    P: 'minecraft:piston'
+    G: 'thermal:invar_gear'
+  })
+  
+  event.remove({id: 'thermal:machine_pulverizer'})
+  event.shaped('thermal:machine_pulverizer', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:piston',
+    Y: 'minecraft:flint',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:copper_gear'
+  })
+  
+  event.remove({id: 'thermal:machine_insolator'})
+  event.shaped('thermal:machine_insolator', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:dirt',
+    Y: '#forge:glass',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:lumium_gear'
+  })
+  
+  event.remove({id: 'thermal:machine_centrifuge'})
+  event.shaped('thermal:machine_centrifuge', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:compass',
+    Y: 'mekanism:ingot_tin',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:constantan_gear'
+  })
+  
+  event.remove({id: 'thermal:machine_crucible'})
+  event.shaped('thermal:machine_crucible', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: '#forge:glass',
+    Y: 'minecraft:nether_bricks',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:invar_gear'
+  })
+
+  event.remove({id: 'thermal:machine_chiller'})
+  event.shaped('thermal:machine_chiller', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: '#forge:glass',
+    Y: 'minecraft:packed_ice',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:invar_gear'
+  })
+
+  event.remove({id: 'thermal:machine_refinery'})
+  event.shaped('thermal:machine_refinery', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: '#forge:glass',
+    Y: 'mekanism:ingot_copper',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:invar_gear'
+  })
+
+  event.remove({id: 'thermal:machine_pyrolyzer'})
+  event.shaped('thermal:machine_pyrolyzer', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:blaze_rod',
+    Y: 'minecraft:nether_bricks',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:constantan_gear'
+  })
+
+  event.remove({id: 'thermal:machine_bottler'})
+  event.shaped('thermal:machine_bottler', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:bucket',
+    Y: '#forge:glass',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:constantan_gear'
+  })
+
+  event.remove({id: 'thermal:machine_brewer'})
+  event.shaped('thermal:machine_brewer', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:brewing_stand',
+    Y: '#forge:glass',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:constantan_gear'
+  })
+
+  event.remove({id: 'thermal:machine_crafter'})
+  event.shaped('thermal:machine_crafter', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:advanced_control_circuit',
+    X: 'minecraft:crafting_table',
+    Y: 'mekanism:ingot_tin',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:constantan_gear'
+  })
+
+  event.remove({id: 'thermal:machine_sawmill'})
+  event.shaped('thermal:machine_sawmill', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:basic_control_circuit',
+    X: 'thermal:saw_blade',
+    Y: '#forge:stone',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:copper_gear'
+  })
+
+  event.remove({id: 'thermal:machine_furnace'})
+  event.shaped('thermal:machine_furnace', [
+    'AXA',
+    'YFY',
+    'GCG'
+  ], {
+    A: 'mekanism:basic_control_circuit',
+    X: 'minecraft:redstone',
+    Y: 'minecraft:bricks',
+    F: 'thermal:machine_frame',
+    C: 'thermal:rf_coil',
+    G: 'thermal:copper_gear'
   })
 
 
@@ -135,10 +317,11 @@ onEvent('recipes', event => {
 
   event.remove({id: 'thermal:dynamo_stirling'})
   event.shaped('thermal:dynamo_stirling', [
-    ' C ',
+    'BCB',
     'IFI',
     'GRG'
   ], {
+    B: 'mekanism:basic_control_circuit',
     C: 'thermal:rf_coil',
     I: 'mekanism:ingot_steel',
     F: 'thermal:machine_frame',
@@ -148,10 +331,11 @@ onEvent('recipes', event => {
 
   event.remove({id: 'thermal:dynamo_compression'})
   event.shaped('thermal:dynamo_compression', [
-    ' C ',
+    'BCB',
     'IFI',
     'GRG'
   ], {
+    B: 'mekanism:basic_control_circuit',
     C: 'thermal:rf_coil',
     I: 'mekanism:ingot_bronze',
     F: 'thermal:machine_frame',
@@ -161,10 +345,11 @@ onEvent('recipes', event => {
 
   event.remove({id: 'thermal:dynamo_magmatic'})
   event.shaped('thermal:dynamo_magmatic', [
-    ' C ',
+    'BCB',
     'IFI',
     'GRG'
   ], {
+    B: 'mekanism:basic_control_circuit',
     C: 'thermal:rf_coil',
     I: 'thermal:invar_ingot',
     F: 'thermal:machine_frame',
@@ -174,10 +359,11 @@ onEvent('recipes', event => {
 
   event.remove({id: 'thermal:dynamo_numismatic'})
   event.shaped('thermal:dynamo_numismatic', [
-    ' C ',
+    'BCB',
     'IFI',
     'GRG'
   ], {
+    B: 'mekanism:basic_control_circuit',
     C: 'thermal:rf_coil',
     I: 'thermal:signalum_ingot',
     F: 'thermal:machine_frame',
@@ -187,10 +373,11 @@ onEvent('recipes', event => {
 
   event.remove({id: 'thermal:dynamo_lapidary'})
   event.shaped('thermal:dynamo_lapidary', [
-    ' C ',
+    'BCB',
     'IFI',
     'GRG'
   ], {
+    B: 'mekanism:basic_control_circuit',
     C: 'thermal:rf_coil',
     I: 'thermal:lumium_ingot',
     F: 'thermal:machine_frame',
