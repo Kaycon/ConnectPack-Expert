@@ -72,4 +72,45 @@ onEvent('recipes', event => {
       "astralsorcery:built_in_effect_attunement_sparkle"
     ]
   })
+
+  //Elven Gateway Core
+  event.remove({id: 'botania:alfheim_portal'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 1,
+    "duration": 200,
+    "starlight": 600,
+    "pattern": [
+      "S___S",
+      "_LTL_",
+      "_LBL_",
+      "_LTL_",
+      "S___S"
+    ],
+    "key": {
+      "B": {
+        "item": "bloodmagic:apprenticebloodorb"
+      },
+      "L": {
+        "item": "botania:livingwood"
+      },
+      "T": {
+        "item": "botania:terrasteel_ingot"
+      },
+      "S": {
+        "item": "bloodmagic:infusedslate"
+      }
+    },
+    "recipe_class": "astralsorcery:crystal_count",
+    "output": [
+      {
+        "item": "botania:alfheim_portal",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
 })
