@@ -48,13 +48,14 @@ event.custom({
 
 event.remove({id: 'industrialforegoing:machine_frame_pity'})
 event.shaped('industrialforegoing:machine_frame_pity', [
-  'LGL',
-  'GCG',
-  'LGL'
+  'LCL',
+  'EFE',
+  'LCL'
 ], {
   L: '#minecraft:logs',
-  G: '#forge:glass',
-  C: 'thermal:machine_frame'
+  F: 'thermal:machine_frame',
+  C: 'thermal:constantan_gear',
+  E: 'thermal:electrum_gear'
 })
 
 event.remove({id:'industrialforegoing:dissolution_chamber/advanced_machine_frame'})

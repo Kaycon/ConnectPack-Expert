@@ -90,11 +90,12 @@ onEvent('recipes', event => {
   event.shaped('thermal:machine_frame', [
     'IGI',
     'GSG',
-    'IGI'
+    'RGR'
   ], {
     I: 'thermal:invar_ingot',
     G: '#forge:glass',
-    S: 'mekanism:steel_casing'
+    S: 'mekanism:steel_casing',
+    R: 'mekanism:ingot_refined_glowstone'
   })
 
   event.remove({id: 'thermal:redstone_servo'})
