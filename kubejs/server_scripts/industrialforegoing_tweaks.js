@@ -58,6 +58,43 @@ event.shaped('industrialforegoing:machine_frame_pity', [
   E: 'thermal:electrum_gear'
 })
 
+event.remove({id:'industrialforegoing:dissolution_chamber/simple_machine_frame'})
+event.custom({
+  "input": [
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "thermal:lumium_gear"
+    },
+    {
+      "item": "thermal:lumium_gear"
+    },
+    {
+      "item": "thermal:enderium_plate"
+    },
+    {
+      "tag": "forge:gears/gold"
+    },
+    {
+      "item": "thermal:enderium_plate"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 300,
+  "output": {
+    "item": "industrialforegoing:machine_frame_simple",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
 event.remove({id:'industrialforegoing:dissolution_chamber/advanced_machine_frame'})
 event.custom({
   "input": [
