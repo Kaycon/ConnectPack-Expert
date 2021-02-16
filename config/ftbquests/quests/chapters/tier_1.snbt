@@ -216,9 +216,9 @@
 		},
 		{
 			title: "Environmental Tech",
-			x: 1.0d,
+			x: 3.0d,
 			y: -0.5d,
-			dependencies: ["0000000000000013"],
+			dependencies: ["0000000000000016"],
 			id: "3C6D02476A181093",
 			tasks: [{
 				id: "1219536F88492185",
@@ -235,6 +235,21 @@
 				id: "0B0DF9583285D360",
 				type: "xp_levels",
 				xp_levels: 55
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			id: "16D85CF003F562D8",
+			tasks: [{
+				id: "4F6A6B2A10A7D0DF",
+				type: "item",
+				item: "angelring:itemring"
+			}],
+			rewards: [{
+				id: "1D41D102A38FF7D5",
+				type: "xp_levels",
+				xp_levels: 100
 			}]
 		}
 	]
