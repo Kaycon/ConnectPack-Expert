@@ -1,0 +1,184 @@
+{
+	id: "6E8E5EDA126EFBE0",
+	group: "",
+	order_index: 1,
+	filename: "immersive_engineering",
+	title: "Immersive Engineering",
+	icon: {
+		id: "immersiveengineering:hammer",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Coke Oven",
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: ["03119F16559C87AA"],
+			id: "53CEE8ED4E53FA92",
+			tasks: [{
+				id: "69CEE9A6C0A1E97C",
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: "67C7C7C1FE770502",
+				type: "item",
+				item: "immersiveengineering:coal_coke",
+				count: 8
+			}]
+		},
+		{
+			title: "Blast Furnace",
+			x: 1.0d,
+			y: 0.0d,
+			dependencies: ["53CEE8ED4E53FA92"],
+			id: "67EDDA59CE505CD3",
+			tasks: [{
+				id: "3ECF40E1A277FB87",
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: "5E587833E114A031",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 8
+			}]
+		},
+		{
+			title: "Improved Blast Furnace",
+			icon: "immersiveengineering:blastbrick_reinforced",
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: ["67EDDA59CE505CD3"],
+			id: "494355A872A7E7EB",
+			tasks: [
+				{
+					id: "323A55E0CDF45BD7",
+					type: "item",
+					item: "immersiveengineering:blastbrick_reinforced",
+					count: 27L
+				},
+				{
+					id: "3BC589F082BE9C71",
+					type: "item",
+					item: "minecraft:hopper"
+				}
+			],
+			rewards: [{
+				id: "3EEA85F639D41360",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 16
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			dependencies: ["494355A872A7E7EB"],
+			id: "7B182EF5EC8217DF",
+			tasks: [{
+				id: "5F075249C1C0D60B",
+				type: "item",
+				item: "immersiveengineering:blastfurnace_preheater",
+				count: 2L
+			}],
+			rewards: [{
+				id: "57E1374BBDEF05A6",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 16
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: ["67EDDA59CE505CD3"],
+			id: "1B9ACBE657B957DB",
+			tasks: [{
+				id: "511710F4BCB536FE",
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}],
+			rewards: [{
+				id: "4E6025FBA030BF77",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 4
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.5d,
+			dependencies: ["1B9ACBE657B957DB"],
+			id: "01EB977137B7E71C",
+			tasks: [{
+				id: "6293453AD8211019",
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}],
+			rewards: [{
+				id: "7A2F17302A003014",
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: ["1B9ACBE657B957DB"],
+			id: "040582FDF57FF1D8",
+			tasks: [{
+				id: "3226B7A7F4E844F7",
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}],
+			rewards: [{
+				id: "7B2BC157C6D675B5",
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: ["67EDDA59CE505CD3"],
+			id: "797F581CE39A46F5",
+			tasks: [{
+				id: "2BDC3C463A93C5E3",
+				type: "item",
+				item: "immersiveengineering:thermoelectric_generator"
+			}],
+			rewards: [{
+				id: "621DFD348D1F5AFD",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: ["53CEE8ED4E53FA92"],
+			id: "5647C9C63FC06BDA",
+			tasks: [{
+				id: "0CEFF40838DC5DA9",
+				type: "item",
+				item: "immersiveengineering:alloybrick",
+				count: 8L
+			}],
+			rewards: [{
+				id: "226D366248908781",
+				type: "item",
+				item: "immersiveengineering:coal_coke",
+				count: 8
+			}]
+		}
+	]
+}

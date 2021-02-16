@@ -182,6 +182,36 @@ onEvent('recipes', event => {
     R: 'botania:rune_wrath'
   }) 
 
+  event.remove({id: 'bloodmagic:altar/apprenticebloodorb'})
+  event.custom({
+    "type": "bloodmagic:altar",
+    "input": {
+      "item": "botania:manasteel_ingot"
+    },
+    "output": {
+      "item": "bloodmagic:apprenticebloodorb"
+    },
+    "upgradeLevel": 1,
+    "altarSyphon": 5000,
+    "consumptionRate": 5,
+    "drainRate": 5
+  })
+
+  event.remove({id: 'bloodmagic:altar/magicianbloodorb'})
+  event.custom({
+    "type": "bloodmagic:altar",
+    "input": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "output": {
+      "item": "bloodmagic:magicianbloodorb"
+    },
+    "upgradeLevel": 2,
+    "altarSyphon": 25000,
+    "consumptionRate": 20,
+    "drainRate": 20
+  })
+
 
 
 })

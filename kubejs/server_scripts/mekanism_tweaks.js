@@ -113,7 +113,7 @@ onEvent('recipes', event => {
     'GCG',
     'RBR'
   ], {
-    G: 'thermal:iron_gear',
+    G: 'thermal:invar_ingot',
     B: 'minecraft:blast_furnace',
     R: 'minecraft:redstone',
     C: 'mekanism:steel_casing'
@@ -348,8 +348,58 @@ onEvent('recipes', event => {
 
 
   // -----------------------------------
-  // FUSION REACTOR
+  // GENERATOR
   // -----------------------------------
+
+  event.remove({id: 'mekanismgenerators:generator/heat'})
+  event.shaped('mekanismgenerators:heat_generator', [
+    'SAS',
+    'SCS',
+    'OBO'
+  ], {
+    S: 'mekanism:ingot_steel',
+    A: 'mekanism:basic_control_circuit',
+    C: 'mekanism:steel_casing',
+    B: 'minecraft:blast_furnace',
+    O: 'mekanism:ingot_copper'
+  })
+
+  event.remove({id: 'mekanismgenerators:generator/gas_burning'})
+  event.shaped('mekanismgenerators:gas_burning_generator', [
+    'OAO',
+    'CEC',
+    'OAO'
+  ], {
+    A: 'mekanism:basic_control_circuit',
+    C: 'mekanism:steel_casing',
+    E: 'mekanism:electrolytic_core',
+    O: 'mekanism:ingot_osmium'
+  })
+
+  event.remove({id: 'mekanismgenerators:generator/wind'})
+  event.shaped('mekanismgenerators:wind_generator', [
+    ' W ',
+    'OAO',
+    'ECE'
+  ], {
+    W: 'immersiveengineering:windmill',
+    O: 'mekanism:ingot_osmium',
+    A: 'mekanism:alloy_infused',
+    E: 'mekanism:energy_tablet',
+    C: 'mekanism:advanced_control_circuit'
+  })
+
+  event.remove({id: 'mekanismgenerators:generator/advanced_solar'})
+  event.shaped('mekanismgenerators:advanced_solar_generator', [
+    'SAS',
+    'SCS',
+    'TTT'
+  ], {
+    S: 'mekanismgenerators:solar_generator',
+    A: 'mekanism:alloy_infused',
+    C: 'mekanism:advanced_control_circuit',
+    T: 'mekanism:ingot_steel'
+  })
 
   event.remove({id: 'mekanismgenerators:reactor/controller'})
   event.shaped('mekanismgenerators:fusion_reactor_controller', [

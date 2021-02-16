@@ -1,0 +1,352 @@
+{
+	id: "5A4EF24114F3D4CB",
+	group: "",
+	order_index: 4,
+	filename: "thermal",
+	title: "Thermal",
+	icon: "thermal:machine_frame",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.5d,
+			y: -5.0d,
+			dependencies: ["000000000000000E"],
+			id: "008B5F83CB0576D4",
+			tasks: [{
+				id: "00347CA86DAA6B2B",
+				type: "item",
+				item: "thermal:machine_press"
+			}],
+			rewards: [{
+				id: "06852F48823BCCEF",
+				type: "item",
+				item: "mekanism:ingot_copper",
+				count: 16
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			dependencies: ["631D2F05F837442E"],
+			id: "2DC9E56F99C69613",
+			tasks: [{
+				id: "346DA8D2D3C84CD4",
+				type: "item",
+				item: "thermal:machine_furnace"
+			}],
+			rewards: [{
+				id: "2EF18F6F3C4E6219",
+				type: "item",
+				item: "mekanism:ingot_copper",
+				count: 16
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.5d,
+			dependencies: ["008B5F83CB0576D4"],
+			id: "631D2F05F837442E",
+			tasks: [{
+				id: "67E32ACCDA6EC795",
+				type: "item",
+				item: "thermal:press_gear_die"
+			}],
+			rewards: [{
+				id: "2F76330D005230A3",
+				type: "item",
+				item: "mekanism:ingot_tin",
+				count: 16
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			dependencies: ["631D2F05F837442E"],
+			id: "0CD79C37588024AC",
+			tasks: [{
+				id: "3137A6B2DB69E305",
+				type: "item",
+				item: "thermal:machine_smelter"
+			}],
+			rewards: [{
+				id: "6F40721350E7D8D4",
+				type: "item",
+				item: "thermal:invar_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -3.5d,
+			dependencies: ["2DC9E56F99C69613"],
+			id: "2887A46C68D38F72",
+			tasks: [{
+				id: "23692DE7273AEC78",
+				type: "item",
+				item: "thermal:machine_sawmill"
+			}],
+			rewards: [{
+				id: "1246DA89F9E6A0AD",
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 64
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: ["0CD79C37588024AC"],
+			id: "0CC3B89855C91724",
+			tasks: [{
+				id: "501A807E321E79EB",
+				type: "item",
+				item: "thermal:machine_pulverizer"
+			}],
+			rewards: [{
+				id: "766054C509F6B00D",
+				type: "item",
+				item: "mekanism:ingot_copper",
+				count: 16
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			dependencies: ["0CC3B89855C91724"],
+			id: "1E783D1B36437CC2",
+			tasks: [{
+				id: "1C7A9A64CCDE233E",
+				type: "item",
+				item: "thermal:machine_insolator"
+			}],
+			rewards: [{
+				id: "6F88CB7E1F5DB025",
+				type: "item",
+				item: "thermal:lumium_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.0d,
+			dependencies: ["1E783D1B36437CC2"],
+			id: "1EF8C1531F073245",
+			tasks: [{
+				id: "0F6B61C50CA657EC",
+				type: "item",
+				item: "thermal:machine_centrifuge"
+			}],
+			rewards: [{
+				id: "22B019355A1C04D3",
+				type: "item",
+				item: "thermal:constantan_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			dependencies: ["1EF8C1531F073245"],
+			id: "748748ACAFF9FAA0",
+			tasks: [{
+				id: "4A94991C4347A909",
+				type: "item",
+				item: "thermal:machine_crucible"
+			}],
+			rewards: [{
+				id: "5D39E6B8B1A0FCD0",
+				type: "item",
+				item: "thermal:invar_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -2.0d,
+			dependencies: ["748748ACAFF9FAA0"],
+			id: "7491985135C89FEA",
+			tasks: [{
+				id: "3C1C01A9C2B9581F",
+				type: "item",
+				item: "thermal:machine_chiller"
+			}],
+			rewards: [{
+				id: "79DDA86B56E0FF7D",
+				type: "item",
+				item: "minecraft:blue_ice",
+				count: 16
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -2.0d,
+			dependencies: ["7491985135C89FEA"],
+			id: "2C2F705B5B156865",
+			tasks: [{
+				id: "0632BC9E96D16BB0",
+				type: "item",
+				item: "thermal:machine_refinery"
+			}],
+			rewards: [{
+				id: "60E3568596FA8A34",
+				type: "item",
+				item: "thermal:electrum_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -2.0d,
+			dependencies: ["2C2F705B5B156865"],
+			id: "38503D3AAC9A8142",
+			tasks: [{
+				id: "0630C0BBB8CCE15B",
+				type: "item",
+				item: "thermal:machine_pyrolyzer"
+			}],
+			rewards: [{
+				id: "0AA23EB3875B5405",
+				type: "item",
+				item: "thermal:constantan_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -2.0d,
+			dependencies: ["38503D3AAC9A8142"],
+			id: "10A90B212E123C97",
+			tasks: [{
+				id: "4BE0781A6079D4E9",
+				type: "item",
+				item: "thermal:machine_bottler"
+			}],
+			rewards: [{
+				id: "24B8531AFD156157",
+				type: "item",
+				item: "thermal:machine_frame",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -3.5d,
+			dependencies: ["2887A46C68D38F72"],
+			id: "23BDD72C55AA135A",
+			tasks: [{
+				id: "0E88A7F508B85D55",
+				type: "item",
+				item: "thermal:machine_crafter"
+			}],
+			rewards: [{
+				id: "424351BBA700B924",
+				type: "item",
+				item: "thermal:nickel_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 16.0d,
+			y: -2.0d,
+			dependencies: ["10A90B212E123C97"],
+			hide: false,
+			id: "3D92E516A5934870",
+			tasks: [{
+				id: "1732D5EDCD6BD62A",
+				type: "item",
+				item: "industrialforegoing:potion_brewer"
+			}],
+			rewards: [{
+				id: "348B70D834A3A65C",
+				type: "item",
+				item: "thermal:enderium_ingot",
+				count: 8
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.5d,
+			dependencies: ["631D2F05F837442E"],
+			id: "4351230DF70E2D73",
+			tasks: [{
+				id: "23BFE5AC4006E5CE",
+				type: "item",
+				item: "thermal:dynamo_stirling"
+			}],
+			rewards: [{
+				id: "42081F65036BC5EE",
+				type: "item",
+				item: "mekanism:ingot_steel",
+				count: 16
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			dependencies: ["4351230DF70E2D73"],
+			id: "0770C99EB8C58AC1",
+			tasks: [{
+				id: "13EF506EF94F49DF",
+				type: "item",
+				item: "thermal:dynamo_compression"
+			}],
+			rewards: [{
+				id: "15BF0B8EB06FBF9F",
+				type: "item",
+				item: "mekanism:ingot_bronze",
+				count: 16
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			dependencies: ["0770C99EB8C58AC1"],
+			id: "50A32F26815A7E2E",
+			tasks: [{
+				id: "377B09390F4BB1B6",
+				type: "item",
+				item: "thermal:dynamo_magmatic"
+			}],
+			rewards: [{
+				id: "225CC15A753FB207",
+				type: "item",
+				item: "thermal:invar_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.5d,
+			dependencies: ["50A32F26815A7E2E"],
+			id: "220D884FFD8A09EC",
+			tasks: [{
+				id: "5E90F4A118C87945",
+				type: "item",
+				item: "thermal:dynamo_numismatic"
+			}],
+			rewards: [{
+				id: "6C7FFAAEAF0D778E",
+				type: "item",
+				item: "thermal:signalum_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.5d,
+			dependencies: ["220D884FFD8A09EC"],
+			id: "6013205AAEC7B8D6",
+			tasks: [{
+				id: "344F104E7F39BD09",
+				type: "item",
+				item: "thermal:dynamo_lapidary"
+			}],
+			rewards: [{
+				id: "2CF0E45F39D291E7",
+				type: "item",
+				item: "thermal:lumium_ingot",
+				count: 16
+			}]
+		}
+	]
+}

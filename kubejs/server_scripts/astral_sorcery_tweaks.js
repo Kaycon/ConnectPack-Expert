@@ -1,5 +1,8 @@
 onEvent('recipes', event => {
   
+  event.recipes.thermal.pulverizer('astralsorcery:stardust', ['astralsorcery:starmetal_ingot'])
+  event.recipes.thermal.pulverizer(Item.of('astralsorcery:stardust', 2), ['astralsorcery:starmetal_ore'])
+
   event.remove({id: 'astralsorcery:altar/well'})
   event.custom({
     "type": "astralsorcery:altar",
@@ -138,9 +141,9 @@ onEvent('recipes', event => {
     "starlight": 4800,
     "pattern": [
       "_____",
-      "A_B_A",
+      "AGBFA",
       "ACDCA",
-      "EC_CE",
+      "ECHCE",
       "E___E"
     ],
     "key": {
@@ -162,6 +165,15 @@ onEvent('recipes', event => {
       },
       "E": {
         "tag": "astralsorcery:stardust"
+      },
+      "F": {
+        "item": "bloodmagic:soulgemgreater"
+      },
+      "G": {
+        "item": "bloodmagic:masterbloodorb"
+      },
+      "H": {
+        "item": "botania:life_essence"
       }
     },
     "output": [
@@ -189,6 +201,176 @@ onEvent('recipes', event => {
       "astralsorcery:built_in_effect_trait_relay_highlight",
       "astralsorcery:built_in_effect_discovery_central_beam",
       "astralsorcery:built_in_effect_trait_focus_circle",
+      "astralsorcery:altar_default_sparkle",
+      "astralsorcery:built_in_effect_constellation_lines",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
+  
+  event.remove({id: 'astralsorcery:altar/altar_constellation'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 1,
+    "duration": 200,
+    "starlight": 1400,
+    "pattern": [
+      "A___A",
+      "_E_E_",
+      "_DFD_",
+      "_BCB_",
+      "G___G"
+    ],
+    "key": {
+      "A": {
+        "tag": "astralsorcery:stardust"
+      },
+      "B": {
+        "item": "botania:elementium_ingot"
+      },
+      "C": {
+        "tag": "astralsorcery:starmetal"
+      },
+      "D": {
+        "item": "bloodmagic:infusedslate"
+      },
+      "E": {
+        "item": "astralsorcery:aquamarine"
+      },
+      "F": {
+        "type": "astralsorcery:crystal",
+        "hasToBeAttuned": false,
+        "hasToBeCelestial": false,
+        "canBeAttuned": true,
+        "canBeCelestialCrystal": true
+      },
+      "G": {
+        "item": "astralsorcery:marble_chiseled"
+      }
+    },
+    "recipe_class": "astralsorcery:constellation_upgrade",
+    "output": [
+      {
+        "item": "astralsorcery:altar_constellation",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:upgrade_altar",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
+  
+  event.remove({id: 'astralsorcery:altar/altar_radiance'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 2,
+    "duration": 400,
+    "starlight": 3200,
+    "pattern": [
+      "AB_BA",
+      "CADAC",
+      "_FEF_",
+      "CAGAC",
+      "AB_BA"
+    ],
+    "key": {
+      "A": {
+        "item": "astralsorcery:marble_runed"
+      },
+      "B": {
+        "item": "astralsorcery:black_marble_raw"
+      },
+      "C": {
+        "item": "astralsorcery:resonating_gem"
+      },
+      "D": {
+        "item": "astralsorcery:glass_lens"
+      },
+      "E": {
+        "type": "astralsorcery:crystal",
+        "hasToBeAttuned": false,
+        "hasToBeCelestial": true,
+        "canBeAttuned": true,
+        "canBeCelestialCrystal": true
+      },
+      "F": {
+        "item": "bloodmagic:demonslate"
+      },
+      "G": {
+        "item": "botania:life_essence"
+      }
+    },
+    "recipe_class": "astralsorcery:trait_upgrade",
+    "output": [
+      {
+        "item": "astralsorcery:altar_radiance",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_constellation_finish",
+      "astralsorcery:pillar_sparkle",
+      "astralsorcery:luminescence_flare",
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:upgrade_altar",
+      "astralsorcery:altar_default_sparkle",
+      "astralsorcery:built_in_effect_constellation_lines",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
+  
+  event.remove({id: 'astralsorcery:altar/infuser'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 2,
+    "duration": 400,
+    "starlight": 1200,
+    "pattern": [
+      "G___G",
+      "ABCBA",
+      "_DED_",
+      "AFFFA",
+      "GD_DG"
+    ],
+    "key": {
+      "A": {
+        "item": "astralsorcery:marble_pillar"
+      },
+      "B": {
+        "item": "astralsorcery:aquamarine"
+      },
+      "C": {
+        "tag": "astralsorcery:starmetal"
+      },
+      "D": {
+        "item": "botania:terrasteel_ingot"
+      },
+      "E": {
+        "type": "astralsorcery:fluid",
+        "fluid": [
+          {
+            "fluid": "astralsorcery:liquid_starlight",
+            "amount": 1000
+          }
+        ]
+      },
+      "F": {
+        "item": "astralsorcery:marble_runed"
+      },
+      "G": {
+        "item": "bloodmagic:infusedslate"
+      }
+    },
+    "output": [
+      {
+        "item": "astralsorcery:infuser",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_constellation_finish",
+      "astralsorcery:built_in_effect_discovery_central_beam",
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"

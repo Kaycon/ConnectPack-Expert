@@ -72,4 +72,117 @@ onEvent('recipes', event => {
       "astralsorcery:built_in_effect_attunement_sparkle"
     ]
   })
+
+  //Elven Gateway Core
+  event.remove({id: 'botania:alfheim_portal'})
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 1,
+    "duration": 200,
+    "starlight": 600,
+    "pattern": [
+      "S___S",
+      "_LTL_",
+      "_LBL_",
+      "_LTL_",
+      "S___S"
+    ],
+    "key": {
+      "B": {
+        "item": "bloodmagic:apprenticebloodorb"
+      },
+      "L": {
+        "item": "botania:livingwood"
+      },
+      "T": {
+        "item": "botania:terrasteel_ingot"
+      },
+      "S": {
+        "item": "bloodmagic:infusedslate"
+      }
+    },
+    "recipe_class": "astralsorcery:crystal_count",
+    "output": [
+      {
+        "item": "botania:alfheim_portal",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " FFFFF ",
+      "FXGGGXF",
+      "FGAMAGF",
+      "FGMIMGF",
+      "FGAMAGF",
+      "FXGGGXF",
+      " FFFFF "
+    ],
+    "key": {
+      "F": {
+        "item": "botania:fabulous_pool"
+      },
+      "X": {
+        "item": "bloodmagic:accelerationrune"
+      },
+      "G": {
+        "item": "botania:gaia_ingot"
+      },
+      "A": {
+        "item": "astralsorcery:mantle"
+      },
+      "M": {
+        "item": "bloodmagic:masterbloodorb"
+      },
+      "I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "botania:creative_pool"
+    }
+  })
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " FFFFF ",
+      "FXGGGXF",
+      "FGAMAGF",
+      "FGMIMGF",
+      "FGAMAGF",
+      "FXGGGXF",
+      " FFFFF "
+    ],
+    "key": {
+      "F": {
+        "item": "botania:fabulous_pool"
+      },
+      "X": {
+        "item": "bloodmagic:accelerationrune"
+      },
+      "G": {
+        "item": "botania:gaia_ingot"
+      },
+      "A": {
+        "item": "astralsorcery:mantle"
+      },
+      "M": {
+        "item": "bloodmagic:masterbloodorb"
+      },
+      "I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "botania:creative_pool"
+    }
+  })
 })

@@ -64,4 +64,14 @@ onEvent('recipes', event => {
     S: 'minecraft:nether_star'
   })
 
+  event.remove({id: 'extendedcrafting:compressor'})  
+  event.shaped('extendedcrafting:compressor', [
+    'NNN',
+    'NSN',
+    'NNN'
+  ], {
+    S: 'industrialforegoing:machine_frame_supreme',
+    N: 'avaritia:neutronium_ingot'
+  })
+
 })

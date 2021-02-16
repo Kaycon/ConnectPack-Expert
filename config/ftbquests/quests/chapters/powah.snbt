@@ -1,0 +1,331 @@
+{
+	id: "10C96F8DA8DF82F9",
+	group: "",
+	order_index: 11,
+	filename: "powah",
+	title: "Powah",
+	icon: "powah:dielectric_casing",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: ["0DD490B86934E6DB"],
+			id: "4FF621BF0C9ED11B",
+			tasks: [{
+				id: "76032435A1EAE10E",
+				type: "item",
+				item: "powah:steel_energized"
+			}],
+			rewards: [{
+				id: "2855A6A46F960ABA",
+				type: "item",
+				item: "powah:steel_energized",
+				count: 8
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["4FF621BF0C9ED11B"],
+			id: "6CAA0932FEB665AE",
+			tasks: [{
+				id: "47D2105D421AD11A",
+				type: "item",
+				item: "powah:crystal_blazing"
+			}],
+			rewards: [{
+				id: "6D11CC06F8C3A4C2",
+				type: "item",
+				item: "powah:crystal_blazing",
+				count: 8
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			dependencies: ["6CAA0932FEB665AE"],
+			id: "668BA409A6AAFCA0",
+			tasks: [{
+				id: "442077C5DD32E9AB",
+				type: "item",
+				item: "powah:crystal_niotic"
+			}],
+			rewards: [{
+				id: "2D75A33B3C7A59CB",
+				type: "item",
+				item: "powah:crystal_niotic",
+				count: 8
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			dependencies: ["668BA409A6AAFCA0"],
+			id: "3B0CE3FC4202BE7B",
+			tasks: [{
+				id: "4ED78338292B8769",
+				type: "item",
+				item: "powah:crystal_spirited"
+			}],
+			rewards: [{
+				id: "0C0B9D2552F9BB92",
+				type: "item",
+				item: "powah:crystal_spirited",
+				count: 8
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			dependencies: ["3B0CE3FC4202BE7B"],
+			id: "5946187ED6A764D7",
+			tasks: [{
+				id: "10B381E4FA8A4DF3",
+				type: "item",
+				item: "powah:crystal_nitro"
+			}],
+			rewards: [
+				{
+					id: "6503641A96FBA75A",
+					type: "item",
+					item: "powah:crystal_nitro",
+					count: 8
+				},
+				{
+					id: "3AB2E2BEB4FA610D",
+					type: "xp_levels",
+					xp_levels: 50
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			dependencies: ["6CAA0932FEB665AE"],
+			id: "2DF69E401BF994A1",
+			tasks: [{
+				id: "2C8AD6833268859D",
+				type: "item",
+				item: "powah:reactor_blazing",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: "75F101428C74D79E",
+					type: "item",
+					item: "powah:uraninite",
+					count: 8
+				},
+				{
+					id: "591A52FC31D95785",
+					type: "item",
+					item: "minecraft:packed_ice",
+					count: 16
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: ["4FF621BF0C9ED11B"],
+			id: "511FABAF4E0C022D",
+			tasks: [{
+				id: "5903F5AD1B613F18",
+				type: "item",
+				item: "powah:reactor_hardened",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: "3F6D40840ADD9FD5",
+					type: "item",
+					item: "powah:uraninite",
+					count: 4
+				},
+				{
+					id: "30730B87D73C826F",
+					type: "item",
+					item: "minecraft:ice",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["668BA409A6AAFCA0"],
+			hide_text_until_complete: false,
+			id: "32B372E8F5C99E1B",
+			tasks: [{
+				id: "0A5A37DA3A0A2F91",
+				type: "item",
+				item: "powah:reactor_niotic",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: "7CB3FE669054CBF5",
+					type: "item",
+					item: "powah:uraninite",
+					count: 16
+				},
+				{
+					id: "251AB095F1CE5A22",
+					type: "item",
+					item: "minecraft:blue_ice",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			dependencies: ["3B0CE3FC4202BE7B"],
+			id: "090B4AC0C6DC3D4D",
+			tasks: [{
+				id: "7CDD2339279B415F",
+				type: "item",
+				item: "powah:reactor_spirited",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: "4D91D68296BEC94A",
+					type: "item",
+					item: "powah:uraninite",
+					count: 32
+				},
+				{
+					id: "783BBC98394E1F67",
+					type: "item",
+					item: "powah:dry_ice",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			dependencies: ["5946187ED6A764D7"],
+			id: "747BB22162AE68EC",
+			tasks: [{
+				id: "6B10E18D3F0808C3",
+				type: "item",
+				item: "powah:reactor_nitro",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: "7C858D7655633FB8",
+					type: "item",
+					item: "powah:uraninite",
+					count: 64
+				},
+				{
+					id: "58CA860DF8B7EC3D",
+					type: "item",
+					item: "powah:dry_ice",
+					count: 32
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			dependencies: ["0000000000000018"],
+			id: "0DD490B86934E6DB",
+			tasks: [{
+				id: "1F3D60861D0F061B",
+				type: "item",
+				item: "powah:energizing_orb"
+			}],
+			rewards: [{
+				id: "0C2CDAB6B1576ABB",
+				type: "item",
+				item: "powah:energizing_rod_basic",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			dependencies: ["4FF621BF0C9ED11B"],
+			id: "1DB64A1098886894",
+			tasks: [{
+				id: "40B00816AC384886",
+				type: "item",
+				item: "powah:energizing_rod_hardened"
+			}],
+			rewards: [{
+				id: "1EAF1562E8734CDE",
+				type: "item",
+				item: "powah:energizing_rod_hardened"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -3.0d,
+			dependencies: ["6CAA0932FEB665AE"],
+			id: "6DDCFED85E348C98",
+			tasks: [{
+				id: "2FF09FF2BDB29CFA",
+				type: "item",
+				item: "powah:energizing_rod_blazing"
+			}],
+			rewards: [{
+				id: "4C5C204467FB50D1",
+				type: "item",
+				item: "powah:energizing_rod_blazing"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: ["668BA409A6AAFCA0"],
+			id: "04F29A9B48832C75",
+			tasks: [{
+				id: "23A0F782952696D0",
+				type: "item",
+				item: "powah:energizing_rod_niotic"
+			}],
+			rewards: [{
+				id: "768AF11AA8D86E9C",
+				type: "item",
+				item: "powah:energizing_rod_niotic"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -3.0d,
+			dependencies: ["3B0CE3FC4202BE7B"],
+			id: "03D293FC6A94D72A",
+			tasks: [{
+				id: "00708C3B078CFE43",
+				type: "item",
+				item: "powah:energizing_rod_spirited"
+			}],
+			rewards: [{
+				id: "242546BE658A4155",
+				type: "item",
+				item: "powah:energizing_rod_spirited"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.0d,
+			dependencies: ["5946187ED6A764D7"],
+			id: "2F2854B0724F8385",
+			tasks: [{
+				id: "131ACE94FBFE1E9B",
+				type: "item",
+				item: "powah:energizing_rod_nitro"
+			}],
+			rewards: [{
+				id: "41822B72584D3027",
+				type: "item",
+				item: "powah:energizing_rod_nitro"
+			}]
+		}
+	]
+}
