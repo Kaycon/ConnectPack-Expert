@@ -42,7 +42,7 @@ onEvent('recipes', event => {
     ],
     "key": {
       "S": {
-        "item": "bloodmagic:etherealslate"
+        "item": "bloodmagic:demonslate"
       },
       "L": {
         "item": "botania:rune_greed"
@@ -193,7 +193,7 @@ onEvent('recipes', event => {
   })
 
 
-  event.recipes.thermal.press('avaritia:pileof_neutrons', [Item.of('mekanism:pellet_antimatter', 64)])
+  event.recipes.thermal.press('avaritia:neutronium_ingot', [Item.of('mekanism:pellet_antimatter', 64)])
 
   event.custom({
     "type": "powah:energizing",
