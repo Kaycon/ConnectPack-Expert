@@ -62,4 +62,27 @@ onEvent('recipes', event => {
     H: 'rftoolsbuilder:shape_card_quarry',
     N: 'minecraft:nether_star'
   })
+  
+  event.remove({id: 'rftoolsutility:spawner'})
+  event.shaped('rftoolsutility:spawner', [
+    'ESE',
+    'GFG',
+    'GWG'
+  ], {
+    E: 'mekanism:elite_control_circuit',
+    S: 'minecraft:spawner',
+    G: 'thermal:enderium_gear',
+    F: 'rftoolsbase:machine_frame',
+    W: 'minecraft:wither_skeleton_skull'
+  })
+  
+  event.remove({id: 'rftoolsutility:syringe'})
+  event.shaped('rftoolsutility:syringe', [
+    'C  ',
+    ' C ',
+    '  B'
+  ], {
+    C: 'extendedcrafting:crystaltine_ingot',
+    B: 'minecraft:glass_bottle'
+  })
 })
