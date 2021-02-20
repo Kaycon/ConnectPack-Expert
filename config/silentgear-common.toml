@@ -27,6 +27,10 @@
 			azure = 0.5
 			#Range: 0.0 ~ 10.0
 			very_crude = 0.30000001192092896
+			#Repair efficiency with loose materials if no repair kit is used.
+			#Setting a value greater than zero makes repair kits optional.
+			#Range: 0.0 ~ 10.0
+			missing = 0.0
 
 		#Capacity is the number of materials that can be stored (all types combined)
 		#Setting to zero would make the repair kit unusable.
@@ -80,6 +84,9 @@
 	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
 	#Range: > 1
 	damageFactorLevels = 10
+	#Allow parts to be crafted with mixed materials in a crafting grid, just like all recent versions.
+	#In 1.17, mixing will only be allowed in compound-crafting blocks.
+	allowClassicMaterialMixing = true
 
 	[gear.repairs]
 		#DEPRECATED! Use repair kit configs instead.
@@ -169,4 +176,12 @@
 		#Attempts to place individual bort ore blocks per chunk.
 		#Range: 0 ~ 1000
 		count = 4
+
+	[world.wildFluffy]
+		#Number of patches of wild fluffy plants to attempt to place per chunk (some biomes only)
+		#Range: 0 ~ 100
+		patchCount = 1
+		#Block place attempts per wild fluffy plants cluster
+		#Range: 0 ~ 1000
+		tryCount = 16
 
