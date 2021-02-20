@@ -4,7 +4,7 @@
 	#Enable player bonus hp by crystals.
 	crystalsAddHealth = true
 	#Enable player bonus hp by xp.
-	xpAddHealth = true
+	xpAddHealth = false
 	#Enable player regen hp by crystals.
 	crystalsRegenHealth = true
 	#Enable pet add hp by crystals.
