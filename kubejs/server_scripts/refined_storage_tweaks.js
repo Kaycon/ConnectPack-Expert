@@ -266,7 +266,7 @@ event.custom({
   ],
   "key": {
     "U": {
-      "item": "avaritia:infinity_ingot"
+      "item": "extendedcrafting:ultimate_singularity"
     },
     "S": {
       "item": "extradisks:1048576k_storage_part"
@@ -281,127 +281,127 @@ event.custom({
 })
 
 
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAAAA ",
-    "AUUUUUA",
-    "AUWWWUA",
-    "AUWIWUA",
-    "AUWWWUA",
-    "AUUUUUA",
-    " AAAAA "
-  ],
-  "key": {
-    "I": {
-      "item": "avaritia:infinity_ingot"
-    },
-    "W": {
-      "item": "refinedstorage:wireless_grid"
-    },
-    "A": {
-      "item": "extradisks:advanced_machine_casing"
-    },
-    "U": {
-      "item": "mekanism:ultimate_control_circuit"
-    }
-  },
-  "result": {
-    "item": "refinedstorage:creative_wireless_grid"
-  }
-})
+// event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     " AAAAA ",
+//     "AUUUUUA",
+//     "AUWWWUA",
+//     "AUWIWUA",
+//     "AUWWWUA",
+//     "AUUUUUA",
+//     " AAAAA "
+//   ],
+//   "key": {
+//     "I": {
+//       "item": "avaritia:infinity_ingot"
+//     },
+//     "W": {
+//       "item": "refinedstorage:wireless_grid"
+//     },
+//     "A": {
+//       "item": "extradisks:advanced_machine_casing"
+//     },
+//     "U": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     }
+//   },
+//   "result": {
+//     "item": "refinedstorage:creative_wireless_grid"
+//   }
+// })
 
 
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAAAA ",
-    "AUUUUUA",
-    "AUWWWUA",
-    "AUWIWUA",
-    "AUWWWUA",
-    "AUUUUUA",
-    " AAAAA "
-  ],
-  "key": {
-    "I": {
-      "item": "avaritia:infinity_ingot"
-    },
-    "W": {
-      "item": "refinedstorage:wireless_fluid_grid"
-    },
-    "A": {
-      "item": "extradisks:advanced_machine_casing"
-    },
-    "U": {
-      "item": "mekanism:ultimate_control_circuit"
-    }
-  },
-  "result": {
-    "item": "refinedstorage:creative_wireless_fluid_grid"
-  }
-})
+// event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     " AAAAA ",
+//     "AUUUUUA",
+//     "AUWWWUA",
+//     "AUWIWUA",
+//     "AUWWWUA",
+//     "AUUUUUA",
+//     " AAAAA "
+//   ],
+//   "key": {
+//     "I": {
+//       "item": "avaritia:infinity_ingot"
+//     },
+//     "W": {
+//       "item": "refinedstorage:wireless_fluid_grid"
+//     },
+//     "A": {
+//       "item": "extradisks:advanced_machine_casing"
+//     },
+//     "U": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     }
+//   },
+//   "result": {
+//     "item": "refinedstorage:creative_wireless_fluid_grid"
+//   }
+// })
 
 
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAAAA ",
-    "AUUUUUA",
-    "AUWWWUA",
-    "AUWIWUA",
-    "AUWWWUA",
-    "AUUUUUA",
-    " AAAAA "
-  ],
-  "key": {
-    "I": {
-      "item": "avaritia:infinity_ingot"
-    },
-    "W": {
-      "item": "refinedstorage:wireless_crafting_monitor"
-    },
-    "A": {
-      "item": "extradisks:advanced_machine_casing"
-    },
-    "U": {
-      "item": "mekanism:ultimate_control_circuit"
-    }
-  },
-  "result": {
-    "item": "refinedstorage:creative_wireless_crafting_monitor"
-  }
-})
+// event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     " AAAAA ",
+//     "AUUUUUA",
+//     "AUWWWUA",
+//     "AUWIWUA",
+//     "AUWWWUA",
+//     "AUUUUUA",
+//     " AAAAA "
+//   ],
+//   "key": {
+//     "I": {
+//       "item": "avaritia:infinity_ingot"
+//     },
+//     "W": {
+//       "item": "refinedstorage:wireless_crafting_monitor"
+//     },
+//     "A": {
+//       "item": "extradisks:advanced_machine_casing"
+//     },
+//     "U": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     }
+//   },
+//   "result": {
+//     "item": "refinedstorage:creative_wireless_crafting_monitor"
+//   }
+// })
 
 
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAAAA ",
-    "AUUUUUA",
-    "AUWWWUA",
-    "AUWIWUA",
-    "AUWWWUA",
-    "AUUUUUA",
-    " AAAAA "
-  ],
-  "key": {
-    "I": {
-      "item": "avaritia:infinity_ingot"
-    },
-    "W": {
-      "item": "refinedstorageaddons:wireless_crafting_grid"
-    },
-    "A": {
-      "item": "extradisks:advanced_machine_casing"
-    },
-    "U": {
-      "item": "mekanism:ultimate_control_circuit"
-    }
-  },
-  "result": {
-    "item": "refinedstorageaddons:creative_wireless_crafting_grid"
-  }
-})
+// event.custom({
+//   "type": "extendedcrafting:shaped_table",
+//   "pattern": [
+//     " AAAAA ",
+//     "AUUUUUA",
+//     "AUWWWUA",
+//     "AUWIWUA",
+//     "AUWWWUA",
+//     "AUUUUUA",
+//     " AAAAA "
+//   ],
+//   "key": {
+//     "I": {
+//       "item": "avaritia:infinity_ingot"
+//     },
+//     "W": {
+//       "item": "refinedstorageaddons:wireless_crafting_grid"
+//     },
+//     "A": {
+//       "item": "extradisks:advanced_machine_casing"
+//     },
+//     "U": {
+//       "item": "mekanism:ultimate_control_circuit"
+//     }
+//   },
+//   "result": {
+//     "item": "refinedstorageaddons:creative_wireless_crafting_grid"
+//   }
+// })
 
 })

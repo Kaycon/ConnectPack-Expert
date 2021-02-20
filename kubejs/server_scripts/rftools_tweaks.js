@@ -14,11 +14,14 @@ onEvent('recipes', event => {
   
   event.remove({id: 'rftoolsdim:dimension_builder'})
   event.shaped('rftoolsdim:dimension_builder', [
-    'EFE',
+    // 'EFE',
+    // 'FSF',
+    // 'EFE'
+    'FFF',
     'FSF',
-    'EFE'
+    'FFF'
   ], {
-    E: 'avaritia:endest_pearl',
+    //E: 'avaritia:endest_pearl',
     F: 'rftoolsbase:machine_frame',
     S: 'industrialforegoing:machine_frame_supreme'
   })

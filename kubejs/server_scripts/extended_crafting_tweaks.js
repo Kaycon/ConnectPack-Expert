@@ -66,12 +66,12 @@ onEvent('recipes', event => {
 
   event.remove({id: 'extendedcrafting:compressor'})  
   event.shaped('extendedcrafting:compressor', [
-    'NNN',
-    'NSN',
-    'NNN'
+    'SSS',
+    'SSS',
+    'SSS'
   ], {
-    S: 'industrialforegoing:machine_frame_supreme',
-    N: 'avaritia:neutronium_ingot'
+    S: 'industrialforegoing:machine_frame_supreme'
+    //N: 'avaritia:neutronium_ingot'
   })
 
 })
