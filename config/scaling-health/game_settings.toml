@@ -43,15 +43,15 @@
 		#ADD: Flat increase for all mobs, no matter their base hp.
 		modifierMode = "MULTI_HALF"
 		#This modifier affects the hp scale of mobs spawned by spawners, a normal 100 hp boost, will be of 30 using default value
-		spawner = 0.3
+		spawner = 0.1
 
 		[mob.health.multiplier]
-			passive = 0.375
-			hostile = 0.375
+			passive = 0.1
+			hostile = 0.1
 
 	[mob.damage]
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.1
+		boostScale = 0.05
 		#The maximum extra attack damage a mob can receive
 		maxBoost = 10.0
 
@@ -122,12 +122,6 @@
 		potion = "minecraft:fire_resistance"
 		level = 1
 		minDifficulty = 10
-		durationInMinutes = 10.0
-
-	[[mob.randomPotionEffects]]
-		potion = "minecraft:invisibility"
-		level = 1
-		minDifficulty = 35
 		durationInMinutes = 10.0
 
 	[[mob.randomPotionEffects]]
@@ -203,7 +197,7 @@
 	maxValue = 250.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.0011575
+	changePerSecond = 0.0005575
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.0025
 	#Determines how difficulty is calculated.
@@ -236,9 +230,9 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.5
+		multiplier = 0.25
 		#If true, a comment will appear to notify when you are considered afk
-		message = true
+		message = false
 		#Time in seconds before afk change kicks in
 		time = 120.0
 
@@ -258,7 +252,7 @@
 		#EvalEx expression: A player dies
 		onPlayerDeath = "difficulty"
 		#EvalEx expression: A player sleeps in a bed
-		onPlayerSleep = "difficulty"
+		onPlayerSleep = "difficulty - 2"
 
 		[[difficulty.mutators.byEntity]]
 			types = ["minecraft:villager"]
