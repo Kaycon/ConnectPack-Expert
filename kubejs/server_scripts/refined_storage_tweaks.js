@@ -7,7 +7,7 @@ onEvent('recipes', event => {
 event.remove({id: 'refinedstorage:quartz_enriched_iron'})
 event.remove({id: 'thermal:machine/plugins/refinedstorage/smelter_refinedstorage_alloy_quartz_enriched_iron'})
 
-event.recipes.thermal.smelter('refinedstorage:quartz_enriched_iron', [Item.of('mekanism:ingot_steel', 8), Item.of('minecraft:quartz', 4)])
+event.recipes.thermal.smelter(Item.of('refinedstorage:quartz_enriched_iron', 2), [Item.of('mekanism:ingot_steel', 4), Item.of('minecraft:quartz', 8)])
 
 event.remove({id: 'refinedstorage:machine_casing'})
 event.shaped('refinedstorage:machine_casing', [
