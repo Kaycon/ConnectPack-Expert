@@ -37,7 +37,7 @@ onEvent('recipes', event => {
     {"item": "thermal:enderium_ingot"},
     {"item": "thermal:enderium_ingot"}
     ],
-    "energy": 1000000,
+    "energy": 500000,
     "result": {
     "item": "envirocore:litherite_crystal",
     "count": 1
