@@ -42,14 +42,14 @@ onEvent('recipes', event => {
     {"item": "powah:blazing_crystal_block"},
     {"item": "powah:niotic_crystal_block"},
     {"item": "powah:spirited_crystal_block"},
-    {"item": "minecraft:prismarine_bricks"},
-    {"item": "iceandfire:sapphire_block"},
+    {"item": "minecraft:lapis_block"},
+    {"item": "silentgear:bort_block"},
     {"item": "thermal:lumium_block"}
     ],
-    "energy": 5000000,
+    "energy": 1000000,
     "result": {
     "item": "extendedcrafting:crystaltine_ingot",
-    "count": 1
+    "count": 4
     }
   })
 
