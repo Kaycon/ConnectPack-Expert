@@ -16,6 +16,12 @@
 				id: "58DAB908C816E752",
 				type: "item",
 				item: "bloodmagic:blankslate"
+			}],
+			rewards: [{
+				id: "6D8475990A8B5EF9",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 2
 			}]
 		},
 		{
@@ -27,6 +33,12 @@
 				id: "7C41B7E301AF56FC",
 				type: "item",
 				item: "bloodmagic:reinforcedslate"
+			}],
+			rewards: [{
+				id: "2E19DD952E3E2748",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 4
 			}]
 		},
 		{
@@ -38,6 +50,12 @@
 				id: "14503A46C287463D",
 				type: "item",
 				item: "bloodmagic:infusedslate"
+			}],
+			rewards: [{
+				id: "38E7854A45D16086",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 8
 			}]
 		},
 		{
@@ -49,6 +67,12 @@
 				id: "28E9284DD8140C7C",
 				type: "item",
 				item: "bloodmagic:demonslate"
+			}],
+			rewards: [{
+				id: "3510A2C8EC859E2E",
+				type: "item",
+				item: "bloodmagic:blankrune",
+				count: 16
 			}]
 		},
 		{
@@ -60,6 +84,12 @@
 				id: "76AAFBD25B68226A",
 				type: "item",
 				item: "bloodmagic:weakbloodorb"
+			}],
+			rewards: [{
+				id: "444744B81D5998A7",
+				type: "item",
+				item: "bloodmagic:blankslate",
+				count: 4
 			}]
 		},
 		{
@@ -71,6 +101,12 @@
 				id: "10A4A8EA2B463E4D",
 				type: "item",
 				item: "bloodmagic:apprenticebloodorb"
+			}],
+			rewards: [{
+				id: "6EB52913F9E4D24E",
+				type: "item",
+				item: "bloodmagic:reinforcedslate",
+				count: 4
 			}]
 		},
 		{
@@ -82,6 +118,12 @@
 				id: "7EBDB4929B41FD7A",
 				type: "item",
 				item: "bloodmagic:magicianbloodorb"
+			}],
+			rewards: [{
+				id: "3D355F6FCFB6A522",
+				type: "item",
+				item: "bloodmagic:infusedslate",
+				count: 4
 			}]
 		},
 		{
@@ -93,6 +135,12 @@
 				id: "2CACA8E79E2F78AB",
 				type: "item",
 				item: "bloodmagic:masterbloodorb"
+			}],
+			rewards: [{
+				id: "12F02F9D31DF95BD",
+				type: "item",
+				item: "bloodmagic:demonslate",
+				count: 4
 			}]
 		},
 		{
@@ -104,6 +152,12 @@
 				id: "3C15E633F5BF4E73",
 				type: "item",
 				item: "bloodmagic:speedrune"
+			}],
+			rewards: [{
+				id: "1C18061C4FEBA448",
+				type: "item",
+				item: "bloodmagic:speedrune",
+				count: 3
 			}]
 		},
 		{
@@ -115,6 +169,12 @@
 				id: "003A602C3B137100",
 				type: "item",
 				item: "bloodmagic:sacrificerune"
+			}],
+			rewards: [{
+				id: "592C81F3D2619F7E",
+				type: "item",
+				item: "bloodmagic:sacrificerune",
+				count: 3
 			}]
 		},
 		{
@@ -126,6 +186,12 @@
 				id: "50B7B804D4320658",
 				type: "item",
 				item: "bloodmagic:selfsacrificerune"
+			}],
+			rewards: [{
+				id: "7700E3D723DF4208",
+				type: "item",
+				item: "bloodmagic:selfsacrificerune",
+				count: 3
 			}]
 		},
 		{
@@ -137,6 +203,12 @@
 				id: "62645C31865EE39A",
 				type: "item",
 				item: "bloodmagic:dislocationrune"
+			}],
+			rewards: [{
+				id: "3F3A93F7B9AB4E30",
+				type: "item",
+				item: "bloodmagic:dislocationrune",
+				count: 3
 			}]
 		},
 		{
@@ -148,6 +220,12 @@
 				id: "0B58291C4EFE2256",
 				type: "item",
 				item: "bloodmagic:altarcapacityrune"
+			}],
+			rewards: [{
+				id: "0505A0024E9124A0",
+				type: "item",
+				item: "bloodmagic:altarcapacityrune",
+				count: 3
 			}]
 		},
 		{
@@ -159,6 +237,12 @@
 				id: "1475A4D1DF3C5EDF",
 				type: "item",
 				item: "bloodmagic:bettercapacityrune"
+			}],
+			rewards: [{
+				id: "4FE251ADE2F5A2A4",
+				type: "item",
+				item: "bloodmagic:bettercapacityrune",
+				count: 3
 			}]
 		},
 		{
@@ -170,6 +254,12 @@
 				id: "683286CCAB0C8295",
 				type: "item",
 				item: "bloodmagic:orbcapacityrune"
+			}],
+			rewards: [{
+				id: "64988BED0BE1A64C",
+				type: "item",
+				item: "bloodmagic:orbcapacityrune",
+				count: 3
 			}]
 		},
 		{
@@ -181,6 +271,12 @@
 				id: "2D4F93300FB6048C",
 				type: "item",
 				item: "bloodmagic:accelerationrune"
+			}],
+			rewards: [{
+				id: "76183583ADA5DB52",
+				type: "item",
+				item: "bloodmagic:accelerationrune",
+				count: 3
 			}]
 		},
 		{
@@ -192,6 +288,12 @@
 				id: "7E111927333436EB",
 				type: "item",
 				item: "bloodmagic:chargingrune"
+			}],
+			rewards: [{
+				id: "2FBE4DDD5006E32F",
+				type: "item",
+				item: "bloodmagic:chargingrune",
+				count: 3
 			}]
 		}
 	]
