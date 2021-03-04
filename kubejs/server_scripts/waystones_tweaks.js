@@ -7,8 +7,8 @@ onEvent('recipes', event => {
     'PEP'
   ], {
     P: 'industrialforegoing:pink_slime',
-    E: 'extendedcrafting:ender_ingot',
-    W: 'minecraft:wither_skeleton_skull',
+    E: 'thermal:enderium_ingot',
+    W: 'minecraft:ghast_tear',
     L: '#elevatorid:elevators'
   })
 })
