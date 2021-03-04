@@ -48,8 +48,8 @@ onEvent('recipes', event => {
       }
     ],
     "effects": [
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar"
+      "astralsorcery:built_in_effect_discovery_central_beam"
+      
     ]
   })
 
@@ -90,8 +90,8 @@ onEvent('recipes', event => {
       }
     ],
     "effects": [
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar"
+      "astralsorcery:built_in_effect_discovery_central_beam"
+      
     ]
   })
 
@@ -129,8 +129,8 @@ onEvent('recipes', event => {
       }
     ],
     "effects": [
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar"
+      "astralsorcery:built_in_effect_discovery_central_beam"
+      
     ]
   })
 
@@ -171,8 +171,8 @@ onEvent('recipes', event => {
       }
     ],
     "effects": [
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar"
+      "astralsorcery:built_in_effect_discovery_central_beam"
+      
     ]
   })
 
@@ -213,8 +213,8 @@ onEvent('recipes', event => {
       }
     ],
     "effects": [
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar"
+      "astralsorcery:built_in_effect_discovery_central_beam"
+      
     ]
   })
 
