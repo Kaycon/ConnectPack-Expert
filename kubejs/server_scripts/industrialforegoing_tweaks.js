@@ -54,7 +54,7 @@ event.shaped('industrialforegoing:machine_frame_pity', [
 ], {
   L: '#minecraft:logs',
   F: 'thermal:machine_frame',
-  C: 'thermal:constantan_gear',
+  C: 'thermal:bronze_gear',
   E: 'thermal:electrum_gear'
 })
 
@@ -165,6 +165,619 @@ event.custom({
   "output": {
     "item": "industrialforegoing:machine_frame_supreme",
     "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+
+// -----------------------------------
+// ADDONS
+// -----------------------------------
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon0'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon0",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:0.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon1'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon1",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:1.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon2'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon2",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:2.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon3'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon3",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:3.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon4'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon4",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:4.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon5'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon5",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:5.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon6'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot"
+    },
+    {
+      "item": "silentgear:crimson_steel_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon6",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:6.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon7'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon7",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:7.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon8'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon8",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:8.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon9'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon9",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:9.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon10'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon10",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:10.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/range_addon11'})
+event.custom({
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon11",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:11.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/efficiency_addon_1'})
+event.custom({
+  "input": [
+    {
+      "item": "mekanism:upgrade_energy"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/electrum"
+    },
+    {
+      "tag": "forge:gears/electrum"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:efficiency_addon_1",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Efficiency:0.9f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/efficiency_addon_2'})
+event.custom({
+  "input": [
+    {
+      "item": "industrialforegoing:efficiency_addon_1"
+    },
+    {
+      "item": "industrialforegoing:efficiency_addon_1"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:efficiency_addon_2",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Efficiency:0.8f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/speed_addon_1'})
+event.custom({
+  "input": [
+    {
+      "item": "mekanism:upgrade_speed"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/electrum"
+    },
+    {
+      "tag": "forge:gears/electrum"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:speed_addon_1",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Speed:2.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+})
+
+event.remove({id:'industrialforegoing:dissolution_chamber/speed_addon_2'})
+event.custom({
+  "input": [
+    {
+      "item": "industrialforegoing:speed_addon_1"
+    },
+    {
+      "item": "industrialforegoing:speed_addon_1"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:speed_addon_2",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Speed:3.0f}}"
   },
   "type": "industrialforegoing:dissolution_chamber"
 })
