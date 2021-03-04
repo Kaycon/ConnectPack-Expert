@@ -25,9 +25,9 @@ onEvent('recipes', event => {
     'GWG',
     'NAN'
   ], {
-    E: 'thermal:enderium_ingot',
+    E: 'mekanism:ingot_refined_obsidian',
     A: 'mekanism:alloy_atomic',
-    G: 'minecraft:ghast_tear',
+    G: 'minecraft:wither_skeleton_skull',
     W: 'waystones:warp_stone',
     N: 'minecraft:netherite_ingot'
   })
