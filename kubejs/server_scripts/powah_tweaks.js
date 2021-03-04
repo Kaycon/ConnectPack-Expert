@@ -23,6 +23,17 @@ onEvent('recipes', event => {
     F: 'refinedstorage:machine_casing'
   })
 
+  event.remove({id: 'powah:crafting/energizing_orb'})
+  event.shaped('powah:energizing_orb', [
+    'GGG',
+    'GCG',
+    'RRR'
+  ], {
+    G: 'thermal:enderium_glass',
+    R: 'powah:dielectric_rod_horizontal',
+    C: 'powah:dielectric_casing'
+  })
+
   event.remove({id: 'powah:crafting/energy_cell_basic'})
   event.remove({id: 'powah:crafting/energy_cell_basic_2'})
   event.shaped('powah:energy_cell_basic', [
@@ -37,6 +48,78 @@ onEvent('recipes', event => {
   })
 
   event.shapeless('powah:uraninite', 'mekanism:ingot_uranium')
+
+
+  /////////////////////
+  // Energizing Rods
+  /////////////////////
+
+  event.remove({id: 'powah:crafting/energizing_rod_basic'})
+  event.shaped('powah:energizing_rod_basic', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: '#forge:storage_blocks/quartz',
+    C: 'powah:capacitor_basic',
+    R: 'powah:energizing_rod_starter'
+  })
+
+  event.remove({id: 'powah:crafting/energizing_rod_hardened'})
+  event.shaped('powah:energizing_rod_hardened', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: '#forge:storage_blocks/quartz',
+    C: 'powah:capacitor_hardened',
+    R: 'powah:energizing_rod_basic'
+  })
+
+  event.remove({id: 'powah:crafting/energizing_rod_blazing'})
+  event.shaped('powah:energizing_rod_blazing', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: '#forge:storage_blocks/quartz',
+    C: 'powah:capacitor_blazing',
+    R: 'powah:energizing_rod_hardened'
+  })
+
+  event.remove({id: 'powah:crafting/energizing_rod_niotic'})
+  event.shaped('powah:energizing_rod_niotic', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: 'minecraft:diamond_block',
+    C: 'powah:capacitor_niotic',
+    R: 'powah:energizing_rod_blazing'
+  })
+
+  event.remove({id: 'powah:crafting/energizing_rod_spirited'})
+  event.shaped('powah:energizing_rod_spirited', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: 'minecraft:phantom_membrane',
+    C: 'powah:capacitor_spirited',
+    R: 'powah:energizing_rod_niotic'
+  })
+
+  event.remove({id: 'powah:crafting/energizing_rod_nitro'})
+  event.shaped('powah:energizing_rod_nitro', [
+    ' Q ',
+    'CRC',
+    ' Q '
+  ], {
+    Q: 'minecraft:nether_star',
+    C: 'powah:capacitor_nitro',
+    R: 'powah:energizing_rod_spirited'
+  })
+
 
   //Blazing crystal
   event.remove({id: 'powah:energizing/blazing_crystal'})
@@ -114,7 +197,7 @@ onEvent('recipes', event => {
       "tag": "forge:ingots/steel"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "thermal:electrum_ingot"
     }
     ],
     "energy": 10000,
@@ -136,13 +219,13 @@ onEvent('recipes', event => {
       "tag": "forge:ingots/steel"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "thermal:electrum_ingot"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "thermal:electrum_ingot"
     },
     {
-      "tag": "forge:ingots/gold"
+      "item": "thermal:electrum_ingot"
     }
     ],
     "energy": 30000,
