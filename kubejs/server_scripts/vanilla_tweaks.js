@@ -20,6 +20,9 @@ onEvent('recipes', event => {
   event.shapeless('minecraft:chest', ['#forge:chests/wooden'])
 
 
+  // Pink Slime to Vanilla Slime
+  event.shapeless('minecraft:slime_ball', ['industrialforegoing:pink_slime'])
+
   // -----------------------------------
   // NETHERITE ARMOR CRAFTABLE FROM DIAMOND ARMOR
   // -----------------------------------
