@@ -137,13 +137,13 @@
 	#Spawning options for minecraft:creeper
 	[minecraft.creeper]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
-		allowSpawners = false
+		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = false
+		allowSpawnEggs = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = true
+		removeAggressively = false
 
 	#Spawning options for minecraft:dolphin
 	[minecraft.dolphin]
@@ -797,13 +797,13 @@
 	#Spawning options for minecraft:silverfish
 	[minecraft.silverfish]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
-		allowSpawners = false
+		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = false
+		allowSpawnEggs = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = true
+		removeAggressively = false
 
 	#Spawning options for minecraft:skeleton
 	[minecraft.skeleton]
