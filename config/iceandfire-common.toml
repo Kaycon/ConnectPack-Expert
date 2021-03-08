@@ -50,7 +50,7 @@
 	"Dragon Egg Hatch Time" = 7200
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 0
+	"Dragon Griefing" = 1
 	#True if tamed dragons can follow the griefing rules.
 	"Tamed Dragon Griefing" = true
 	#Dragon Flap Noise Distance - Larger number, further away you can hear it
