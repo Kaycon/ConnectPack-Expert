@@ -102,6 +102,47 @@ onEvent('recipes', event => {
     R: 'minecraft:redstone'
   })
 
+  
+  // -----------------------------------
+  // ENERGY CUBES
+  // -----------------------------------
+
+  event.remove({id: 'mekanism:energy_cube/advanced'})
+  event.shaped('mekanism:advanced_energy_cube', [
+    'ATA',
+    'ECE',
+    'ATA'
+  ], {
+    A: 'mekanism:alloy_infused',
+    T: 'mekanism:energy_tablet',
+    E: 'mekanism:basic_energy_cube',
+    C: 'mekanism:advanced_control_circuit'
+  })
+
+  event.remove({id: 'mekanism:energy_cube/elite'})
+  event.shaped('mekanism:elite_energy_cube', [
+    'ATA',
+    'ECE',
+    'ATA'
+  ], {
+    A: 'mekanism:alloy_reinforced',
+    T: 'mekanism:energy_tablet',
+    E: 'mekanism:advanced_energy_cube',
+    C: 'mekanism:elite_control_circuit'
+  })
+
+  event.remove({id: 'mekanism:energy_cube/ultimate'})
+  event.shaped('mekanism:ultimate_energy_cube', [
+    'ATA',
+    'ECE',
+    'ATA'
+  ], {
+    A: 'mekanism:alloy_atomic',
+    T: 'mekanism:energy_tablet',
+    E: 'mekanism:elite_energy_cube',
+    C: 'mekanism:ultimate_control_circuit'
+  })
+
 
   // -----------------------------------
   // PROCESSING MACHINES
