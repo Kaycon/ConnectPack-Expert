@@ -1970,7 +1970,7 @@
 [oddities]
 	"Totem Of Holding" = true
 	Backpack = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Pipes = true
 	Crate = false
