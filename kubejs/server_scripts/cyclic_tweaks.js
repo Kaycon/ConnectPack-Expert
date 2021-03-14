@@ -52,6 +52,13 @@ event.shaped('cyclic:anvil', [
   S: 'powah:energized_steel_block'
 }) 
 
+event.remove({id: 'cyclic:placer'})
+event.shapeless('cyclic:placer', ['industrialforegoing:block_placer'])
+event.remove({id: 'cyclic:placer_fluid'})
+event.shapeless('cyclic:placer_fluid', ['industrialforegoing:fluid_placer'])
+event.remove({id: 'cyclic:breaker'})
+event.shapeless('cyclic:breaker', ['industrialforegoing:block_breaker'])
+
 
 // -----------------------------------
 // REMOVE DUPLICATES FROM OTHER MODS
@@ -73,8 +80,6 @@ event.remove({id: 'cyclic:emerald_chestplate'})
 event.remove({id: 'cyclic:emerald_leggings'})
 event.remove({id: 'cyclic:battery'})
 event.remove({id: 'cyclic:structure'})
-event.remove({id: 'cyclic:placer'})
-event.remove({id: 'cyclic:breaker'})
 event.remove({id: 'cyclic:harvester'})
 event.remove({id: 'cyclic:charm_home'})
 event.remove({id: 'cyclic:charm_world'})
@@ -86,5 +91,6 @@ event.remove({id: 'cyclic:emerald_hoe'})
 event.remove({id: 'cyclic:emerald_shovel'})
 event.remove({id: 'cyclic:heart'})
 event.remove({id: 'cyclic:heart_empty'})
+event.remove({id: 'cyclic:miner'})
 
 })

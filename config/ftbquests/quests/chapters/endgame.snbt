@@ -16,6 +16,12 @@
 				id: "026BB875311BE393",
 				type: "item",
 				item: "extendedcrafting:compressor"
+			}],
+			rewards: [{
+				id: "183192B266F20765",
+				type: "item",
+				item: "extendedcrafting:compressor",
+				count: 3
 			}]
 		},
 		{
@@ -27,6 +33,11 @@
 				id: "785F2B7A841168FF",
 				type: "item",
 				item: "extendedcrafting:ultimate_singularity"
+			}],
+			rewards: [{
+				id: "297A94CD1DC00FED",
+				type: "xp_levels",
+				xp_levels: 200
 			}]
 		},
 		{

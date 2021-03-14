@@ -81,7 +81,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -129,7 +129,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -177,7 +177,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -225,7 +225,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -273,7 +273,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -321,7 +321,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -369,7 +369,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -417,7 +417,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -465,7 +465,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -513,7 +513,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -567,7 +567,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -615,7 +615,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -663,7 +663,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -711,7 +711,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -759,7 +759,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -807,7 +807,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -855,7 +855,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -903,7 +903,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -951,7 +951,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -999,7 +999,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -1047,7 +1047,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -1095,7 +1095,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -1140,7 +1140,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -1188,7 +1188,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"
@@ -1236,7 +1236,7 @@ onEvent('recipes', event => {
       "astralsorcery:pillar_sparkle",
       "astralsorcery:luminescence_flare",
       "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:upgrade_altar",
+      
       "astralsorcery:altar_default_sparkle",
       "astralsorcery:built_in_effect_constellation_lines",
       "astralsorcery:built_in_effect_attunement_sparkle"

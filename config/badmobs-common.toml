@@ -1,0 +1,4204 @@
+
+#Options for the minecraft mod.
+[minecraft]
+
+	#Spawning options for minecraft:area_effect_cloud
+	[minecraft.area_effect_cloud]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:armor_stand
+	[minecraft.armor_stand]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:arrow
+	[minecraft.arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:bat
+	[minecraft.bat]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:bee
+	[minecraft.bee]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:blaze
+	[minecraft.blaze]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:boat
+	[minecraft.boat]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:cat
+	[minecraft.cat]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:cave_spider
+	[minecraft.cave_spider]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:chicken
+	[minecraft.chicken]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:cod
+	[minecraft.cod]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:cow
+	[minecraft.cow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:creeper
+	[minecraft.creeper]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:dolphin
+	[minecraft.dolphin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:donkey
+	[minecraft.donkey]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:dragon_fireball
+	[minecraft.dragon_fireball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:drowned
+	[minecraft.drowned]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:elder_guardian
+	[minecraft.elder_guardian]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:end_crystal
+	[minecraft.end_crystal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:ender_dragon
+	[minecraft.ender_dragon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:enderman
+	[minecraft.enderman]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:endermite
+	[minecraft.endermite]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:evoker
+	[minecraft.evoker]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:evoker_fangs
+	[minecraft.evoker_fangs]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:experience_orb
+	[minecraft.experience_orb]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:eye_of_ender
+	[minecraft.eye_of_ender]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:falling_block
+	[minecraft.falling_block]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:firework_rocket
+	[minecraft.firework_rocket]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:fox
+	[minecraft.fox]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:ghast
+	[minecraft.ghast]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:giant
+	[minecraft.giant]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:guardian
+	[minecraft.guardian]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:hoglin
+	[minecraft.hoglin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:horse
+	[minecraft.horse]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:husk
+	[minecraft.husk]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:illusioner
+	[minecraft.illusioner]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:iron_golem
+	[minecraft.iron_golem]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:item
+	[minecraft.item]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:item_frame
+	[minecraft.item_frame]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:fireball
+	[minecraft.fireball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:leash_knot
+	[minecraft.leash_knot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:lightning_bolt
+	[minecraft.lightning_bolt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:llama
+	[minecraft.llama]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:llama_spit
+	[minecraft.llama_spit]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:magma_cube
+	[minecraft.magma_cube]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:minecart
+	[minecraft.minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:chest_minecart
+	[minecraft.chest_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:command_block_minecart
+	[minecraft.command_block_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:furnace_minecart
+	[minecraft.furnace_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:hopper_minecart
+	[minecraft.hopper_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:spawner_minecart
+	[minecraft.spawner_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:tnt_minecart
+	[minecraft.tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:mule
+	[minecraft.mule]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:mooshroom
+	[minecraft.mooshroom]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:ocelot
+	[minecraft.ocelot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:painting
+	[minecraft.painting]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:panda
+	[minecraft.panda]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:parrot
+	[minecraft.parrot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:phantom
+	[minecraft.phantom]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:pig
+	[minecraft.pig]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:piglin
+	[minecraft.piglin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:piglin_brute
+	[minecraft.piglin_brute]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:pillager
+	[minecraft.pillager]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:polar_bear
+	[minecraft.polar_bear]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:tnt
+	[minecraft.tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:pufferfish
+	[minecraft.pufferfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:rabbit
+	[minecraft.rabbit]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:ravager
+	[minecraft.ravager]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:salmon
+	[minecraft.salmon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:sheep
+	[minecraft.sheep]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:shulker
+	[minecraft.shulker]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:shulker_bullet
+	[minecraft.shulker_bullet]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:silverfish
+	[minecraft.silverfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:skeleton
+	[minecraft.skeleton]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:skeleton_horse
+	[minecraft.skeleton_horse]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:slime
+	[minecraft.slime]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:small_fireball
+	[minecraft.small_fireball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:snow_golem
+	[minecraft.snow_golem]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:snowball
+	[minecraft.snowball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:spectral_arrow
+	[minecraft.spectral_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:spider
+	[minecraft.spider]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:squid
+	[minecraft.squid]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:stray
+	[minecraft.stray]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:strider
+	[minecraft.strider]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:egg
+	[minecraft.egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:ender_pearl
+	[minecraft.ender_pearl]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:experience_bottle
+	[minecraft.experience_bottle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:potion
+	[minecraft.potion]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:trident
+	[minecraft.trident]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:trader_llama
+	[minecraft.trader_llama]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:tropical_fish
+	[minecraft.tropical_fish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:turtle
+	[minecraft.turtle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:vex
+	[minecraft.vex]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:villager
+	[minecraft.villager]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:vindicator
+	[minecraft.vindicator]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:wandering_trader
+	[minecraft.wandering_trader]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:witch
+	[minecraft.witch]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:wither
+	[minecraft.wither]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:wither_skeleton
+	[minecraft.wither_skeleton]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:wither_skull
+	[minecraft.wither_skull]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:wolf
+	[minecraft.wolf]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:zoglin
+	[minecraft.zoglin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:zombie
+	[minecraft.zombie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:zombie_horse
+	[minecraft.zombie_horse]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:zombie_villager
+	[minecraft.zombie_villager]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:zombified_piglin
+	[minecraft.zombified_piglin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:player
+	[minecraft.player]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for minecraft:fishing_bobber
+	[minecraft.fishing_bobber]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the astralsorcery mod.
+[astralsorcery]
+
+	#Spawning options for astralsorcery:nocturnal_spark
+	[astralsorcery.nocturnal_spark]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:illumination_spark
+	[astralsorcery.illumination_spark]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:flare
+	[astralsorcery.flare]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:spectral_tool
+	[astralsorcery.spectral_tool]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:item_highlighted
+	[astralsorcery.item_highlighted]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:item_explosion_resistant
+	[astralsorcery.item_explosion_resistant]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:item_crystal
+	[astralsorcery.item_crystal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:item_starmetal
+	[astralsorcery.item_starmetal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:observatory_helper
+	[astralsorcery.observatory_helper]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for astralsorcery:grappling_hook
+	[astralsorcery.grappling_hook]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the powah mod.
+[powah]
+
+	#Spawning options for powah:charged_snowball
+	[powah.charged_snowball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the mutantbeasts mod.
+[mutantbeasts]
+
+	#Spawning options for mutantbeasts:mutant_snow_golem
+	[mutantbeasts.mutant_snow_golem]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:spider_pig
+	[mutantbeasts.spider_pig]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:mutant_skeleton
+	[mutantbeasts.mutant_skeleton]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:mutant_creeper
+	[mutantbeasts.mutant_creeper]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:mutant_zombie
+	[mutantbeasts.mutant_zombie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:creeper_minion
+	[mutantbeasts.creeper_minion]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:mutant_enderman
+	[mutantbeasts.mutant_enderman]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:body_part
+	[mutantbeasts.body_part]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:chemical_x
+	[mutantbeasts.chemical_x]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:creeper_minion_egg
+	[mutantbeasts.creeper_minion_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:endersoul_clone
+	[mutantbeasts.endersoul_clone]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:endersoul_fragment
+	[mutantbeasts.endersoul_fragment]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:mutant_arrow
+	[mutantbeasts.mutant_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:skull_spirit
+	[mutantbeasts.skull_spirit]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mutantbeasts:throwable_block
+	[mutantbeasts.throwable_block]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the buildinggadgets mod.
+[buildinggadgets]
+
+	#Spawning options for buildinggadgets:construction_block_entity
+	[buildinggadgets.construction_block_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the industrialforegoing mod.
+[industrialforegoing]
+
+	#Spawning options for industrialforegoing:trident_entity
+	[industrialforegoing.trident_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the silentgear mod.
+[silentgear]
+
+	#Spawning options for silentgear:arrow
+	[silentgear.arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for silentgear:slingshot_projectile
+	[silentgear.slingshot_projectile]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the botania mod.
+[botania]
+
+	#Spawning options for botania:mana_burst
+	[botania.mana_burst]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:pixie
+	[botania.pixie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:flame_ring
+	[botania.flame_ring]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:vine_ball
+	[botania.vine_ball]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:doppleganger
+	[botania.doppleganger]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:magic_landmine
+	[botania.magic_landmine]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:spark
+	[botania.spark]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:thrown_item
+	[botania.thrown_item]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:magic_missile
+	[botania.magic_missile]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:thorn_chakram
+	[botania.thorn_chakram]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:corporea_spark
+	[botania.corporea_spark]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:ender_air_bottle
+	[botania.ender_air_bottle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:pool_minecart
+	[botania.pool_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:pink_wither
+	[botania.pink_wither]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:player_mover
+	[botania.player_mover]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:mana_storm
+	[botania.mana_storm]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:babylon_weapon
+	[botania.babylon_weapon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for botania:falling_star
+	[botania.falling_star]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the computercraft mod.
+[computercraft]
+
+	#Spawning options for computercraft:turtle_player
+	[computercraft.turtle_player]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the mcwfurnitures mod.
+[mcwfurnitures]
+
+	#Spawning options for mcwfurnitures:sittable_block
+	[mcwfurnitures.sittable_block]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the cyclic mod.
+[cyclic]
+
+	#Spawning options for cyclic:magic_net
+	[cyclic.magic_net]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:torch_bolt
+	[cyclic.torch_bolt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:boomerang_stun
+	[cyclic.boomerang_stun]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:boomerang_carry
+	[cyclic.boomerang_carry]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:boomerang_damage
+	[cyclic.boomerang_damage]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:dungeon
+	[cyclic.dungeon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:eye
+	[cyclic.eye]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:lightning_bolt
+	[cyclic.lightning_bolt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:snow_bolt
+	[cyclic.snow_bolt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:fire_bolt
+	[cyclic.fire_bolt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for cyclic:conveyor_item
+	[cyclic.conveyor_item]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the abnormals_core mod.
+[abnormals_core]
+
+	#Spawning options for abnormals_core:boat
+	[abnormals_core.boat]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the mekanism mod.
+[mekanism]
+
+	#Spawning options for mekanism:flame
+	[mekanism.flame]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for mekanism:robit
+	[mekanism.robit]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the create mod.
+[create]
+
+	#Spawning options for create:super_glue
+	[create.super_glue]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for create:contraption
+	[create.contraption]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for create:stationary_contraption
+	[create.stationary_contraption]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for create:seat
+	[create.seat]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the clumps mod.
+[clumps]
+
+	#Spawning options for clumps:xp_orb_big
+	[clumps.xp_orb_big]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the rftoolsdim mod.
+[rftoolsdim]
+
+	#Spawning options for rftoolsdim:dimensional_blob_common
+	[rftoolsdim.dimensional_blob_common]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for rftoolsdim:dimensional_blob_rare
+	[rftoolsdim.dimensional_blob_rare]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for rftoolsdim:dimensional_blob_legendary
+	[rftoolsdim.dimensional_blob_legendary]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the iceandfire mod.
+[iceandfire]
+
+	#Spawning options for iceandfire:dragon_multipart
+	[iceandfire.dragon_multipart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:multipart
+	[iceandfire.multipart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hydra_multipart
+	[iceandfire.hydra_multipart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:cylcops_multipart
+	[iceandfire.cylcops_multipart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dragon_egg
+	[iceandfire.dragon_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dragon_arrow
+	[iceandfire.dragon_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dragon_skull
+	[iceandfire.dragon_skull]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:fire_dragon
+	[iceandfire.fire_dragon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:ice_dragon
+	[iceandfire.ice_dragon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:lightning_dragon
+	[iceandfire.lightning_dragon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:fire_dragon_charge
+	[iceandfire.fire_dragon_charge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:ice_dragon_charge
+	[iceandfire.ice_dragon_charge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:lightning_dragon_charge
+	[iceandfire.lightning_dragon_charge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hippogryph_egg
+	[iceandfire.hippogryph_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hippogryph
+	[iceandfire.hippogryph]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:stone_statue
+	[iceandfire.stone_statue]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:gorgon
+	[iceandfire.gorgon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:pixie
+	[iceandfire.pixie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:cyclops
+	[iceandfire.cyclops]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:siren
+	[iceandfire.siren]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hippocampus
+	[iceandfire.hippocampus]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:deathworm
+	[iceandfire.deathworm]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:deathworm_egg
+	[iceandfire.deathworm_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:cockatrice
+	[iceandfire.cockatrice]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:cockatrice_egg
+	[iceandfire.cockatrice_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:stymphalian_bird
+	[iceandfire.stymphalian_bird]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:stymphalian_feather
+	[iceandfire.stymphalian_feather]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:stymphalian_arrow
+	[iceandfire.stymphalian_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:troll
+	[iceandfire.troll]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_worker
+	[iceandfire.myrmex_worker]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_soldier
+	[iceandfire.myrmex_soldier]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_sentinel
+	[iceandfire.myrmex_sentinel]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_royal
+	[iceandfire.myrmex_royal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_queen
+	[iceandfire.myrmex_queen]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_egg
+	[iceandfire.myrmex_egg]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:amphithere
+	[iceandfire.amphithere]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:amphithere_arrow
+	[iceandfire.amphithere_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:sea_serpent
+	[iceandfire.sea_serpent]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:sea_serpent_bubbles
+	[iceandfire.sea_serpent_bubbles]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:sea_serpent_arrow
+	[iceandfire.sea_serpent_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:chain_tie
+	[iceandfire.chain_tie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:pixie_charge
+	[iceandfire.pixie_charge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:myrmex_swarmer
+	[iceandfire.myrmex_swarmer]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:tide_trident
+	[iceandfire.tide_trident]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:mob_skull
+	[iceandfire.mob_skull]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_thrall
+	[iceandfire.dread_thrall]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_ghoul
+	[iceandfire.dread_ghoul]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_beast
+	[iceandfire.dread_beast]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_scuttler
+	[iceandfire.dread_scuttler]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_lich
+	[iceandfire.dread_lich]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_lich_skull
+	[iceandfire.dread_lich_skull]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_knight
+	[iceandfire.dread_knight]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:dread_horse
+	[iceandfire.dread_horse]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hydra
+	[iceandfire.hydra]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hydra_breath
+	[iceandfire.hydra_breath]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:hydra_arrow
+	[iceandfire.hydra_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:ghost
+	[iceandfire.ghost]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for iceandfire:ghost_sword
+	[iceandfire.ghost_sword]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the immersive_portals mod.
+[immersive_portals]
+
+	#Spawning options for immersive_portals:portal
+	[immersive_portals.portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:nether_portal_new
+	[immersive_portals.nether_portal_new]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:end_portal
+	[immersive_portals.end_portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:mirror
+	[immersive_portals.mirror]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:breakable_mirror
+	[immersive_portals.breakable_mirror]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:global_tracked_portal
+	[immersive_portals.global_tracked_portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:border_portal
+	[immersive_portals.border_portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:end_floor_portal
+	[immersive_portals.end_floor_portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:general_breakable_portal
+	[immersive_portals.general_breakable_portal]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersive_portals:loading_indicator
+	[immersive_portals.loading_indicator]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the bloodmagic mod.
+[bloodmagic]
+
+	#Spawning options for bloodmagic:soulsnare
+	[bloodmagic.soulsnare]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for bloodmagic:throwing_dagger
+	[bloodmagic.throwing_dagger]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for bloodmagic:bloodlight
+	[bloodmagic.bloodlight]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for bloodmagic:shapedcharge
+	[bloodmagic.shapedcharge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the thermal mod.
+[thermal]
+
+	#Spawning options for thermal:basalz
+	[thermal.basalz]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:blizz
+	[thermal.blizz]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:blitz
+	[thermal.blitz]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:basalz_projectile
+	[thermal.basalz_projectile]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:blizz_projectile
+	[thermal.blizz_projectile]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:blitz_projectile
+	[thermal.blitz_projectile]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:grenade
+	[thermal.grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:phyto_grenade
+	[thermal.phyto_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:fire_grenade
+	[thermal.fire_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:earth_grenade
+	[thermal.earth_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:ice_grenade
+	[thermal.ice_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:lightning_grenade
+	[thermal.lightning_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:nuke_grenade
+	[thermal.nuke_grenade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:phyto_tnt
+	[thermal.phyto_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:fire_tnt
+	[thermal.fire_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:earth_tnt
+	[thermal.earth_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:ice_tnt
+	[thermal.ice_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:lightning_tnt
+	[thermal.lightning_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:nuke_tnt
+	[thermal.nuke_tnt]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:underwater_minecart
+	[thermal.underwater_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:phyto_tnt_minecart
+	[thermal.phyto_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:fire_tnt_minecart
+	[thermal.fire_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:earth_tnt_minecart
+	[thermal.earth_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:ice_tnt_minecart
+	[thermal.ice_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:lightning_tnt_minecart
+	[thermal.lightning_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for thermal:nuke_tnt_minecart
+	[thermal.nuke_tnt_minecart]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the endergetic mod.
+[endergetic]
+
+	#Spawning options for endergetic:poise_cluster
+	[endergetic.poise_cluster]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:bolloom_fruit
+	[endergetic.bolloom_fruit]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:boof_block
+	[endergetic.boof_block]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:puff_bug
+	[endergetic.puff_bug]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:bolloom_balloon
+	[endergetic.bolloom_balloon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:bolloom_knot
+	[endergetic.bolloom_knot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:booflo_baby
+	[endergetic.booflo_baby]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:booflo_adolescent
+	[endergetic.booflo_adolescent]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for endergetic:booflo
+	[endergetic.booflo]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the immersiveengineering mod.
+[immersiveengineering]
+
+	#Spawning options for immersiveengineering:chemthrower_shot
+	[immersiveengineering.chemthrower_shot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:fluorescent_tube
+	[immersiveengineering.fluorescent_tube]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:explosive
+	[immersiveengineering.explosive]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:railgun_shot
+	[immersiveengineering.railgun_shot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:revolvershot
+	[immersiveengineering.revolvershot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:revolver_shot_flare
+	[immersiveengineering.revolver_shot_flare]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:revolver_shot_homing
+	[immersiveengineering.revolver_shot_homing]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:skyline_hook
+	[immersiveengineering.skyline_hook]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:revolver_shot_wolfpack
+	[immersiveengineering.revolver_shot_wolfpack]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:cart_woodencrate
+	[immersiveengineering.cart_woodencrate]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:cart_reinforcedcrate
+	[immersiveengineering.cart_reinforcedcrate]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:cart_woodenbarrel
+	[immersiveengineering.cart_woodenbarrel]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:cart_metalbarrel
+	[immersiveengineering.cart_metalbarrel]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for immersiveengineering:sawblade
+	[immersiveengineering.sawblade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the savageandravage mod.
+[savageandravage]
+
+	#Spawning options for savageandravage:creepie
+	[savageandravage.creepie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:griefer
+	[savageandravage.griefer]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:mischief_arrow
+	[savageandravage.mischief_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:skeleton_villager
+	[savageandravage.skeleton_villager]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:spore_cloud
+	[savageandravage.spore_cloud]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:spore_bomb
+	[savageandravage.spore_bomb]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:burning_banner
+	[savageandravage.burning_banner]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:rune_prison
+	[savageandravage.rune_prison]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:executioner
+	[savageandravage.executioner]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:iceologer
+	[savageandravage.iceologer]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:ice_chunk
+	[savageandravage.ice_chunk]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for savageandravage:ice_cloud
+	[savageandravage.ice_cloud]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the quark mod.
+[quark]
+
+	#Spawning options for quark:crab
+	[quark.crab]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:totem
+	[quark.totem]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:chest_passenger
+	[quark.chest_passenger]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:skull_pike
+	[quark.skull_pike]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:glass_frame
+	[quark.glass_frame]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:colored_frame
+	[quark.colored_frame]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:wraith
+	[quark.wraith]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:soul_bead
+	[quark.soul_bead]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:wrapped
+	[quark.wrapped]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:toretoise
+	[quark.toretoise]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:leash_knot_fake
+	[quark.leash_knot_fake]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:stool
+	[quark.stool]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:gravisand
+	[quark.gravisand]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:foxhound
+	[quark.foxhound]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:frog
+	[quark.frog]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:stoneling
+	[quark.stoneling]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:forgotten
+	[quark.forgotten]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for quark:pickarang
+	[quark.pickarang]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the apotheosis mod.
+[apotheosis]
+
+	#Spawning options for apotheosis:ob_arrow_entity
+	[apotheosis.ob_arrow_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for apotheosis:bh_arrow_entity
+	[apotheosis.bh_arrow_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for apotheosis:ex_arrow_entity
+	[apotheosis.ex_arrow_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for apotheosis:mn_arrow_entity
+	[apotheosis.mn_arrow_entity]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the aquaculture mod.
+[aquaculture]
+
+	#Spawning options for aquaculture:bobber
+	[aquaculture.bobber]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:water_arrow
+	[aquaculture.water_arrow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:box_turtle
+	[aquaculture.box_turtle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:arrau_turtle
+	[aquaculture.arrau_turtle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:starshell_turtle
+	[aquaculture.starshell_turtle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:oak_fish_mount
+	[aquaculture.oak_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:spruce_fish_mount
+	[aquaculture.spruce_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:birch_fish_mount
+	[aquaculture.birch_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:jungle_fish_mount
+	[aquaculture.jungle_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:acacia_fish_mount
+	[aquaculture.acacia_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:dark_oak_fish_mount
+	[aquaculture.dark_oak_fish_mount]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:atlantic_cod
+	[aquaculture.atlantic_cod]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:blackfish
+	[aquaculture.blackfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:pacific_halibut
+	[aquaculture.pacific_halibut]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:atlantic_halibut
+	[aquaculture.atlantic_halibut]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:atlantic_herring
+	[aquaculture.atlantic_herring]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:pink_salmon
+	[aquaculture.pink_salmon]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:pollock
+	[aquaculture.pollock]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:rainbow_trout
+	[aquaculture.rainbow_trout]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:bayad
+	[aquaculture.bayad]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:boulti
+	[aquaculture.boulti]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:capitaine
+	[aquaculture.capitaine]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:synodontis
+	[aquaculture.synodontis]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:smallmouth_bass
+	[aquaculture.smallmouth_bass]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:bluegill
+	[aquaculture.bluegill]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:brown_trout
+	[aquaculture.brown_trout]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:carp
+	[aquaculture.carp]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:catfish
+	[aquaculture.catfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:gar
+	[aquaculture.gar]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:minnow
+	[aquaculture.minnow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:muskellunge
+	[aquaculture.muskellunge]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:perch
+	[aquaculture.perch]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:arapaima
+	[aquaculture.arapaima]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:piranha
+	[aquaculture.piranha]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:tambaqui
+	[aquaculture.tambaqui]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:brown_shrooma
+	[aquaculture.brown_shrooma]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:red_shrooma
+	[aquaculture.red_shrooma]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:jellyfish
+	[aquaculture.jellyfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:red_grouper
+	[aquaculture.red_grouper]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for aquaculture:tuna
+	[aquaculture.tuna]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+

@@ -6,6 +6,24 @@ onEvent('recipes', event => {
   // Remove Crafting Table Bronze Dust recipe
   event.remove({id: 'thermal:bronze_dust_4'})
 
+  // Remove Crafting Table Enderium Dust recipe
+  event.remove({id: 'thermal:enderium_dust_2'})
+
+  // Remove Crafting Table Lumium Dust recipe
+  event.remove({id: 'thermal:lumium_dust_4'})
+
+  // Remove Crafting Table Signalum Dust recipe
+  event.remove({id: 'thermal:signalum_dust_4'})
+
+  // Remove Crafting Table Invar Dust recipe
+  event.remove({id: 'thermal:invar_dust_3'})
+
+  // Remove Crafting Table Constantan Dust recipe
+  event.remove({id: 'thermal:constantan_dust_2'})
+  event.remove({id: 'immersiveengineering:crafting/constantan_mix'})
+
+  // Remove Crafting Table Electrum Dust recipe
+  event.remove({id: 'thermal:electrum_dust_2'})
   
   ////////////////////////////////////////////////////////
   // Remove Crafting Table and Metal Press Gears Recipes
@@ -53,6 +71,7 @@ onEvent('recipes', event => {
   for (i = 0; i < thermal_alloys.length; i++) {
     event.remove({id: 'thermal:fire_charge/'+thermal_alloys[i]})
   } 
+
 
 
   ////////////////////////////////////////////////////////

@@ -20,8 +20,19 @@ onEvent('recipes', event => {
     S: 'mekanism:ingot_steel',
     O: 'envirocore:obsidian_plate'
   })
+
   event.remove({output: 'envirocore:obsidian_plate'})
   event.recipes.thermal.press(Item.of('envirocore:obsidian_plate', 8), ['minecraft:obsidian'])
+  
+  event.recipes.thermal.smelter('envirocore:redstone_imbued_obsidian_plate', ['envirocore:obsidian_plate', Item.of('minecraft:redstone', 4)])
+  event.recipes.thermal.smelter('envirocore:litherite_interconnect', ['envirocore:litherite_crystal', 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:erodium_interconnect', [Item.of('envirocore:erodium_crystal', 2), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:kyronite_interconnect', [Item.of('envirocore:kyronite_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:pladium_interconnect', [Item.of('envirocore:pladium_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:ionite_interconnect', [Item.of('envirocore:ionite_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:aethium_interconnect', [Item.of('envirocore:aethium_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:nanorite_interconnect', [Item.of('envirocore:nanorite_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
+  event.recipes.thermal.smelter('envirocore:xerothium_interconnect', [Item.of('envirocore:xerothium_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])
 
   event.remove({id: 'envirocore:items/ct_litherite2'})
   event.remove({id: 'envirocore:items/ct_litherite4'})

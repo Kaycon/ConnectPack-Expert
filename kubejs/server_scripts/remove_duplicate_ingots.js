@@ -87,6 +87,12 @@ onEvent('recipes', event => {
 
   // Steel Ingot
   event.replaceOutput({}, 'immersiveengineering:ingot_steel', 'mekanism:ingot_steel')
+  event.remove({id: 'immersiveengineering:blastfurnace/steel'})
+  event.remove({id: 'immersiveengineering:blastfurnace/steel_block'})
+  event.remove({id: 'immersiveengineering:arcfurnace/steel'})
+  event.remove({id: 'immersiveengineering:arcfurnace/dust_steel'})
+  event.custom({"type":"immersiveengineering:blast_furnace","result":{"item":"mekanism:ingot_steel"},"input":{"tag":"forge:ingots/iron"},"slag":{"tag":"forge:slag"},"time":1200})
+  event.custom({"type":"immersiveengineering:arc_furnace","results":[{"item":"mekanism:ingot_steel"}],"additives":[{"tag":"forge:dusts/coal_coke"}],"input":{"tag":"forge:ingots/iron"},"slag":{"tag":"forge:slag"},"time":400,"energy":204800})
   
   // Steel Dust
   event.replaceOutput({}, 'immersiveengineering:dust_steel', 'mekanism:dust_steel')
@@ -96,6 +102,7 @@ onEvent('recipes', event => {
 
   // Steel Block
   event.replaceOutput({}, 'immersiveengineering:storage_steel', 'mekanism:block_steel')
+  event.custom({"type":"immersiveengineering:blast_furnace","result":{"item":"mekanism:block_steel"},"input":{"tag":"forge:storage_blocks/iron"},"slag":{"count":9,"base_ingredient":{"tag":"forge:slag"}},"time":10800})
   
   ///////////
   // URANIUM

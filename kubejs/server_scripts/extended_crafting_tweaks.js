@@ -42,14 +42,14 @@ onEvent('recipes', event => {
     {"item": "powah:blazing_crystal_block"},
     {"item": "powah:niotic_crystal_block"},
     {"item": "powah:spirited_crystal_block"},
-    {"item": "minecraft:prismarine_bricks"},
-    {"item": "iceandfire:sapphire_block"},
+    {"item": "minecraft:lapis_block"},
+    {"item": "silentgear:bort_block"},
     {"item": "thermal:lumium_block"}
     ],
-    "energy": 5000000,
+    "energy": 2000000,
     "result": {
     "item": "extendedcrafting:crystaltine_ingot",
-    "count": 1
+    "count": 4
     }
   })
 
@@ -66,12 +66,12 @@ onEvent('recipes', event => {
 
   event.remove({id: 'extendedcrafting:compressor'})  
   event.shaped('extendedcrafting:compressor', [
-    'NNN',
-    'NSN',
-    'NNN'
+    'SSS',
+    'SSS',
+    'SSS'
   ], {
-    S: 'industrialforegoing:machine_frame_supreme',
-    N: 'avaritia:neutronium_ingot'
+    S: 'industrialforegoing:machine_frame_supreme'
+    //N: 'avaritia:neutronium_ingot'
   })
 
 })

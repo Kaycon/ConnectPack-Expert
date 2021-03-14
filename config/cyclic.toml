@@ -79,12 +79,6 @@
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10
-			#Power per tick while in use
-			#Range: 0 ~ 64000
-			placer = 0
-			#Power per tick while in use
-			#Range: 0 ~ 64000
-			breaker = 0
 
 		#####################################################################################
 		# Fuel gained by consuming items
@@ -174,6 +168,9 @@
 			#Experience given when eating a poisoned heart
 			#Range: 0 ~ 99999
 			experience = 500
+			#Maximum number of hearts that can be attained (including initial 10)
+			#Range: 1 ~ 200
+			maximum = 100
 
 	#####################################################################################
 	# Block specific configs
