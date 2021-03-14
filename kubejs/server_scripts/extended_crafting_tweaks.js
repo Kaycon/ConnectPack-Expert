@@ -46,7 +46,7 @@ onEvent('recipes', event => {
     {"item": "silentgear:bort_block"},
     {"item": "thermal:lumium_block"}
     ],
-    "energy": 1000000,
+    "energy": 2000000,
     "result": {
     "item": "extendedcrafting:crystaltine_ingot",
     "count": 4
