@@ -88,4 +88,15 @@ onEvent('recipes', event => {
     C: 'extendedcrafting:crystaltine_ingot',
     B: 'minecraft:glass_bottle'
   })
+  
+  event.remove({id: 'rftoolsutility:crafter1'})
+  event.shaped('rftoolsutility:crafter1', [
+    ' R ',
+    'RSR',
+    ' R '
+  ], {
+    R: 'extendedcrafting:redstone_ingot',
+    S: 'thermal:machine_crafter'
+  })
 })
+  
