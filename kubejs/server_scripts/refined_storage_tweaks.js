@@ -234,19 +234,20 @@ event.shaped('extradisks:262144k_storage_part', [
   'SAS',
   'PSP'
 ], {
-  P: 'refinedstorage:advanced_processor',
-  E: 'extendedcrafting:ender_star_block',
+  P: 'extradisks:withering_processor',
+  E: 'refinedstorage:quartz_enriched_iron_block',
   S: 'extradisks:65536k_storage_part',
   A: 'extendedcrafting:the_ultimate_block'
 })
 
 event.remove({id: 'extradisks:part/1048576k_storage_part'})
 event.shaped('extradisks:1048576k_storage_part', [
-  'EEE',
+  'PEP',
   'SAS',
   'ISI'
 ], {
-  E: 'extendedcrafting:ender_star_block',
+  P: 'extradisks:withering_processor',
+  E: 'extendedcrafting:enhanced_ender_ingot_block',
   S: 'extradisks:262144k_storage_part',
   A: 'extendedcrafting:the_ultimate_block',
   I: 'mysticalagradditions:insanium_ingot_block'
@@ -256,16 +257,18 @@ event.remove({id: 'extradisks:part/infinite_storage_part'})
 event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    " FFFFF ",
-    "FFSSSFF",
-    "FSSSSSF",
-    "FSSISSF",
-    "FSSSSSF",
-    "FFSSSFF",
-    " FFFFF "
+    " FFFFFFF ",
+    "FFWWWWWFF",
+    "FWWSSSWWF",
+    "FWSSSSSWF",
+    "FWSSISSWF",
+    "FWSSSSSWF",
+    "FWWSSSWWF",
+    "FFWWWWWFF",
+    " FFFFFFF "
   ],
   "key": {
-    "U": {
+    "I": {
       "item": "extendedcrafting:ultimate_singularity"
     },
     "S": {
@@ -273,6 +276,9 @@ event.custom({
     },
     "F": {
       "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "W": {
+      "item": "extradisks:withering_processor"
     }
   },
   "result": {
@@ -281,127 +287,143 @@ event.custom({
 })
 
 
-// event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     " AAAAA ",
-//     "AUUUUUA",
-//     "AUWWWUA",
-//     "AUWIWUA",
-//     "AUWWWUA",
-//     "AUUUUUA",
-//     " AAAAA "
-//   ],
-//   "key": {
-//     "I": {
-//       "item": "avaritia:infinity_ingot"
-//     },
-//     "W": {
-//       "item": "refinedstorage:wireless_grid"
-//     },
-//     "A": {
-//       "item": "extradisks:advanced_machine_casing"
-//     },
-//     "U": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     }
-//   },
-//   "result": {
-//     "item": "refinedstorage:creative_wireless_grid"
-//   }
-// })
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "AUUUUUA",
+    "AUWWWUA",
+    "AUWIWUA",
+    "AUWWWUA",
+    "AUUUUUA",
+    " AAAAA "
+  ],
+  "key": {
+    "I": {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": {
+        "Id": "extendedcrafting:brass"
+      }
+    },
+    "W": {
+      "item": "refinedstorage:wireless_grid"
+    },
+    "A": {
+      "item": "extradisks:advanced_machine_casing"
+    },
+    "U": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:creative_wireless_grid"
+  }
+})
 
 
-// event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     " AAAAA ",
-//     "AUUUUUA",
-//     "AUWWWUA",
-//     "AUWIWUA",
-//     "AUWWWUA",
-//     "AUUUUUA",
-//     " AAAAA "
-//   ],
-//   "key": {
-//     "I": {
-//       "item": "avaritia:infinity_ingot"
-//     },
-//     "W": {
-//       "item": "refinedstorage:wireless_fluid_grid"
-//     },
-//     "A": {
-//       "item": "extradisks:advanced_machine_casing"
-//     },
-//     "U": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     }
-//   },
-//   "result": {
-//     "item": "refinedstorage:creative_wireless_fluid_grid"
-//   }
-// })
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "AUUUUUA",
+    "AUWWWUA",
+    "AUWIWUA",
+    "AUWWWUA",
+    "AUUUUUA",
+    " AAAAA "
+  ],
+  "key": {
+    "I": {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": {
+        "Id": "extendedcrafting:coal"
+      }
+    },
+    "W": {
+      "item": "refinedstorage:wireless_fluid_grid"
+    },
+    "A": {
+      "item": "extradisks:advanced_machine_casing"
+    },
+    "U": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:creative_wireless_fluid_grid"
+  }
+})
 
 
-// event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     " AAAAA ",
-//     "AUUUUUA",
-//     "AUWWWUA",
-//     "AUWIWUA",
-//     "AUWWWUA",
-//     "AUUUUUA",
-//     " AAAAA "
-//   ],
-//   "key": {
-//     "I": {
-//       "item": "avaritia:infinity_ingot"
-//     },
-//     "W": {
-//       "item": "refinedstorage:wireless_crafting_monitor"
-//     },
-//     "A": {
-//       "item": "extradisks:advanced_machine_casing"
-//     },
-//     "U": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     }
-//   },
-//   "result": {
-//     "item": "refinedstorage:creative_wireless_crafting_monitor"
-//   }
-// })
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "AUUUUUA",
+    "AUWWWUA",
+    "AUWIWUA",
+    "AUWWWUA",
+    "AUUUUUA",
+    " AAAAA "
+  ],
+  "key": {
+    "I": {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": {
+        "Id": "extendedcrafting:copper"
+      }
+    },
+    "W": {
+      "item": "refinedstorage:wireless_crafting_monitor"
+    },
+    "A": {
+      "item": "extradisks:advanced_machine_casing"
+    },
+    "U": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:creative_wireless_crafting_monitor"
+  }
+})
 
 
-// event.custom({
-//   "type": "extendedcrafting:shaped_table",
-//   "pattern": [
-//     " AAAAA ",
-//     "AUUUUUA",
-//     "AUWWWUA",
-//     "AUWIWUA",
-//     "AUWWWUA",
-//     "AUUUUUA",
-//     " AAAAA "
-//   ],
-//   "key": {
-//     "I": {
-//       "item": "avaritia:infinity_ingot"
-//     },
-//     "W": {
-//       "item": "refinedstorageaddons:wireless_crafting_grid"
-//     },
-//     "A": {
-//       "item": "extradisks:advanced_machine_casing"
-//     },
-//     "U": {
-//       "item": "mekanism:ultimate_control_circuit"
-//     }
-//   },
-//   "result": {
-//     "item": "refinedstorageaddons:creative_wireless_crafting_grid"
-//   }
-// })
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAA ",
+    "AUUUUUA",
+    "AUWWWUA",
+    "AUWIWUA",
+    "AUWWWUA",
+    "AUUUUUA",
+    " AAAAA "
+  ],
+  "key": {
+    "I": {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": {
+        "Id": "extendedcrafting:lead"
+      }
+    },
+    "W": {
+      "item": "refinedstorageaddons:wireless_crafting_grid"
+    },
+    "A": {
+      "item": "extradisks:advanced_machine_casing"
+    },
+    "U": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "refinedstorageaddons:creative_wireless_crafting_grid"
+  }
+})
 
 })
