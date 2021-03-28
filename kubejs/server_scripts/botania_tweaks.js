@@ -114,75 +114,43 @@ onEvent('recipes', event => {
     ]
   })
 
-  // event.custom({
-  //   "type": "extendedcrafting:shaped_table",
-  //   "pattern": [
-  //     " FFFFF ",
-  //     "FXGGGXF",
-  //     "FGAMAGF",
-  //     "FGMIMGF",
-  //     "FGAMAGF",
-  //     "FXGGGXF",
-  //     " FFFFF "
-  //   ],
-  //   "key": {
-  //     "F": {
-  //       "item": "botania:fabulous_pool"
-  //     },
-  //     "X": {
-  //       "item": "bloodmagic:accelerationrune"
-  //     },
-  //     "G": {
-  //       "item": "botania:gaia_ingot"
-  //     },
-  //     "A": {
-  //       "item": "astralsorcery:mantle"
-  //     },
-  //     "M": {
-  //       "item": "bloodmagic:masterbloodorb"
-  //     },
-  //     "I": {
-  //       "item": "avaritia:infinity_ingot"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "botania:creative_pool"
-  //   }
-  // })
-
-  // event.custom({
-  //   "type": "extendedcrafting:shaped_table",
-  //   "pattern": [
-  //     " FFFFF ",
-  //     "FXGGGXF",
-  //     "FGAMAGF",
-  //     "FGMIMGF",
-  //     "FGAMAGF",
-  //     "FXGGGXF",
-  //     " FFFFF "
-  //   ],
-  //   "key": {
-  //     "F": {
-  //       "item": "botania:fabulous_pool"
-  //     },
-  //     "X": {
-  //       "item": "bloodmagic:accelerationrune"
-  //     },
-  //     "G": {
-  //       "item": "botania:gaia_ingot"
-  //     },
-  //     "A": {
-  //       "item": "astralsorcery:mantle"
-  //     },
-  //     "M": {
-  //       "item": "bloodmagic:masterbloodorb"
-  //     },
-  //     "I": {
-  //       "item": "avaritia:infinity_ingot"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "botania:creative_pool"
-  //   }
-  // })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " FFFFF ",
+      "FXGGGXF",
+      "FGAMAGF",
+      "FGMIMGF",
+      "FGAMAGF",
+      "FXGGGXF",
+      " FFFFF "
+    ],
+    "key": {
+      "F": {
+        "item": "botania:fabulous_pool"
+      },
+      "X": {
+        "item": "bloodmagic:accelerationrune"
+      },
+      "G": {
+        "item": "botania:gaia_ingot"
+      },
+      "A": {
+        "item": "astralsorcery:mantle"
+      },
+      "M": {
+        "item": "bloodmagic:masterbloodorb"
+      },
+      "I": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "nbt": {
+          "Id": "extendedcrafting:manasteel"
+        }
+      },
+    },
+    "result": {
+      "item": "botania:creative_pool"
+    }
+  })
 })
