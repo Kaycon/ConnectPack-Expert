@@ -54,11 +54,65 @@ event.shaped('cyclic:anvil', [
 
 event.remove({id: 'cyclic:placer'})
 event.shapeless('cyclic:placer', ['industrialforegoing:block_placer'])
+
 event.remove({id: 'cyclic:placer_fluid'})
 event.shapeless('cyclic:placer_fluid', ['industrialforegoing:fluid_placer'])
+
 event.remove({id: 'cyclic:breaker'})
 event.shapeless('cyclic:breaker', ['industrialforegoing:block_breaker'])
 
+event.remove({id: 'cyclic:heart'})
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "EMDRE",
+      "BTTTI",
+      "DTGTD",
+      "CTTTL",
+      "EUDSE"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "T": {
+        "item": "mysticalagradditions:tertium_apple"
+      },
+      "E": {
+        "item": "minecraft:emerald"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "M": {
+        "item": "botania:manasteel_ingot"
+      },
+      "R": {
+        "item": "astralsorcery:starmetal_ingot"
+      },
+      "I": {
+        "item": "thermal:invar_ingot"
+      },
+      "L": {
+        "item": "thermal:electrum_ingot"
+      },
+      "B": {
+        "item": "thermal:bronze_ingot"
+      },
+      "C": {
+        "item": "thermal:constantan_ingot"
+      },
+      "U": {
+        "item": "thermal:lumium_ingot"
+      },
+      "S": {
+        "item": "thermal:signalum_ingot"
+      }
+    },
+    "result": {
+      "item": "cyclic:heart"
+    }
+  })
 
 // -----------------------------------
 // REMOVE DUPLICATES FROM OTHER MODS
@@ -89,8 +143,6 @@ event.remove({id: 'cyclic:emerald_pickaxe'})
 event.remove({id: 'cyclic:emerald_axe'})
 event.remove({id: 'cyclic:emerald_hoe'})
 event.remove({id: 'cyclic:emerald_shovel'})
-event.remove({id: 'cyclic:heart'})
-event.remove({id: 'cyclic:heart_empty'})
 event.remove({id: 'cyclic:miner'})
 
 })

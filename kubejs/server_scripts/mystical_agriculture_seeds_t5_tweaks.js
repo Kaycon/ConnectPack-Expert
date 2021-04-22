@@ -15,6 +15,7 @@ onEvent('recipes', event => {
   event.remove({id:'mysticalagriculture:seed/infusion/niotic_crystal'})
   event.remove({id:'mysticalagriculture:seed/infusion/spirited_crystal'})
   event.remove({id:'mysticalagriculture:seed/infusion/uraninite'})
+  event.remove({id:'mysticalagriculture:seed/infusion/refined_obsidian'})
 
   //Diamond
   event.custom({
@@ -472,6 +473,53 @@ onEvent('recipes', event => {
     "output": [
       {
         "item": "mysticalagriculture:uraninite_seeds",
+        "count": 1
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_constellation_finish",
+      "astralsorcery:built_in_effect_trait_relay_highlight",
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:built_in_effect_trait_focus_circle",
+      "astralsorcery:altar_default_sparkle",
+      "astralsorcery:built_in_effect_constellation_lines",
+      "astralsorcery:built_in_effect_attunement_sparkle"
+    ]
+  })
+
+  // refined_obsidian
+  event.custom({
+    "type": "astralsorcery:altar",
+    "altar_type": 3,
+    "duration": 600,
+    "starlight": 4000,
+    "pattern": [
+      "BAAAB",
+      "ADCDA",
+      "ACECA",
+      "ADCDA",
+      "BAAAB"
+    ],
+    "key": {
+      "A": {
+        "item": "astralsorcery:resonating_gem"
+      },
+      "B": {
+        "item": "bloodmagic:demonslate"
+      },
+      "C": {
+        "item": "mekanism:block_refined_obsidian"
+      },
+      "D": {
+        "item": "mysticalagriculture:supremium_block"
+      },
+      "E": {
+        "item": "botania:rune_greed"
+      }
+    },
+    "output": [
+      {
+        "item": "mysticalagriculture:refined_obsidian_seeds",
         "count": 1
       }
     ],

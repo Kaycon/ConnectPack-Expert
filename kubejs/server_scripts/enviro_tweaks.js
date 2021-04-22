@@ -24,7 +24,8 @@ onEvent('recipes', event => {
   event.remove({output: 'envirocore:obsidian_plate'})
   event.recipes.thermal.press(Item.of('envirocore:obsidian_plate', 8), ['minecraft:obsidian'])
   
-  event.recipes.thermal.smelter('envirocore:redstone_imbued_obsidian_plate', ['envirocore:obsidian_plate', Item.of('minecraft:redstone', 4)])
+  event.recipes.mekanism.metallurgic_infusing('envirocore:redstone_imbued_obsidian_plate', 'envirocore:obsidian_plate', 'mekanism:redstone', 40)
+
   event.recipes.thermal.smelter('envirocore:litherite_interconnect', ['envirocore:litherite_crystal', 'envirocore:redstone_imbued_obsidian_plate'])
   event.recipes.thermal.smelter('envirocore:erodium_interconnect', [Item.of('envirocore:erodium_crystal', 2), 'envirocore:redstone_imbued_obsidian_plate'])
   event.recipes.thermal.smelter('envirocore:kyronite_interconnect', [Item.of('envirocore:kyronite_crystal', 4), 'envirocore:redstone_imbued_obsidian_plate'])

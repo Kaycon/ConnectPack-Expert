@@ -34,6 +34,18 @@ onEvent('recipes', event => {
   event.remove({id: 'extendedcrafting:enhanced_ender_ingot'})
   event.recipes.thermal.smelter('extendedcrafting:enhanced_ender_ingot', [Item.of('thermal:enderium_ingot', 8), 'extendedcrafting:ender_star'])
 
+  //Black Ingot
+  event.remove({id: 'extendedcrafting:black_iron_ingot'})
+  event.recipes.thermal.smelter('extendedcrafting:black_iron_ingot', ['mekanism:ingot_steel', 'iceandfire:witherbone'])
+
+  //Redstone Ingot
+  event.remove({id: 'extendedcrafting:redstone_ingot'})
+  event.recipes.mekanism.metallurgic_infusing('extendedcrafting:redstone_ingot', 'minecraft:iron_ingot', 'mekanism:redstone', 160)
+
+  //Black Iron Slate
+  event.remove({id: 'extendedcrafting:black_iron_slate'})
+  event.recipes.thermal.press('extendedcrafting:black_iron_slate', ['extendedcrafting:black_iron_ingot'])
+
   //Crystaltine Ingot
   event.remove({id: 'extendedcrafting:crystaltine_ingot'})
   event.custom({

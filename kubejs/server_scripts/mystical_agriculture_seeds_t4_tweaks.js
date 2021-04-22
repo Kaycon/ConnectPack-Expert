@@ -28,7 +28,6 @@ onEvent('recipes', event => {
   event.remove({id:'mysticalagriculture:seed/infusion/elementium'})
   event.remove({id:'mysticalagriculture:seed/infusion/osmium'})
   event.remove({id:'mysticalagriculture:seed/infusion/refined_glowstone'})
-  event.remove({id:'mysticalagriculture:seed/infusion/refined_obsidian'})
   event.remove({id:'mysticalagriculture:seed/infusion/starmetal'})
   event.remove({id:'mysticalagriculture:seed/infusion/energized_steel'})
   event.remove({id:'mysticalagriculture:seed/infusion/blazing_crystal'})
@@ -940,54 +939,6 @@ onEvent('recipes', event => {
     "output": [
       {
         "item": "mysticalagriculture:refined_glowstone_seeds",
-        "count": 1
-      }
-    ],
-    "effects": [
-      "astralsorcery:built_in_effect_constellation_finish",
-      "astralsorcery:pillar_sparkle",
-      "astralsorcery:luminescence_flare",
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      
-      "astralsorcery:altar_default_sparkle",
-      "astralsorcery:built_in_effect_constellation_lines",
-      "astralsorcery:built_in_effect_attunement_sparkle"
-    ]
-  })
-
-  // refined_obsidian
-  event.custom({
-    "type": "astralsorcery:altar",
-    "altar_type": 2,
-    "duration": 400,
-    "starlight": 500,
-    "pattern": [
-      "BA_AB",
-      "ADCDA",
-      "_CEC_",
-      "ADCDA",
-      "BA_AB"
-    ],
-    "key": {
-      "A": {
-        "item": "astralsorcery:resonating_gem"
-      },
-      "B": {
-        "item": "bloodmagic:infusedslate"
-      },
-      "C": {
-        "item": "mekanism:block_refined_obsidian"
-      },
-      "D": {
-        "item": "mysticalagriculture:imperium_block"
-      },
-      "E": {
-        "item": "botania:rune_summer"
-      }
-    },
-    "output": [
-      {
-        "item": "mysticalagriculture:refined_obsidian_seeds",
         "count": 1
       }
     ],
