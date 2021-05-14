@@ -166,4 +166,13 @@ onEvent('jei.hide.items', event => {
   //Silver Block
   event.hide('immersiveengineering:storage_silver')
   event.hide('iceandfire:silver_block')
+  
+  
+  ///////////
+  // SULFUR
+  ///////////
+
+  //Sulfur Dust
+  event.hide('mekanism:dust_sulfur')
+  event.hide('immersiveengineering:dust_sulfur')
 })
