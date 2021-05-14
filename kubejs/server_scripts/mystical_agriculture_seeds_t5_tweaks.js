@@ -17,6 +17,16 @@ onEvent('recipes', event => {
   event.remove({id:'mysticalagriculture:seed/infusion/uraninite'})
   event.remove({id:'mysticalagriculture:seed/infusion/refined_obsidian'})
 
+  //Uraninite
+  event.remove({id:'mysticalagriculture:essence/powah/uraninite'})
+  event.shaped(Item.of('powah:uraninite', 2), [
+    'EEE',
+    'EEE',
+    'E E'
+  ], {
+    E: 'mysticalagriculture:uranium_essence'
+  })
+
   //Diamond
   event.custom({
     "type": "astralsorcery:altar",
@@ -426,53 +436,6 @@ onEvent('recipes', event => {
     "output": [
       {
         "item": "mysticalagriculture:spirited_crystal_seeds",
-        "count": 1
-      }
-    ],
-    "effects": [
-      "astralsorcery:built_in_effect_constellation_finish",
-      "astralsorcery:built_in_effect_trait_relay_highlight",
-      "astralsorcery:built_in_effect_discovery_central_beam",
-      "astralsorcery:built_in_effect_trait_focus_circle",
-      "astralsorcery:altar_default_sparkle",
-      "astralsorcery:built_in_effect_constellation_lines",
-      "astralsorcery:built_in_effect_attunement_sparkle"
-    ]
-  })
-
-  //Uraninite
-  event.custom({
-    "type": "astralsorcery:altar",
-    "altar_type": 3,
-    "duration": 600,
-    "starlight": 4000,
-    "pattern": [
-      "BAAAB",
-      "ADCDA",
-      "ACECA",
-      "ADCDA",
-      "BAAAB"
-    ],
-    "key": {
-      "A": {
-        "item": "astralsorcery:resonating_gem"
-      },
-      "B": {
-        "item": "bloodmagic:demonslate"
-      },
-      "C": {
-        "item": "powah:uraninite_block"
-      },
-      "D": {
-        "item": "mysticalagriculture:supremium_block"
-      },
-      "E": {
-        "item": "botania:rune_greed"
-      }
-    },
-    "output": [
-      {
-        "item": "mysticalagriculture:uraninite_seeds",
         "count": 1
       }
     ],
