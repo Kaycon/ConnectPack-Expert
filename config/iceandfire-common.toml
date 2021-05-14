@@ -193,7 +193,7 @@
 	"Spawn Death Worms" = true
 	#True if wild deathworms are allowed to target and attack monsters
 	"Death Worms Target Monsters" = true
-	#Deathworm spawn weight. Lower = lower chance to spawn
+	#Deathworm spawn weight. Higher = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Death Worm Spawn Weight" = 30
 	#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.

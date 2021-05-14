@@ -4,17 +4,17 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
@@ -23,17 +23,17 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
@@ -42,17 +42,17 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
@@ -61,17 +61,17 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
@@ -80,17 +80,17 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
@@ -99,21 +99,59 @@
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:g
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┃┏╸in:b
 ┃┃┃┣> Variable Type: java.lang.Integer
 ┃┃┃┣> Default: 255
-┃┃┃┣> label.valkyrielib.requirements: [0~255]
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
 ┃┏╸ma:piezo
+┃┃┏╸ma:default_base_color
+┃┃┃┏╸in:r
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┃┏╸in:g
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┃┏╸in:b
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┗╸
+┃┗╸
+┃┏╸ma:electrostatic
+┃┃┏╸ma:default_base_color
+┃┃┃┏╸in:r
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┃┏╸in:g
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┃┏╸in:b
+┃┃┃┣> Variable Type: java.lang.Integer
+┃┃┃┣> Default: 255
+┃┃┃┣> label.valkyrielib.requirements: [-2147483648~2147483647]
+┃┃┃┗╸
+┃┃┗╸
+┃┗╸
+┃┏╸ma:dimensional
 ┃┃┏╸ma:default_base_color
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer
@@ -132,7 +170,7 @@
 ┃┃┃┗╸
 ┃┃┗╸
 ┃┗╸
-┃┏╸ma:electrostatic
+┃┏╸ma:interdimensional
 ┃┃┏╸ma:default_base_color
 ┃┃┃┏╸in:r
 ┃┃┃┣> Variable Type: java.lang.Integer

@@ -1,0 +1,41 @@
+
+[general]
+	#Available: true, false [default: false]
+	Debug = false
+	#Available: true, false [default: false]
+	"Use vanilla armor bar" = false
+	#Available: true, false [default: true]
+	"Show armor value next to bar" = true
+	#Available: true, false [default: true]
+	"Stack health onto one bar" = true
+	#Available: true, false [default: true]
+	"Show health value next to bar" = true
+	#Available: true, false [default: false]
+	"Show armor bar when armor is zero" = false
+	#Available: true, false [default: true]
+	"Show resistance as border around armor" = true
+	#Available: SCI, GER, ENG [default: SCI]
+	SISuffix = "SCI"
+
+[textcolors]
+	#Available: 0x000000 - 0xffffff [default: 0x4c0000]
+	"Textcolor used when resistance is greater than 5" = "0x4c0000"
+	#Available: 0x000000 - 0xffffff [default: 0x3d3d3d]
+	"Textcolor used when no armor is equipped" = "0x3d3d3d"
+	#Available: 0x000000 - 0xffffff [default: 0x44ff11]
+	"Textcolor used when the armor value is smaller than 25" = "0x44ff11"
+	#Available: 0x000000 - 0xffffff [default: 0xff8811]
+	"Textcolor used when the armor value is equal to 25" = "0xff8811"
+	#Available: 0x000000 - 0xffffff [default: 0xff3311]
+	"Textcolor used when the armor value is greater than 25" = "0xff3311"
+	#Available: 0x000000 - 0xffffff [default: 0x947818]
+	"Textcolor used when the player is poisoned" = "0x947818"
+	#Available: 0x000000 - 0xffffff [default: 0x2b2b2b]
+	"Textcolor used when the player is withered" = "0x2b2b2b"
+	#Available: 0x000000 - 0xffffff [default: 0xff1313]
+	"Textcolor used when the player is neither poisoned nor withered" = "0xff1313"
+	#Available: 0x000000 - 0xffffff [default: 0x3d3d3d]
+	"Textcolor used for separation characters" = "0x3d3d3d"
+	#Available: 0x000000 - 0xffffff [default: 0xffc300]
+	"Textcolor used for absorption hearts" = "0xffc300"
+
