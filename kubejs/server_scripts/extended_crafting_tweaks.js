@@ -32,7 +32,7 @@ onEvent('recipes', event => {
 
   //Enhanced Ender Ingot
   event.remove({id: 'extendedcrafting:enhanced_ender_ingot'})
-  event.recipes.thermal.smelter('extendedcrafting:enhanced_ender_ingot', [Item.of('thermal:enderium_ingot', 8), 'extendedcrafting:ender_star'])
+  event.recipes.thermal.smelter('extendedcrafting:enhanced_ender_ingot', [Item.of('silentgear:azure_electrum_ingot', 8), 'extendedcrafting:ender_star'])
 
   //Black Ingot
   event.remove({id: 'extendedcrafting:black_iron_ingot'})
@@ -54,7 +54,7 @@ onEvent('recipes', event => {
     {"item": "powah:blazing_crystal_block"},
     {"item": "powah:niotic_crystal_block"},
     {"item": "powah:spirited_crystal_block"},
-    {"item": "minecraft:lapis_block"},
+    {"item": "astralsorcery:starmetal"},
     {"item": "silentgear:bort_block"},
     {"item": "thermal:lumium_block"}
     ],
