@@ -27,17 +27,25 @@
 			x: -4.5d,
 			y: -1.5d,
 			dependencies: ["0660798F75734778"],
+			size: 2.0d,
 			id: "2464EABD16BE7CFA",
 			tasks: [{
 				id: "02B13D9575C51427",
 				type: "item",
 				item: "industrialforegoing:latex_processing_unit"
 			}],
-			rewards: [{
-				id: "56D556119C54BA95",
-				type: "item",
-				item: "industrialforegoing:latex_bucket"
-			}]
+			rewards: [
+				{
+					id: "56D556119C54BA95",
+					type: "item",
+					item: "industrialforegoing:latex_bucket"
+				},
+				{
+					id: "1BFA779179C5125A",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
 		},
 		{
 			x: 1.0d,
@@ -60,17 +68,25 @@
 			x: 4.5d,
 			y: -1.5d,
 			dependencies: ["0ACA3DB4129961C8"],
+			size: 2.0d,
 			id: "5A48A013455EFCDD",
 			tasks: [{
 				id: "155AC73567F6B4EE",
 				type: "item",
 				item: "industrialforegoing:machine_frame_simple"
 			}],
-			rewards: [{
-				id: "3EFF9CE029DB2339",
-				type: "item",
-				item: "minecraft:shulker_spawn_egg"
-			}]
+			rewards: [
+				{
+					id: "3EFF9CE029DB2339",
+					type: "item",
+					item: "minecraft:shulker_spawn_egg"
+				},
+				{
+					id: "7BF76ACB7A2BEB04",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
 		},
 		{
 			x: -10.0d,
@@ -414,18 +430,26 @@
 			x: 8.0d,
 			y: -1.5d,
 			dependencies: ["5A48A013455EFCDD"],
+			size: 2.0d,
 			id: "314B5AA13F831B98",
 			tasks: [{
 				id: "0967F08AE115F840",
 				type: "item",
 				item: "industrialforegoing:machine_frame_advanced"
 			}],
-			rewards: [{
-				id: "57582C209E33F65D",
-				type: "item",
-				item: "industrialforegoing:pink_slime_ingot",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "57582C209E33F65D",
+					type: "item",
+					item: "industrialforegoing:pink_slime_ingot",
+					count: 8
+				},
+				{
+					id: "10E62F5D74E58585",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
 		},
 		{
 			x: 5.5d,

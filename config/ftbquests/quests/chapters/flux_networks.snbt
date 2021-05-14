@@ -57,7 +57,7 @@
 					id: "635A271D5D01342B",
 					type: "item",
 					item: "fluxnetworks:flux_core",
-					count: 2
+					count: 4
 				},
 				{
 					id: "69AE2AE4E0AD2BDE",
@@ -81,7 +81,7 @@
 					id: "1FF2B44F295938DD",
 					type: "item",
 					item: "fluxnetworks:flux_core",
-					count: 2
+					count: 8
 				},
 				{
 					id: "3A7F4F4C627E0E53",
@@ -105,7 +105,7 @@
 					id: "04A0C5E4A399B08B",
 					type: "item",
 					item: "fluxnetworks:flux_core",
-					count: 4
+					count: 16
 				},
 				{
 					id: "732E404905143EF7",
@@ -129,7 +129,7 @@
 					id: "4907F8312F666F5E",
 					type: "item",
 					item: "fluxnetworks:flux_core",
-					count: 16
+					count: 32
 				},
 				{
 					id: "6CC2B66EC075073C",

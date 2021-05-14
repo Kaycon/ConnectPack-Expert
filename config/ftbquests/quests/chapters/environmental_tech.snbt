@@ -62,7 +62,7 @@
 		{
 			x: -8.5d,
 			y: -0.5d,
-			dependencies: ["2F45BD3444EEDB8D"],
+			dependencies: ["1219536F88492185"],
 			id: "7BB79694A026314A",
 			tasks: [{
 				id: "04F2D7AE091AB80E",
@@ -279,23 +279,6 @@
 				id: "22E2100AA55E3501",
 				type: "xp_levels",
 				xp_levels: 200
-			}]
-		},
-		{
-			x: -10.0d,
-			y: -0.5d,
-			dependencies: ["3C6D02476A181093"],
-			id: "2F45BD3444EEDB8D",
-			tasks: [{
-				id: "223F348590AD56A9",
-				type: "item",
-				item: "envirocore:litherite_crystal"
-			}],
-			rewards: [{
-				id: "656269F8D31F29EB",
-				type: "item",
-				item: "envirocore:litherite_crystal",
-				count: 8
 			}]
 		}
 	]

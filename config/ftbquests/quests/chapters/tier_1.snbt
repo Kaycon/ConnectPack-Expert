@@ -223,13 +223,7 @@
 			tasks: [{
 				id: "1219536F88492185",
 				type: "item",
-				item: {
-					id: "envirotech:litherite_void_miner_ccu",
-					Count: 1b,
-					tag: {
-						colors: {}
-					}
-				}
+				item: "envirocore:litherite_crystal"
 			}],
 			rewards: [{
 				id: "0B0DF9583285D360",

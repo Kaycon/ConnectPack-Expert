@@ -11,6 +11,7 @@
 			x: -2.5d,
 			y: -0.5d,
 			dependencies: ["5AE9011F4E2572E0"],
+			size: 1.5d,
 			id: "49ED4FAEED7EA1AB",
 			tasks: [{
 				id: "3A07EF921F05E9B4",
@@ -27,45 +28,62 @@
 			x: -0.5d,
 			y: -0.5d,
 			dependencies: ["49ED4FAEED7EA1AB"],
+			size: 1.5d,
 			id: "15ADC3C18A3B0849",
 			tasks: [{
 				id: "46BACCA6F1214620",
 				type: "item",
 				item: "astralsorcery:altar_attunement"
 			}],
-			rewards: [{
-				id: "355062A6F26EF53A",
-				type: "item",
-				item: {
-					id: "astralsorcery:rock_crystal",
-					Count: 1b,
-					tag: {
-						astralsorcery: {}
+			rewards: [
+				{
+					id: "355062A6F26EF53A",
+					type: "item",
+					item: {
+						id: "astralsorcery:rock_crystal",
+						Count: 1b,
+						tag: {
+							astralsorcery: {}
+						}
 					}
+				},
+				{
+					id: "2540EAE21BB21F39",
+					type: "xp_levels",
+					xp_levels: 20
 				}
-			}]
+			]
 		},
 		{
 			x: 3.5d,
 			y: -0.5d,
 			dependencies: ["05F1B81D71E50413"],
+			size: 1.5d,
 			id: "06D9C62F516CCC59",
 			tasks: [{
 				id: "353D396A6EE7AE28",
 				type: "item",
 				item: "astralsorcery:altar_constellation"
 			}],
-			rewards: [{
-				id: "0768A4DC72C935D6",
-				type: "item",
-				item: "astralsorcery:spectral_relay",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0768A4DC72C935D6",
+					type: "item",
+					item: "astralsorcery:spectral_relay",
+					count: 4
+				},
+				{
+					id: "75A0ACE15CDF0E25",
+					type: "xp_levels",
+					xp_levels: 30
+				}
+			]
 		},
 		{
 			x: 5.5d,
 			y: -0.5d,
 			dependencies: ["06D9C62F516CCC59"],
+			size: 1.5d,
 			id: "7A29305C61D7FD05",
 			tasks: [{
 				id: "0035955694689091",
@@ -83,23 +101,31 @@
 			x: 7.5d,
 			y: -0.5d,
 			dependencies: ["7A29305C61D7FD05"],
+			size: 1.5d,
 			id: "0C8DBC38D2EA128C",
 			tasks: [{
 				id: "1E181288A47B0AFE",
 				type: "item",
 				item: "astralsorcery:altar_radiance"
 			}],
-			rewards: [{
-				id: "4F5D0395F6567FED",
-				type: "item",
-				item: {
-					id: "astralsorcery:celestial_crystal",
-					Count: 1b,
-					tag: {
-						astralsorcery: {}
+			rewards: [
+				{
+					id: "4F5D0395F6567FED",
+					type: "item",
+					item: {
+						id: "astralsorcery:celestial_crystal",
+						Count: 1b,
+						tag: {
+							astralsorcery: {}
+						}
 					}
+				},
+				{
+					id: "288896ADF71CE349",
+					type: "xp_levels",
+					xp_levels: 40
 				}
-			}]
+			]
 		},
 		{
 			x: -0.5d,
@@ -202,6 +228,7 @@
 			x: 1.5d,
 			y: -0.5d,
 			dependencies: ["15ADC3C18A3B0849"],
+			size: 1.5d,
 			id: "05F1B81D71E50413",
 			tasks: [{
 				id: "5881C2AE09987E60",
@@ -421,6 +448,7 @@
 			x: -4.5d,
 			y: -0.5d,
 			dependencies: ["0000000000000021"],
+			size: 1.5d,
 			id: "5AE9011F4E2572E0",
 			tasks: [{
 				id: "117E889F6380AB46",

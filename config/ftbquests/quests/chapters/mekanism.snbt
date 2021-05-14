@@ -11,6 +11,7 @@
 			x: -3.5d,
 			y: -4.0d,
 			dependencies: ["000000000000000C"],
+			size: 1.5d,
 			id: "44F53B60B2200D9D",
 			tasks: [{
 				id: "7B8BE205669E8AB0",
@@ -113,6 +114,7 @@
 			x: -0.5d,
 			y: -4.0d,
 			dependencies: ["44F53B60B2200D9D"],
+			size: 1.5d,
 			id: "6249E78700F97885",
 			tasks: [{
 				id: "2B8613C220D3A3F3",
@@ -130,6 +132,7 @@
 			x: 2.5d,
 			y: -4.0d,
 			dependencies: ["6249E78700F97885"],
+			size: 1.5d,
 			id: "26ABBFF5AD655DC2",
 			tasks: [{
 				id: "55703F7755B864EC",
@@ -147,6 +150,7 @@
 			x: 5.5d,
 			y: -4.0d,
 			dependencies: ["26ABBFF5AD655DC2"],
+			size: 1.5d,
 			id: "01199A8110D457B3",
 			tasks: [{
 				id: "515C5EEDE326801F",
@@ -163,6 +167,7 @@
 			x: 8.5d,
 			y: -4.0d,
 			dependencies: ["01199A8110D457B3"],
+			size: 1.5d,
 			id: "5FD625D49A483E1C",
 			tasks: [{
 				id: "7EBF6D419FCABC8C",

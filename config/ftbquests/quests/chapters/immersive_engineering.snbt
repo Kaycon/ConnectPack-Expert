@@ -37,6 +37,7 @@
 			x: 1.0d,
 			y: 0.0d,
 			dependencies: ["53CEE8ED4E53FA92"],
+			size: 1.5d,
 			id: "67EDDA59CE505CD3",
 			tasks: [{
 				id: "3ECF40E1A277FB87",

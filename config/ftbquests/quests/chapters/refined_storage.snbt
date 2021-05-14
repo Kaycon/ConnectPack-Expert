@@ -11,18 +11,26 @@
 			x: -5.5d,
 			y: -2.0d,
 			dependencies: ["0000000000000016"],
+			size: 1.5d,
 			id: "37D0DC9103EBE98E",
 			tasks: [{
 				id: "7775401FFFA3BC05",
 				type: "item",
 				item: "refinedstorage:controller"
 			}],
-			rewards: [{
-				id: "1E9B1E921CDEC110",
-				type: "item",
-				item: "refinedstorage:machine_casing",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "1E9B1E921CDEC110",
+					type: "item",
+					item: "refinedstorage:machine_casing",
+					count: 4
+				},
+				{
+					id: "3E369A23C7DF0B8B",
+					type: "xp_levels",
+					xp_levels: 50
+				}
+			]
 		},
 		{
 			x: -5.5d,
@@ -171,9 +179,10 @@
 				item: "refinedstorage:1k_storage_part"
 			}],
 			rewards: [{
-				id: "0B526CBC926A9DCF",
+				id: "2C619E2DA3B227D7",
 				type: "item",
-				item: "refinedstorage:1k_storage_part"
+				item: "refinedstorage:silicon",
+				count: 8
 			}]
 		},
 		{
@@ -189,7 +198,7 @@
 			rewards: [{
 				id: "4567D2FDF9EF8A2E",
 				type: "item",
-				item: "refinedstorage:4k_storage_part"
+				item: "refinedstorage:1k_storage_part"
 			}]
 		},
 		{
@@ -205,7 +214,7 @@
 			rewards: [{
 				id: "6EB4808A529D9FB9",
 				type: "item",
-				item: "refinedstorage:16k_storage_part"
+				item: "refinedstorage:4k_storage_part"
 			}]
 		},
 		{
@@ -222,7 +231,7 @@
 			rewards: [{
 				id: "1854FB8E0D758592",
 				type: "item",
-				item: "refinedstorage:64k_storage_part"
+				item: "refinedstorage:16k_storage_part"
 			}]
 		},
 		{
@@ -238,7 +247,7 @@
 			rewards: [{
 				id: "73D978B558962640",
 				type: "item",
-				item: "extradisks:256k_storage_part"
+				item: "refinedstorage:64k_storage_part"
 			}]
 		},
 		{
@@ -254,7 +263,7 @@
 			rewards: [{
 				id: "5881B020F69E7B36",
 				type: "item",
-				item: "extradisks:1024k_storage_part"
+				item: "extradisks:256k_storage_part"
 			}]
 		},
 		{
@@ -270,7 +279,7 @@
 			rewards: [{
 				id: "66E6C14FF3DAB391",
 				type: "item",
-				item: "extradisks:4096k_storage_part"
+				item: "extradisks:1024k_storage_part"
 			}]
 		},
 		{
@@ -286,7 +295,7 @@
 			rewards: [{
 				id: "642179CC0D0786A3",
 				type: "item",
-				item: "extradisks:16384k_storage_part"
+				item: "extradisks:4096k_storage_part"
 			}]
 		},
 		{
@@ -302,7 +311,7 @@
 			rewards: [{
 				id: "414747723192204E",
 				type: "item",
-				item: "extradisks:65536k_storage_part"
+				item: "extradisks:16384k_storage_part"
 			}]
 		},
 		{
@@ -318,7 +327,7 @@
 			rewards: [{
 				id: "3D1AF32FA6BFDA9A",
 				type: "item",
-				item: "extradisks:262144k_storage_part"
+				item: "extradisks:65536k_storage_part"
 			}]
 		},
 		{
@@ -335,7 +344,7 @@
 				{
 					id: "46E07C8D5F8D1B74",
 					type: "item",
-					item: "extradisks:1048576k_storage_part"
+					item: "extradisks:262144k_storage_part"
 				},
 				{
 					id: "5171FB162E3376D3",
