@@ -47,7 +47,9 @@ onEvent('recipes', event => {
     D: 'powah:dielectric_casing'
   })
 
-  event.shapeless('powah:uraninite', 'mekanism:ingot_uranium')
+  
+  event.recipes.thermal.pulverizer('mekanism:dust_uranium', ['powah:uraninite'])
+  event.smelting('powah:uraninite', ['mekanism:ingot_uranium'])
 
 
   /////////////////////
