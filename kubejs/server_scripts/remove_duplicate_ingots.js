@@ -172,4 +172,13 @@ onEvent('recipes', event => {
   //Silver Block
   event.replaceOutput({}, 'immersiveengineering:storage_silver', 'thermal:silver_block')
   event.replaceOutput({}, 'iceandfire:silver_block', 'thermal:silver_block')
+
+
+  ///////////
+  // Sulfur
+  ///////////
+  
+  //Sulfur Dust
+  event.replaceOutput({}, 'mekanism:dust_sulfur', 'thermal:sulfur_dust')
+  event.replaceOutput({}, 'immersiveengineering:dust_sulfur', 'thermal:sulfur_dust')
 })
