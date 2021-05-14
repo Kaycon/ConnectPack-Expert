@@ -34,6 +34,44 @@ onEvent('recipes', event => {
 
 
   // -----------------------------------
+  // Multi Block Parts
+  // -----------------------------------
+
+  event.remove({id: 'mekanismgenerators:fission_reactor/casing'})
+  event.shaped(Item.of('mekanismgenerators:fission_reactor_casing', 4), [
+    'LLL',
+    'LCL',
+    'LLL'
+  ], {
+    L: 'thermal:lead_plate',
+    C: 'mekanism:steel_casing'
+  })
+
+  event.remove({id: 'mekanism:structural_glass'})
+  event.shaped(Item.of('mekanism:structural_glass', 4), [
+    'PPP',
+    'PGP',
+    'PPP'
+  ], {
+    P: 'immersiveengineering:plate_steel',
+    G: 'thermal:obsidian_glass'
+  })
+  
+  event.remove({id: 'mekanismgenerators:reactor/glass'})
+  event.shapeless('mekanismgenerators:reactor_glass', ['mekanismgenerators:fission_reactor_casing', 'mekanism:structural_glass'])
+
+  event.remove({id: 'mekanismgenerators:electromagnetic_coil'})
+  event.shaped('mekanismgenerators:electromagnetic_coil', [
+    'NEN',
+    'ECE',
+    'NEN'
+  ], {
+    N: 'thermal:enderium_plate',
+    E: 'powah:steel_energized',
+    C: 'immersiveengineering:coil_hv'
+  })
+
+  // -----------------------------------
   // CONTROL CIRCUITS
   // -----------------------------------
 
