@@ -1,301 +1,285 @@
 {
-	id: "6DE845EC47E7CF4B",
-	group: "",
-	order_index: 7,
-	filename: "environmental_tech",
-	title: "Environmental Tech",
+	id: "6DE845EC47E7CF4B"
+	group: ""
+	order_index: 7
+	filename: "environmental_tech"
+	title: "Environmental Tech"
 	icon: {
-		id: "envirotech:litherite_void_miner_ccu",
-		Count: 1b,
+		id: "envirotech:litherite_void_miner_ccu"
+		Count: 1b
 		tag: {
-			colors: {}
+			colors: { }
 		}
-	},
-	default_quest_shape: "",
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.5d,
-			y: -0.5d,
-			dependencies: ["528869A627BC8546"],
-			id: "2E1CFE4814665CD8",
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["528869A627BC8546"]
+			id: "2E1CFE4814665CD8"
 			tasks: [{
-				id: "793D66CDFEF263DC",
-				type: "item",
+				id: "793D66CDFEF263DC"
+				type: "item"
 				item: {
-					id: "envirocore:fe_input",
-					Count: 1b,
+					id: "envirocore:fe_input"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "07EC2E9887199177",
-				type: "item",
-				item: "envirocore:litherite_crystal",
+				id: "07EC2E9887199177"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -4.0d,
-			y: -0.5d,
-			dependencies: ["2E1CFE4814665CD8"],
-			id: "1B7ED7A3CB838F24",
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["2E1CFE4814665CD8"]
+			id: "1B7ED7A3CB838F24"
 			tasks: [{
-				id: "779A46021C91FA3D",
-				type: "item",
+				id: "779A46021C91FA3D"
+				type: "item"
 				item: {
-					id: "envirocore:item_output",
-					Count: 1b,
+					id: "envirocore:item_output"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "004A59793ECBB267",
-				type: "item",
-				item: "envirocore:litherite_crystal",
+				id: "004A59793ECBB267"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -8.5d,
-			y: -0.5d,
-			dependencies: ["2F45BD3444EEDB8D"],
-			id: "7BB79694A026314A",
+			x: -8.5d
+			y: -0.5d
+			dependencies: ["1219536F88492185"]
+			id: "7BB79694A026314A"
 			tasks: [{
-				id: "04F2D7AE091AB80E",
-				type: "item",
+				id: "04F2D7AE091AB80E"
+				type: "item"
 				item: "envirocore:memory_programmer"
-			}],
+			}]
 			rewards: [{
-				id: "4F2E45669CE3CC32",
-				type: "item",
-				item: "envirocore:litherite_crystal",
+				id: "4F2E45669CE3CC32"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -7.0d,
-			y: -0.5d,
-			dependencies: ["7BB79694A026314A"],
-			id: "528869A627BC8546",
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["7BB79694A026314A"]
+			id: "528869A627BC8546"
 			tasks: [{
-				id: "0FCC4DB22091083F",
-				type: "item",
+				id: "0FCC4DB22091083F"
+				type: "item"
 				item: {
-					id: "envirocore:flash_memory",
-					Count: 1b,
+					id: "envirocore:flash_memory"
+					Count: 1b
 					tag: {
-						config: {}
+						config: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "6F3099D181BE9905",
-				type: "item",
-				item: "envirocore:litherite_crystal",
+				id: "6F3099D181BE9905"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -0.5d,
-			dependencies: ["1B7ED7A3CB838F24"],
-			id: "3C7DB408AEA7689F",
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["1B7ED7A3CB838F24"]
+			id: "3C7DB408AEA7689F"
 			tasks: [{
-				id: "591433007BD741B5",
-				type: "item",
+				id: "591433007BD741B5"
+				type: "item"
 				item: {
-					id: "envirotech:litherite_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:litherite_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "7BEDCBBEB09F0550",
-				type: "item",
-				item: "envirocore:litherite_crystal",
+				id: "7BEDCBBEB09F0550"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -0.5d,
-			dependencies: ["3C7DB408AEA7689F"],
-			id: "42BF124ED3A827D1",
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["3C7DB408AEA7689F"]
+			id: "42BF124ED3A827D1"
 			tasks: [{
-				id: "7F02D1BCAD6CA6B3",
-				type: "item",
+				id: "7F02D1BCAD6CA6B3"
+				type: "item"
 				item: {
-					id: "envirotech:erodium_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:erodium_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "6AB88DAF0FD7FF97",
-				type: "item",
-				item: "envirocore:erodium_crystal",
+				id: "6AB88DAF0FD7FF97"
+				type: "item"
+				item: "envirocore:erodium_crystal"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -0.5d,
-			dependencies: ["42BF124ED3A827D1"],
-			id: "6B724FC1F15E7244",
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["42BF124ED3A827D1"]
+			id: "6B724FC1F15E7244"
 			tasks: [{
-				id: "4AA8D7573D647A5C",
-				type: "item",
+				id: "4AA8D7573D647A5C"
+				type: "item"
 				item: {
-					id: "envirotech:kyronite_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:kyronite_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "26FA26ABC4F3321B",
-				type: "item",
-				item: "mysticalagriculture:imperium_essence",
+				id: "26FA26ABC4F3321B"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: -0.5d,
-			dependencies: ["6B724FC1F15E7244"],
-			id: "30E5D4ACC20D3C2B",
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["6B724FC1F15E7244"]
+			id: "30E5D4ACC20D3C2B"
 			tasks: [{
-				id: "3C963F3243F78212",
-				type: "item",
+				id: "3C963F3243F78212"
+				type: "item"
 				item: {
-					id: "envirotech:pladium_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:pladium_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "00891FE6EFE2F881",
-				type: "item",
-				item: "mysticalagriculture:supremium_essence",
+				id: "00891FE6EFE2F881"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: -0.5d,
-			dependencies: ["6B724FC1F15E7244"],
-			id: "32371AC6CABAE1BC",
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["6B724FC1F15E7244"]
+			id: "32371AC6CABAE1BC"
 			tasks: [{
-				id: "43E232C2042B5BD6",
-				type: "item",
+				id: "43E232C2042B5BD6"
+				type: "item"
 				item: {
-					id: "envirotech:ionite_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:ionite_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "190BA22423EAB198",
-				type: "item",
-				item: "mysticalagradditions:insanium_essence",
+				id: "190BA22423EAB198"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: -0.5d,
-			dependencies: ["32371AC6CABAE1BC"],
-			id: "7B96EB8DF9CEF356",
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["32371AC6CABAE1BC"]
+			id: "7B96EB8DF9CEF356"
 			tasks: [{
-				id: "0CDE03382E071E96",
-				type: "item",
+				id: "0CDE03382E071E96"
+				type: "item"
 				item: {
-					id: "envirotech:aethium_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:aethium_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "420B910DC3C52B6B",
-				type: "item",
-				item: "extendedcrafting:the_ultimate_ingot",
+				id: "420B910DC3C52B6B"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
 				count: 2
 			}]
-		},
+		}
 		{
-			x: 6.5d,
-			y: -0.5d,
-			dependencies: ["7B96EB8DF9CEF356"],
-			id: "7EF1E981F427A2E4",
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["7B96EB8DF9CEF356"]
+			id: "7EF1E981F427A2E4"
 			tasks: [{
-				id: "4A14C5B57CF29465",
-				type: "item",
+				id: "4A14C5B57CF29465"
+				type: "item"
 				item: {
-					id: "envirotech:nanorite_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:nanorite_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "4743BC3399257C2C",
-				type: "item",
+				id: "4743BC3399257C2C"
+				type: "item"
 				item: "avaritia:pileof_neutrons"
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: -0.5d,
-			dependencies: ["7EF1E981F427A2E4"],
-			id: "2F77E8CB9752D77C",
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["7EF1E981F427A2E4"]
+			id: "2F77E8CB9752D77C"
 			tasks: [{
-				id: "3DF69F5788A97E51",
-				type: "item",
+				id: "3DF69F5788A97E51"
+				type: "item"
 				item: {
-					id: "envirotech:xerothium_void_miner_ccu",
-					Count: 1b,
+					id: "envirotech:xerothium_void_miner_ccu"
+					Count: 1b
 					tag: {
-						colors: {}
+						colors: { }
 					}
 				}
-			}],
-			rewards: [{
-				id: "22E2100AA55E3501",
-				type: "xp_levels",
-				xp_levels: 200
 			}]
-		},
-		{
-			x: -10.0d,
-			y: -0.5d,
-			dependencies: ["3C6D02476A181093"],
-			id: "2F45BD3444EEDB8D",
-			tasks: [{
-				id: "223F348590AD56A9",
-				type: "item",
-				item: "envirocore:litherite_crystal"
-			}],
 			rewards: [{
-				id: "656269F8D31F29EB",
-				type: "item",
-				item: "envirocore:litherite_crystal",
-				count: 8
+				id: "22E2100AA55E3501"
+				type: "xp_levels"
+				xp_levels: 200
 			}]
 		}
 	]

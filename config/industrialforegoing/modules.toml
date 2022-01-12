@@ -29,6 +29,15 @@
 		[modules.agriculture.animal_baby_separator]
 			enabled = true
 
+		[modules.agriculture.hydroponic_bed]
+			enabled = true
+
+		[modules.agriculture.mob_duplicator]
+			enabled = true
+
+		[modules.agriculture.wither_builder]
+			enabled = true
+
 	#Module for all the Industrial Foregoing basic features
 	[modules.core]
 		enabled = true
@@ -97,6 +106,12 @@
 		[modules.core.laser_lens]
 			enabled = true
 
+		[modules.core.ore_meat]
+			enabled = true
+
+		[modules.core.processing_addons]
+			enabled = true
+
 	#All machines that generate power
 	[modules.generator]
 		enabled = true
@@ -159,6 +174,15 @@
 		[modules.transport.supreme_black_hole_tank]
 			enabled = true
 
+		[modules.transport.black_hole_units]
+			enabled = true
+
+		[modules.transport.black_hole_tanks]
+			enabled = true
+
+		[modules.transport.transporters]
+			enabled = true
+
 	#A collection of Industrial Foregoing tools
 	[modules.tools]
 		enabled = true
@@ -185,6 +209,12 @@
 			enabled = true
 
 		[modules.tools.infinity_backpack]
+			enabled = true
+
+		[modules.tools.infinity_launcher]
+			enabled = true
+
+		[modules.tools.infinity_nuke]
 			enabled = true
 
 	[modules.resource_production]
@@ -236,6 +266,15 @@
 			enabled = true
 
 		[modules.resource_production.fluid_laser_base]
+			enabled = true
+
+		[modules.resource_production.washing_factory]
+			enabled = true
+
+		[modules.resource_production.fluid_sieving_machine]
+			enabled = true
+
+		[modules.resource_production.fermentation_station]
 			enabled = true
 
 	#Random things that don't fit

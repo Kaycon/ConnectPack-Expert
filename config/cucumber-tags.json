@@ -27,5 +27,9 @@
   "forge:ingots/graphite": "null",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:ingots/signalum": "thermal:signalum_ingot",
-  "forge:ingots/enderium": "thermal:enderium_ingot"
+  "forge:ingots/enderium": "thermal:enderium_ingot",
+  "forge:gems/apatite": "thermal:apatite",
+  "forge:dusts/niter": "thermal:niter_dust",
+  "forge:gems/sapphire": "iceandfire:sapphire_gem",
+  "forge:gems/ruby": "thermal:ruby"
 }

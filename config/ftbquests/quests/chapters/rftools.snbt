@@ -1,284 +1,285 @@
 {
-	id: "5C8D7A69BB4A900A",
-	group: "",
-	order_index: 10,
-	filename: "rftools",
-	title: "RFTools",
-	icon: "rftoolsbase:machine_frame",
-	default_quest_shape: "",
+	id: "5C8D7A69BB4A900A"
+	group: ""
+	order_index: 10
+	filename: "rftools"
+	title: "RFTools"
+	icon: "rftoolsbase:machine_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.5d,
-			y: -1.5d,
-			dependencies: ["000000000000001C"],
-			id: "4C6C40FD5286A921",
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["000000000000001C"]
+			id: "4C6C40FD5286A921"
 			tasks: [{
-				id: "42B13E6D3C03ABFD",
-				type: "item",
+				id: "42B13E6D3C03ABFD"
+				type: "item"
 				item: "rftoolsbuilder:builder"
-			}],
+			}]
 			rewards: [
 				{
-					id: "332504BA8E652CA0",
-					type: "item",
-					item: "thermal:enderium_ingot",
+					id: "332504BA8E652CA0"
+					type: "item"
+					item: "thermal:enderium_ingot"
 					count: 4
-				},
+				}
 				{
-					id: "119405C79645D710",
-					type: "item",
-					item: "mekanism:ingot_refined_obsidian",
+					id: "119405C79645D710"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
 					count: 4
-				},
+				}
 				{
-					id: "2E7E8E5BD19115F2",
-					type: "item",
-					item: "minecraft:netherite_ingot",
+					id: "2E7E8E5BD19115F2"
+					type: "item"
+					item: "minecraft:netherite_ingot"
 					count: 4
-				},
+				}
 				{
-					id: "73DBF332F653608C",
-					type: "item",
-					item: "industrialforegoing:pink_slime_ingot",
+					id: "73DBF332F653608C"
+					type: "item"
+					item: "industrialforegoing:pink_slime_ingot"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -4.5d,
-			dependencies: ["564152C5CB8FC5B8"],
-			id: "77B1209CBE533042",
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["564152C5CB8FC5B8"]
+			id: "77B1209CBE533042"
 			tasks: [{
-				id: "187DB84C48137155",
-				type: "item",
+				id: "187DB84C48137155"
+				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry"
-			}],
+			}]
 			rewards: [{
-				id: "6AF7FE4D0ED508C9",
-				type: "item",
-				item: "rftoolsbase:dimensionalshard",
+				id: "6AF7FE4D0ED508C9"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -3.0d,
-			dependencies: ["4C6C40FD5286A921"],
-			id: "564152C5CB8FC5B8",
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["4C6C40FD5286A921"]
+			id: "564152C5CB8FC5B8"
 			tasks: [{
-				id: "78E9730C37A1A846",
-				type: "item",
+				id: "78E9730C37A1A846"
+				type: "item"
 				item: "rftoolsbuilder:shape_card_def"
-			}],
+			}]
 			rewards: [
 				{
-					id: "591FC7051F7BFC4A",
-					type: "item",
-					item: "minecraft:diamond",
+					id: "591FC7051F7BFC4A"
+					type: "item"
+					item: "minecraft:diamond"
 					count: 16
-				},
+				}
 				{
-					id: "009ABECD43991F02",
-					type: "xp_levels",
+					id: "009ABECD43991F02"
+					type: "xp_levels"
 					xp_levels: 30
 				}
 			]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -6.0d,
-			dependencies: ["77B1209CBE533042"],
-			id: "158BD1C99388EEE4",
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["77B1209CBE533042"]
+			id: "158BD1C99388EEE4"
 			tasks: [{
-				id: "1B755BFEACC805F9",
-				type: "item",
+				id: "1B755BFEACC805F9"
+				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_fortune"
-			}],
+			}]
 			rewards: [{
-				id: "495C06CEAAE5F581",
-				type: "item",
+				id: "495C06CEAAE5F581"
+				type: "item"
 				item: "mysticalagradditions:insanium_ingot"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -6.0d,
-			dependencies: ["77B1209CBE533042"],
-			id: "0487DE0D20066FF9",
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["77B1209CBE533042"]
+			id: "0487DE0D20066FF9"
 			tasks: [{
-				id: "3FF4117171B6F5F4",
-				type: "item",
+				id: "3FF4117171B6F5F4"
+				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_silk"
-			}],
+			}]
 			rewards: [{
-				id: "03C6ADA6E32DEFBB",
-				type: "item",
+				id: "03C6ADA6E32DEFBB"
+				type: "item"
 				item: "mysticalagradditions:insanium_ingot"
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -0.5d,
-			dependencies: ["000000000000001C"],
-			id: "6DE905FDC95F8166",
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["000000000000001C"]
+			id: "6DE905FDC95F8166"
 			tasks: [{
-				id: "0143538CF94C4B5A",
-				type: "item",
-				item: "rftoolsutility:syringe"
-			}],
-			rewards: [{
-				id: "30DC3CDCCE289B8F",
-				type: "item",
+				id: "0143538CF94C4B5A"
+				type: "item"
 				item: "rftoolsutility:syringe"
 			}]
-		},
-		{
-			x: 0.0d,
-			y: -0.5d,
-			dependencies: ["6DE905FDC95F8166"],
-			id: "0ACDD009F9D90A55",
-			tasks: [{
-				id: "3D90EA29E0975909",
-				type: "item",
-				item: "rftoolsutility:spawner"
-			}],
 			rewards: [{
-				id: "130665A5EB52B39A",
-				type: "item",
-				item: "minecraft:netherite_ingot",
+				id: "30DC3CDCCE289B8F"
+				type: "item"
+				item: "rftoolsutility:syringe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["6DE905FDC95F8166"]
+			id: "0ACDD009F9D90A55"
+			tasks: [{
+				id: "3D90EA29E0975909"
+				type: "item"
+				item: "rftoolsutility:spawner"
+			}]
+			rewards: [{
+				id: "130665A5EB52B39A"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 				count: 6
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: 2.0d,
-			dependencies: ["7E92A78D1134D7E1"],
-			id: "0A7BD3D618B84DFB",
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["7E92A78D1134D7E1"]
+			id: "0A7BD3D618B84DFB"
 			tasks: [{
-				id: "75B8C34E76E277D8",
-				type: "item",
+				id: "75B8C34E76E277D8"
+				type: "item"
 				item: "rftoolsdim:dimlet_workbench"
-			}],
+			}]
 			rewards: [
 				{
-					id: "088FDE84B3DAA9AC",
-					type: "item",
+					id: "088FDE84B3DAA9AC"
+					type: "item"
 					item: "rftoolsdim:terrain_dimlet"
-				},
+				}
 				{
-					id: "016F8E58EADF4D36",
-					type: "item",
+					id: "016F8E58EADF4D36"
+					type: "item"
 					item: "rftoolsdim:feature_dimlet"
-				},
+				}
 				{
-					id: "158361A7F79D7D19",
-					type: "item",
+					id: "158361A7F79D7D19"
+					type: "item"
 					item: "rftoolsdim:block_dimlet"
 				}
 			]
-		},
+		}
 		{
-			x: -2.5d,
-			y: 0.5d,
-			dependencies: ["000000000000001C"],
-			id: "7E92A78D1134D7E1",
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["000000000000001C"]
+			id: "7E92A78D1134D7E1"
 			tasks: [{
-				id: "14378EAE9369BD22",
-				type: "item",
-				item: "rftoolsdim:empty_dimension_tab"
-			}],
-			rewards: [{
-				id: "555A3F05E9F9054B",
-				type: "item",
+				id: "14378EAE9369BD22"
+				type: "item"
 				item: "rftoolsdim:empty_dimension_tab"
 			}]
-		},
-		{
-			x: -2.5d,
-			y: 3.5d,
-			dependencies: ["0A7BD3D618B84DFB"],
-			id: "7CB231251B6FE68F",
-			tasks: [{
-				id: "42DF43C98EDC3BA4",
-				type: "item",
-				item: "rftoolsdim:enscriber"
-			}],
 			rewards: [{
-				id: "2EBBC3CA34DB548A",
-				type: "item",
-				item: "rftoolsbase:machine_frame",
+				id: "555A3F05E9F9054B"
+				type: "item"
+				item: "rftoolsdim:empty_dimension_tab"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["0A7BD3D618B84DFB"]
+			id: "7CB231251B6FE68F"
+			tasks: [{
+				id: "42DF43C98EDC3BA4"
+				type: "item"
+				item: "rftoolsdim:enscriber"
+			}]
+			rewards: [{
+				id: "2EBBC3CA34DB548A"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: 6.5d,
-			dependencies: ["57456C6EA6936340"],
-			id: "3A9AFB27CF94AB88",
+			x: -2.5d
+			y: 6.5d
+			dependencies: ["57456C6EA6936340"]
+			id: "3A9AFB27CF94AB88"
 			tasks: [{
-				id: "315D96EFAB042373",
-				type: "item",
+				id: "315D96EFAB042373"
+				type: "item"
 				item: "rftoolsdim:dimension_builder"
-			}],
+			}]
 			rewards: [
 				{
-					id: "28DC66F9AB0EF657",
-					type: "xp_levels",
+					id: "28DC66F9AB0EF657"
+					type: "xp_levels"
 					xp_levels: 200
-				},
+				}
 				{
-					id: "42A4A38748CFCC07",
-					type: "item",
+					id: "42A4A38748CFCC07"
+					type: "item"
 					item: "minecraft:nether_star"
 				}
 			]
-		},
+		}
 		{
-			x: -2.5d,
-			y: 5.0d,
-			dependencies: ["7CB231251B6FE68F"],
-			id: "57456C6EA6936340",
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["7CB231251B6FE68F"]
+			id: "57456C6EA6936340"
 			tasks: [{
-				id: "578D796CEFDD054A",
-				type: "item",
-				item: "rftoolsutility:dialing_device"
-			}],
-			rewards: [{
-				id: "17794D87C8782423",
-				type: "item",
+				id: "578D796CEFDD054A"
+				type: "item"
 				item: "rftoolsutility:dialing_device"
 			}]
-		},
-		{
-			x: -1.0d,
-			y: 5.0d,
-			dependencies: ["57456C6EA6936340"],
-			id: "70AF40AA9FFAD87A",
-			tasks: [{
-				id: "31C54CD416401E43",
-				type: "item",
-				item: "rftoolsutility:matter_transmitter"
-			}],
 			rewards: [{
-				id: "22875B9A7745C1B3",
-				type: "item",
+				id: "17794D87C8782423"
+				type: "item"
+				item: "rftoolsutility:dialing_device"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["57456C6EA6936340"]
+			id: "70AF40AA9FFAD87A"
+			tasks: [{
+				id: "31C54CD416401E43"
+				type: "item"
 				item: "rftoolsutility:matter_transmitter"
 			}]
-		},
+			rewards: [{
+				id: "22875B9A7745C1B3"
+				type: "item"
+				item: "rftoolsutility:matter_transmitter"
+			}]
+		}
 		{
-			x: -4.0d,
-			y: 5.0d,
-			dependencies: ["57456C6EA6936340"],
-			id: "24D0F7F5E11872AD",
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["57456C6EA6936340"]
+			id: "24D0F7F5E11872AD"
 			tasks: [{
-				id: "23132EA224F27BA8",
-				type: "item",
+				id: "23132EA224F27BA8"
+				type: "item"
 				item: "rftoolsutility:matter_receiver"
-			}],
+			}]
 			rewards: [{
-				id: "769AB5AE2C8901E4",
-				type: "item",
+				id: "769AB5AE2C8901E4"
+				type: "item"
 				item: "rftoolsutility:matter_receiver"
 			}]
 		}

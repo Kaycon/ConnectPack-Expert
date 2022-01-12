@@ -1,275 +1,119 @@
 {
-	id: "730C2D395F8B0314",
-	group: "",
-	order_index: 13,
-	filename: "endgame",
-	title: "Endgame",
-	icon: "extendedcrafting:elite_table",
-	default_quest_shape: "",
+	id: "730C2D395F8B0314"
+	group: ""
+	order_index: 13
+	filename: "endgame"
+	title: "Endgame"
+	icon: "extendedcrafting:elite_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.0d,
-			y: -1.0d,
-			dependencies: ["0000000000000025"],
-			id: "517AC4FBF05B5037",
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["0000000000000025"]
+			size: 2.0d
+			id: "517AC4FBF05B5037"
 			tasks: [{
-				id: "026BB875311BE393",
-				type: "item",
+				id: "026BB875311BE393"
+				type: "item"
 				item: "extendedcrafting:compressor"
-			}],
-			rewards: [{
-				id: "183192B266F20765",
-				type: "item",
-				item: "extendedcrafting:compressor",
-				count: 3
 			}]
-		},
+			rewards: [
+				{
+					id: "183192B266F20765"
+					type: "item"
+					item: "extendedcrafting:compressor"
+					count: 3
+				}
+				{
+					id: "5FB3E0ABE45F4B50"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+		}
 		{
-			x: -4.0d,
-			y: -1.0d,
-			dependencies: ["517AC4FBF05B5037"],
-			id: "25C7B4C95F492FF5",
+			x: -1.5d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["517AC4FBF05B5037"]
+			size: 2.0d
+			id: "25C7B4C95F492FF5"
 			tasks: [{
-				id: "785F2B7A841168FF",
-				type: "item",
+				id: "785F2B7A841168FF"
+				type: "item"
 				item: "extendedcrafting:ultimate_singularity"
-			}],
+			}]
 			rewards: [{
-				id: "297A94CD1DC00FED",
-				type: "xp_levels",
+				id: "297A94CD1DC00FED"
+				type: "xp_levels"
 				xp_levels: 200
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.0d,
-			shape: "pentagon",
-			dependencies: ["25C7B4C95F492FF5"],
-			size: 1.5d,
-			id: "7925F23C7D41BA40",
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["25C7B4C95F492FF5"]
+			id: "2635A2C53B77E4EF"
 			tasks: [{
-				id: "1B17207F58C3D0C8",
-				type: "item",
-				item: "avaritia:infinity_ingot"
-			}]
-		},
-		{
-			x: -1.0d,
-			y: -4.5d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "2635A2C53B77E4EF",
-			tasks: [{
-				id: "11393AABD677CD64",
-				type: "item",
+				id: "11393AABD677CD64"
+				type: "item"
 				item: "extradisks:infinite_storage_part"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 1.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "68CB637FC437035E",
+			x: -7.5d
+			y: -3.0d
+			dependencies: ["517AC4FBF05B5037"]
+			id: "23B64C2D44E35E48"
 			tasks: [{
-				id: "3C1C3EA71F79A10D",
-				type: "item",
-				item: {
-					id: "avaritia:infinity_armor_helmet",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 2.0d,
-			dependencies: ["68CB637FC437035E"],
-			id: "09A6EF6EDBA15BC8",
-			tasks: [{
-				id: "16234010F680A6EC",
-				type: "item",
-				item: {
-					id: "avaritia:infinity_armor_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 3.0d,
-			dependencies: ["09A6EF6EDBA15BC8"],
-			id: "4F5CE317514CBCDB",
-			tasks: [{
-				id: "2B3156BFBF1CB58D",
-				type: "item",
-				item: {
-					id: "avaritia:infinity_armor_leggings",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 4.0d,
-			dependencies: ["4F5CE317514CBCDB"],
-			id: "79D08AB086864A66",
-			tasks: [{
-				id: "451647432FB54439",
-				type: "item",
-				item: {
-					id: "avaritia:infinity_armor_boots",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -2.0d,
-			y: 1.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "1867BBDD641096DF",
-			tasks: [{
-				id: "78467E9C215A8203",
-				type: "item",
-				item: {
-					id: "avaritia:swordofthe_cosmos",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -2.0d,
-			y: 2.0d,
-			dependencies: ["1867BBDD641096DF"],
-			id: "685BC8126A9A2527",
-			tasks: [{
-				id: "1532723F81BAAE6F",
-				type: "item",
-				item: {
-					id: "avaritia:longbowofthe_heavens",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: 0.0d,
-			y: 1.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			dependency_requirement: "one_started",
-			id: "2DCCE46355B11062",
-			tasks: [{
-				id: "1C749F364E284A55",
-				type: "item",
-				item: {
-					id: "avaritia:world_breaker",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: 0.0d,
-			y: 2.0d,
-			dependencies: ["2DCCE46355B11062"],
-			id: "74853D3BDBC26596",
-			tasks: [{
-				id: "18EBD1FD0304057B",
-				type: "item",
-				item: {
-					id: "avaritia:natures_ruin",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: 0.0d,
-			y: 3.0d,
-			dependencies: ["74853D3BDBC26596"],
-			id: "7656548460EBAC88",
-			tasks: [{
-				id: "0C71276E32265834",
-				type: "item",
-				item: {
-					id: "avaritia:hoeofthe_green_earth",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -2.5d,
-			y: -3.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "23B64C2D44E35E48",
-			tasks: [{
-				id: "5D6D4302E6BC0772",
-				type: "item",
+				id: "5D6D4302E6BC0772"
+				type: "item"
 				item: "refinedstorage:creative_wireless_grid"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -4.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "5F4CE082F0436986",
+			x: -6.5d
+			y: -4.0d
+			dependencies: ["517AC4FBF05B5037"]
+			id: "5F4CE082F0436986"
 			tasks: [{
-				id: "506A3286818932C6",
-				type: "item",
+				id: "506A3286818932C6"
+				type: "item"
 				item: "refinedstorage:creative_wireless_fluid_grid"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -4.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "74B4ADE8EDCCF9FF",
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["517AC4FBF05B5037"]
+			id: "74B4ADE8EDCCF9FF"
 			tasks: [{
-				id: "75B3044D5EADD4FE",
-				type: "item",
+				id: "75B3044D5EADD4FE"
+				type: "item"
 				item: "refinedstorage:creative_wireless_crafting_monitor"
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -3.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "329FCA042CC46224",
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["517AC4FBF05B5037"]
+			id: "329FCA042CC46224"
 			tasks: [{
-				id: "2F5E013FF2AFA22C",
-				type: "item",
+				id: "2F5E013FF2AFA22C"
+				type: "item"
 				item: "refinedstorageaddons:creative_wireless_crafting_grid"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -1.0d,
-			dependencies: ["7925F23C7D41BA40"],
-			id: "3571ED9D9C67C931",
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["517AC4FBF05B5037"]
+			id: "3571ED9D9C67C931"
 			tasks: [{
-				id: "04109E8274337FAB",
-				type: "item",
+				id: "04109E8274337FAB"
+				type: "item"
 				item: "botania:creative_pool"
 			}]
 		}

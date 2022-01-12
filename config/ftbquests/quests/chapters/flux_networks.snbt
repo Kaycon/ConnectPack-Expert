@@ -1,139 +1,140 @@
 {
-	id: "4CFB0331D6F53451",
-	group: "",
-	order_index: 8,
-	filename: "flux_networks",
-	title: "Flux Networks",
-	icon: "fluxnetworks:flux_core",
-	default_quest_shape: "",
+	id: "4CFB0331D6F53451"
+	group: ""
+	order_index: 8
+	filename: "flux_networks"
+	title: "Flux Networks"
+	icon: "fluxnetworks:flux_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -4.0d,
-			y: -1.5d,
-			dependencies: ["082B87B63624C167"],
-			id: "1991371E56054500",
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["082B87B63624C167"]
+			id: "1991371E56054500"
 			tasks: [{
-				id: "288F1A2C207A5767",
-				type: "item",
-				item: "fluxnetworks:flux_point"
-			}],
-			rewards: [{
-				id: "07980EBADEEFE277",
-				type: "item",
+				id: "288F1A2C207A5767"
+				type: "item"
 				item: "fluxnetworks:flux_point"
 			}]
-		},
-		{
-			x: -4.0d,
-			y: -3.5d,
-			dependencies: ["082B87B63624C167"],
-			id: "6A4167B6A676F2BF",
-			tasks: [{
-				id: "38EA07162EED91C7",
-				type: "item",
-				item: "fluxnetworks:flux_plug"
-			}],
 			rewards: [{
-				id: "23E571FE5C4746E6",
-				type: "item",
+				id: "07980EBADEEFE277"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["082B87B63624C167"]
+			id: "6A4167B6A676F2BF"
+			tasks: [{
+				id: "38EA07162EED91C7"
+				type: "item"
 				item: "fluxnetworks:flux_plug"
 			}]
-		},
+			rewards: [{
+				id: "23E571FE5C4746E6"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
 		{
-			x: -2.5d,
-			y: -2.5d,
+			x: -2.5d
+			y: -2.5d
 			dependencies: [
-				"6A4167B6A676F2BF",
+				"6A4167B6A676F2BF"
 				"1991371E56054500"
-			],
-			id: "57DC26901BB2250B",
+			]
+			id: "57DC26901BB2250B"
 			tasks: [{
-				id: "36AE827231596507",
-				type: "item",
+				id: "36AE827231596507"
+				type: "item"
 				item: "fluxnetworks:flux_controller"
-			}],
+			}]
 			rewards: [
 				{
-					id: "635A271D5D01342B",
-					type: "item",
-					item: "fluxnetworks:flux_core",
-					count: 2
-				},
-				{
-					id: "69AE2AE4E0AD2BDE",
-					type: "xp_levels",
-					xp_levels: 30
-				}
-			]
-		},
-		{
-			x: -1.0d,
-			y: -2.5d,
-			dependencies: ["57DC26901BB2250B"],
-			id: "6187AB3D3200F19A",
-			tasks: [{
-				id: "4180C24C93010E94",
-				type: "item",
-				item: "fluxnetworks:basic_flux_storage"
-			}],
-			rewards: [
-				{
-					id: "1FF2B44F295938DD",
-					type: "item",
-					item: "fluxnetworks:flux_core",
-					count: 2
-				},
-				{
-					id: "3A7F4F4C627E0E53",
-					type: "xp_levels",
-					xp_levels: 30
-				}
-			]
-		},
-		{
-			x: 0.5d,
-			y: -2.5d,
-			dependencies: ["6187AB3D3200F19A"],
-			id: "5108F8AF0C6F2CC4",
-			tasks: [{
-				id: "155FECE7F7BDFB23",
-				type: "item",
-				item: "fluxnetworks:herculean_flux_storage"
-			}],
-			rewards: [
-				{
-					id: "04A0C5E4A399B08B",
-					type: "item",
-					item: "fluxnetworks:flux_core",
+					id: "635A271D5D01342B"
+					type: "item"
+					item: "fluxnetworks:flux_core"
 					count: 4
-				},
+				}
 				{
-					id: "732E404905143EF7",
-					type: "xp_levels",
+					id: "69AE2AE4E0AD2BDE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["57DC26901BB2250B"]
+			id: "6187AB3D3200F19A"
+			tasks: [{
+				id: "4180C24C93010E94"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "1FF2B44F295938DD"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 8
+				}
+				{
+					id: "3A7F4F4C627E0E53"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["6187AB3D3200F19A"]
+			id: "5108F8AF0C6F2CC4"
+			tasks: [{
+				id: "155FECE7F7BDFB23"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "04A0C5E4A399B08B"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 16
+				}
+				{
+					id: "732E404905143EF7"
+					type: "xp_levels"
 					xp_levels: 50
 				}
 			]
-		},
+		}
 		{
-			x: 2.0d,
-			y: -2.5d,
-			dependencies: ["5108F8AF0C6F2CC4"],
-			id: "54ADDCF24682325B",
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["5108F8AF0C6F2CC4"]
+			id: "54ADDCF24682325B"
 			tasks: [{
-				id: "15865CD9710CB5D6",
-				type: "item",
+				id: "15865CD9710CB5D6"
+				type: "item"
 				item: "fluxnetworks:gargantuan_flux_storage"
-			}],
+			}]
 			rewards: [
 				{
-					id: "4907F8312F666F5E",
-					type: "item",
-					item: "fluxnetworks:flux_core",
-					count: 16
-				},
+					id: "4907F8312F666F5E"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 32
+				}
 				{
-					id: "6CC2B66EC075073C",
-					type: "xp_levels",
+					id: "6CC2B66EC075073C"
+					type: "xp_levels"
 					xp_levels: 70
 				}
 			]

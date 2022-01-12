@@ -54,5 +54,7 @@
       "in:g:[0~255]": 255,
       "in:b:[0~255]": 255
     }
-  }
+  },
+  "ma:dimensional": {},
+  "ma:interdimensional": {}
 }

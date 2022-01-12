@@ -9,7 +9,7 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "metallic"
+	modelType = "crystal"
 
 [create]
 	#The byproduct material to output in Create's crushing.

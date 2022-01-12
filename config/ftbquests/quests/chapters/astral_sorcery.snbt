@@ -1,163 +1,190 @@
 {
-	id: "29B43B7945E24F55",
-	group: "",
-	order_index: 5,
-	filename: "astral_sorcery",
-	title: "Astral Sorcery",
-	icon: "astralsorcery:altar_discovery",
-	default_quest_shape: "",
+	id: "29B43B7945E24F55"
+	group: ""
+	order_index: 5
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	icon: "astralsorcery:altar_discovery"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.5d,
-			y: -0.5d,
-			dependencies: ["5AE9011F4E2572E0"],
-			id: "49ED4FAEED7EA1AB",
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["5AE9011F4E2572E0"]
+			size: 1.5d
+			id: "49ED4FAEED7EA1AB"
 			tasks: [{
-				id: "3A07EF921F05E9B4",
-				type: "item",
+				id: "3A07EF921F05E9B4"
+				type: "item"
 				item: "astralsorcery:well"
-			}],
+			}]
 			rewards: [{
-				id: "27D6CE520DD9CAEC",
-				type: "item",
+				id: "27D6CE520DD9CAEC"
+				type: "item"
 				item: "astralsorcery:liquid_starlight_bucket"
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: -0.5d,
-			dependencies: ["49ED4FAEED7EA1AB"],
-			id: "15ADC3C18A3B0849",
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["49ED4FAEED7EA1AB"]
+			size: 1.5d
+			id: "15ADC3C18A3B0849"
 			tasks: [{
-				id: "46BACCA6F1214620",
-				type: "item",
+				id: "46BACCA6F1214620"
+				type: "item"
 				item: "astralsorcery:altar_attunement"
-			}],
-			rewards: [{
-				id: "355062A6F26EF53A",
-				type: "item",
-				item: {
-					id: "astralsorcery:rock_crystal",
-					Count: 1b,
-					tag: {
-						astralsorcery: {}
+			}]
+			rewards: [
+				{
+					id: "355062A6F26EF53A"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
-		},
+				{
+					id: "2540EAE21BB21F39"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
 		{
-			x: 3.5d,
-			y: -0.5d,
-			dependencies: ["05F1B81D71E50413"],
-			id: "06D9C62F516CCC59",
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["05F1B81D71E50413"]
+			size: 1.5d
+			id: "06D9C62F516CCC59"
 			tasks: [{
-				id: "353D396A6EE7AE28",
-				type: "item",
+				id: "353D396A6EE7AE28"
+				type: "item"
 				item: "astralsorcery:altar_constellation"
-			}],
-			rewards: [{
-				id: "0768A4DC72C935D6",
-				type: "item",
-				item: "astralsorcery:spectral_relay",
-				count: 4
 			}]
-		},
+			rewards: [
+				{
+					id: "0768A4DC72C935D6"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 4
+				}
+				{
+					id: "75A0ACE15CDF0E25"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
 		{
-			x: 5.5d,
-			y: -0.5d,
-			dependencies: ["06D9C62F516CCC59"],
-			id: "7A29305C61D7FD05",
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["06D9C62F516CCC59"]
+			size: 1.5d
+			id: "7A29305C61D7FD05"
 			tasks: [{
-				id: "0035955694689091",
-				type: "item",
+				id: "0035955694689091"
+				type: "item"
 				item: "astralsorcery:infuser"
-			}],
+			}]
 			rewards: [{
-				id: "5EF75CB582D137B6",
-				type: "item",
-				item: "astralsorcery:resonating_gem",
+				id: "5EF75CB582D137B6"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 7.5d,
-			y: -0.5d,
-			dependencies: ["7A29305C61D7FD05"],
-			id: "0C8DBC38D2EA128C",
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["7A29305C61D7FD05"]
+			size: 1.5d
+			id: "0C8DBC38D2EA128C"
 			tasks: [{
-				id: "1E181288A47B0AFE",
-				type: "item",
+				id: "1E181288A47B0AFE"
+				type: "item"
 				item: "astralsorcery:altar_radiance"
-			}],
-			rewards: [{
-				id: "4F5D0395F6567FED",
-				type: "item",
-				item: {
-					id: "astralsorcery:celestial_crystal",
-					Count: 1b,
-					tag: {
-						astralsorcery: {}
+			}]
+			rewards: [
+				{
+					id: "4F5D0395F6567FED"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
-		},
+				{
+					id: "288896ADF71CE349"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+		}
 		{
-			x: -0.5d,
-			y: -3.5d,
-			dependencies: ["6AAB04101CA1676F"],
-			id: "23101D3E4AC6AB4B",
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["6AAB04101CA1676F"]
+			id: "23101D3E4AC6AB4B"
 			tasks: [{
-				id: "18C11903EBA06511",
-				type: "item",
+				id: "18C11903EBA06511"
+				type: "item"
 				item: "astralsorcery:attunement_altar"
-			}],
+			}]
 			rewards: [{
-				id: "05928FAB1333CF89",
-				type: "item",
-				item: "astralsorcery:stardust",
+				id: "05928FAB1333CF89"
+				type: "item"
+				item: "astralsorcery:stardust"
 				count: 16
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: -2.0d,
-			dependencies: ["15ADC3C18A3B0849"],
-			id: "6AAB04101CA1676F",
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["15ADC3C18A3B0849"]
+			id: "6AAB04101CA1676F"
 			tasks: [{
-				id: "4542489341D71D04",
-				type: "item",
+				id: "4542489341D71D04"
+				type: "item"
 				item: "astralsorcery:spectral_relay"
-			}],
+			}]
 			rewards: [{
-				id: "1737E64271393268",
-				type: "item",
-				item: "astralsorcery:aquamarine",
+				id: "1737E64271393268"
+				type: "item"
+				item: "astralsorcery:aquamarine"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: -2.0d,
-			dependencies: ["06D9C62F516CCC59"],
-			id: "56F1EDBAD12AAC28",
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["06D9C62F516CCC59"]
+			id: "56F1EDBAD12AAC28"
 			tasks: [{
-				id: "1C4FC96F216B2F25",
-				type: "item",
+				id: "1C4FC96F216B2F25"
+				type: "item"
 				item: {
-					id: "astralsorcery:prism",
-					Count: 1b,
+					id: "astralsorcery:prism"
+					Count: 1b
 					tag: {
 						astralsorcery: {
 							crystalProperties: {
 								attributes: [
 									{
-										property: "astralsorcery:purity",
-										pLevel: 2,
+										property: "astralsorcery:purity"
+										pLevel: 2
 										discovered: 1b
-									},
+									}
 									{
-										property: "astralsorcery:shape",
-										pLevel: 3,
+										property: "astralsorcery:shape"
+										pLevel: 3
 										discovered: 1b
 									}
 								]
@@ -166,183 +193,184 @@
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 1.0d,
-			dependencies: ["15ADC3C18A3B0849"],
-			id: "287A23150E6489C0",
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["15ADC3C18A3B0849"]
+			id: "287A23150E6489C0"
 			tasks: [{
-				id: "6A7F4B801E68AA65",
-				type: "item",
+				id: "6A7F4B801E68AA65"
+				type: "item"
 				item: {
-					id: "astralsorcery:celestial_gateway",
-					Count: 1b,
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
 					tag: {
-						astralsorcery: {}
+						astralsorcery: { }
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "275455CAB2C02B1D",
-					type: "item",
-					item: "astralsorcery:marble_chiseled",
+					id: "275455CAB2C02B1D"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
 					count: 16
-				},
+				}
 				{
-					id: "78CBC6B711B2F42F",
-					type: "item",
-					item: "astralsorcery:marble_engraved",
+					id: "78CBC6B711B2F42F"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -0.5d,
-			dependencies: ["15ADC3C18A3B0849"],
-			id: "05F1B81D71E50413",
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["15ADC3C18A3B0849"]
+			size: 1.5d
+			id: "05F1B81D71E50413"
 			tasks: [{
-				id: "5881C2AE09987E60",
-				type: "item",
+				id: "5881C2AE09987E60"
+				type: "item"
 				item: "astralsorcery:linking_tool"
-			}],
+			}]
 			rewards: [{
-				id: "4E62FE0AAA389F1D",
-				type: "item",
-				item: "astralsorcery:starmetal_ingot",
+				id: "4E62FE0AAA389F1D"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 9.5d,
-			y: -0.5d,
-			dependencies: ["0C8DBC38D2EA128C"],
-			id: "7290C03A7B29BA05",
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["0C8DBC38D2EA128C"]
+			id: "7290C03A7B29BA05"
 			tasks: [{
-				id: "7662F6D88CCFA5AA",
-				type: "item",
+				id: "7662F6D88CCFA5AA"
+				type: "item"
 				item: {
-					id: "astralsorcery:mantle",
-					Count: 1b,
+					id: "astralsorcery:mantle"
+					Count: 1b
 					tag: {
-						astralsorcery: {},
+						astralsorcery: { }
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "7DF1B69C5FCBB4AC",
-				type: "xp_levels",
+				id: "7DF1B69C5FCBB4AC"
+				type: "xp_levels"
 				xp_levels: 80
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 1.0d,
-			dependencies: ["15ADC3C18A3B0849"],
-			id: "378E70673910A220",
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["15ADC3C18A3B0849"]
+			id: "378E70673910A220"
 			tasks: [{
-				id: "063C53E4FF19341E",
-				type: "item",
+				id: "063C53E4FF19341E"
+				type: "item"
 				item: "astralsorcery:ritual_pedestal"
-			}],
+			}]
 			rewards: [
 				{
-					id: "57E7003381853F8B",
-					type: "item",
-					item: "astralsorcery:marble_pillar",
+					id: "57E7003381853F8B"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
 					count: 16
-				},
+				}
 				{
-					id: "7DA199C1E9F08B56",
-					type: "item",
-					item: "astralsorcery:marble_runed",
+					id: "7DA199C1E9F08B56"
+					type: "item"
+					item: "astralsorcery:marble_runed"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			x: 7.5d,
-			y: -2.0d,
-			dependencies: ["0C8DBC38D2EA128C"],
-			id: "171D8DC2F5F48D8C",
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["0C8DBC38D2EA128C"]
+			id: "171D8DC2F5F48D8C"
 			tasks: [{
-				id: "08C1059D5282B91A",
-				type: "item",
+				id: "08C1059D5282B91A"
+				type: "item"
 				item: "astralsorcery:chalice"
-			}],
+			}]
 			rewards: [
 				{
-					id: "17643E3BA846BE15",
-					type: "item",
+					id: "17643E3BA846BE15"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
-							astralsorcery: {}
+							astralsorcery: { }
 						}
 					}
-				},
+				}
 				{
-					id: "7A8B598FFC5E716F",
-					type: "item",
+					id: "7A8B598FFC5E716F"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
 							astralsorcery: {
 								constellationName: "astralsorcery:armara"
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "638920A910B4694E",
-					type: "item",
+					id: "638920A910B4694E"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
 							astralsorcery: {
 								constellationName: "astralsorcery:aevitas"
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "5F187DB8F39AEEDF",
-					type: "item",
+					id: "5F187DB8F39AEEDF"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
 							astralsorcery: {
 								constellationName: "astralsorcery:mineralis"
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "31ED715A0C5AF2BA",
-					type: "item",
+					id: "31ED715A0C5AF2BA"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
 							astralsorcery: {
 								constellationName: "astralsorcery:pelotrio"
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "3B405A7493D23283",
-					type: "item",
+					id: "3B405A7493D23283"
+					type: "item"
 					item: {
-						id: "astralsorcery:constellation_paper",
-						Count: 1b,
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
 						tag: {
 							astralsorcery: {
 								constellationName: "astralsorcery:alcara"
@@ -351,93 +379,94 @@
 					}
 				}
 			]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 1.0d,
-			dependencies: ["15ADC3C18A3B0849"],
-			id: "563172A222F36C4D",
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["15ADC3C18A3B0849"]
+			id: "563172A222F36C4D"
 			tasks: [{
-				id: "562748592BC8B089",
-				type: "item",
+				id: "562748592BC8B089"
+				type: "item"
 				item: "astralsorcery:telescope"
-			}],
+			}]
 			rewards: [
 				{
-					id: "550A909686F96080",
-					type: "item",
-					item: "astralsorcery:marble_arch",
+					id: "550A909686F96080"
+					type: "item"
+					item: "astralsorcery:marble_arch"
 					count: 16
-				},
+				}
 				{
-					id: "05D3CFB8CF8DF590",
-					type: "item",
-					item: "astralsorcery:marble_bricks",
+					id: "05D3CFB8CF8DF590"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			x: 7.5d,
-			y: 1.0d,
-			dependencies: ["0C8DBC38D2EA128C"],
-			id: "5881D04CAF9F92CD",
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["0C8DBC38D2EA128C"]
+			id: "5881D04CAF9F92CD"
 			tasks: [{
-				id: "4FA55A60DBB54EC9",
-				type: "item",
+				id: "4FA55A60DBB54EC9"
+				type: "item"
 				item: "astralsorcery:observatory"
-			}],
+			}]
 			rewards: [{
-				id: "724551EEF8972A3A",
-				type: "item",
-				item: "astralsorcery:illumination_powder",
+				id: "724551EEF8972A3A"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 7.5d,
-			y: -3.5d,
-			dependencies: ["171D8DC2F5F48D8C"],
-			id: "12AC1A3244DAC0FB",
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["171D8DC2F5F48D8C"]
+			id: "12AC1A3244DAC0FB"
 			tasks: [{
-				id: "37C2B55DB0EE7096",
-				type: "item",
+				id: "37C2B55DB0EE7096"
+				type: "item"
 				item: "astralsorcery:fountain"
-			}],
+			}]
 			rewards: [{
-				id: "3ABAB4C7415F2504",
-				type: "item",
+				id: "3ABAB4C7415F2504"
+				type: "item"
 				item: {
-					id: "astralsorcery:rock_crystal",
-					Count: 1b,
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
 					tag: {
-						astralsorcery: {}
+						astralsorcery: { }
 					}
-				},
+				}
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -4.5d,
-			y: -0.5d,
-			dependencies: ["0000000000000021"],
-			id: "5AE9011F4E2572E0",
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["0000000000000021"]
+			size: 1.5d
+			id: "5AE9011F4E2572E0"
 			tasks: [{
-				id: "117E889F6380AB46",
-				type: "item",
+				id: "117E889F6380AB46"
+				type: "item"
 				item: "astralsorcery:wand"
-			}],
+			}]
 			rewards: [
 				{
-					id: "2DE1AFA79FC9D33A",
-					type: "item",
-					item: "astralsorcery:aquamarine",
+					id: "2DE1AFA79FC9D33A"
+					type: "item"
+					item: "astralsorcery:aquamarine"
 					count: 4
-				},
+				}
 				{
-					id: "37D3CD007D5CBEB3",
-					type: "item",
-					item: "astralsorcery:starmetal_ingot",
+					id: "37D3CD007D5CBEB3"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
 					count: 4
 				}
 			]
